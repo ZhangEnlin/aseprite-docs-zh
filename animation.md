@@ -4,11 +4,11 @@ Aseprite 的主要目标是成为一个创作动画的工具。[时间轴](./tim
 
 大致工作流程如下：
 
-1. 你[绘制](./drawing.md)第一帧
-1. 然后你[添加新帧](./new-frame.md)（例如按 <kbd>Alt + N</kbd>）并继续绘制它们
-1. 你可以使用<kbd>左</kbd>和<kbd>右</kbd>方向键（或 <kbd>,</kbd> 和 <kbd>.</kbd>）来分别导航到上一帧或下一帧
-1. 你可以使用播放按钮 ![播放图标](./animation/play-button.png) 或按 <kbd>Enter</kbd> 键来[预览动画](./preview-window.md)
-1. 你可以为一组帧[添加标签](./tags.md)，以供将来参考或区分同一精灵的不同动画
+1. [绘制](./drawing.md)第一帧
+1. 然后[添加新帧](./new-frame.md)（例如按 <kbd>Alt + N</kbd>）并继续绘制它们
+1. 使用<kbd>左</kbd>和<kbd>右</kbd>方向键（或 <kbd>,</kbd> 和 <kbd>.</kbd>）来分别导航到上一帧或下一帧
+1. 使用播放按钮 ![播放图标](./animation/play-button.png) 或按 <kbd>Enter</kbd> 键来[预览动画](./preview-window.md)
+1. 为一组帧[添加标签](./tags.md)，以供将来参考或区分同一精灵的不同动画
 
 还有一些额外的工具，如[预览窗口](./preview-window.md)和[洋葱皮](./onion-skinning.md)，它们会让你的动画创作过程轻松许多。
 

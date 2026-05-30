@@ -1,8 +1,8 @@
 # 绘制
 
-你可以在[精灵编辑器](./sprite-editor.md)中使用工具进行绘制，
+可以在[精灵编辑器](./sprite-editor.md)中使用工具进行绘制，
 例如铅笔 ![铅笔工具图标](./tools/pencil-tool.png)
-（<kbd>B</kbd> 键），你可以使用 <kbd>鼠标左键</kbd> 以
+（<kbd>B</kbd> 键），可以使用 <kbd>鼠标左键</kbd> 以
 [前景色](./color-bar.md)和[活动画笔](./brushes.md)作画，
 或使用 <kbd>鼠标右键</kbd> 以背景色作画。
 这适用于几乎所有的绘画工具。

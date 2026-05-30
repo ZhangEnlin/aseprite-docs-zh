@@ -1,6 +1,6 @@
 # Aseprite 命令行界面
 
-你可以通过命令行将精灵转换或导出为其他格式（或纹理+json 数据）。请参阅[平台特定细节](#平台特定细节)部分，了解如何使用命令行。
+可以通过命令行将精灵转换或导出为其他格式（或纹理+json 数据）。请参阅[平台特定细节](#平台特定细节)部分，了解如何使用命令行。
 
 * [选项](#选项)
 * [用例](#用例)
@@ -94,7 +94,7 @@
 
 ### --shell
 
-在 [REPL 模式](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)下执行 Aseprite。你可以在此模式下使用[脚本 API](//www.aseprite.org/api) 编写 Lua 代码。
+在 [REPL 模式](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)下执行 Aseprite。在此模式下使用[脚本 API](//www.aseprite.org/api) 编写 Lua 代码。
 
 ### --batch
 
@@ -104,7 +104,7 @@
 aseprite --batch
 ```
 
-或者你可以使用更简短的形式：
+或者使用更简短的形式：
 
 ```bash
 aseprite -b
@@ -128,7 +128,7 @@ aseprite -b sprite.ase --save-as frame001.png
 
 将为 `sprite.ase` 中的每一帧生成 `frame001.png`、`frame002.png` 等文件。
 
-在 **v1.2-beta1** 中：你可以直接在文件名中指定 [--filename-format](#filename-format) 参数。例如：
+在 **v1.2-beta1** 中：直接在文件名中指定 [--filename-format](#filename-format) 参数。例如：
 
 ```bash
 aseprite -b sprite.ase --save-as layer-{layer}-frame-{frame01}.png
@@ -289,7 +289,7 @@ aseprite ... --sheet 精灵表.png
 aseprite.exe -b with-layers.ase --save-as output-{layer}-{frame}.png
 ```
 
-要保存隐藏图层，你可以将此选项与 [--all-layers](#all-layers) 选项结合使用：
+要保存隐藏图层，将此选项与 [--all-layers](#all-layers) 选项结合使用：
 
 ```bash
 aseprite.exe -b --all-layers with-layers.ase --save-as output-{layer}-{frame}.png
@@ -329,7 +329,7 @@ aseprite.exe -b --layer "Body Layer" with-layers.ase --save-as body-layer.gif
 
 保存一个仅显示名为 `Body Layer` 图层的 `body-layer.gif` 动画。
 
-在 **v1.2-beta2** 中，你可以指定多个图层和/或组：
+在 **v1.2-beta2** 中，指定多个图层和/或组：
 
 ```bash
 aseprite.exe -b --layer "head/hat" --layer "body/gloves" player.ase --save-as clothes.gif
@@ -461,7 +461,7 @@ aseprite --filename-format 格式
 * `{tag}`：当前标签名称。
 * `{innertag}`：最内层/最小的当前标签名称。
 * `{outertag}`：最外层/最大的当前标签名称。
-* `{frame}`：当前帧（从 `0` 开始）。你可以使用 `{frame1}` 从 1 开始，或其他格式如 `{frame000}`、`{frame001}` 等。
+* `{frame}`：当前帧（从 `0` 开始）。使用 `{frame1}` 从 1 开始，或其他格式如 `{frame000}`、`{frame001}` 等。
 * `{tagframe}`：当前标签中的当前帧。对于标签的第一帧，它为 `0`，以此类推。与 `{frame}` 类似，它也接受 `{tagframe000}` 等变体。
 * `{duration}` 当前帧的持续时间。
 
@@ -480,7 +480,7 @@ aseprite -b animation-with-layers.ase --filename-format '{path}/{title}-{layer}-
     output-Background-1.png
     output-Background-2.png
 
-在 **v1.2-beta1** 中：你可以在同一个 [--save-as](#save-as) 参数中指定文件名格式。
+在 **v1.2-beta1** 中：在同一个 [--save-as](#save-as) 参数中指定文件名格式。
 
 ### --script
 
@@ -661,7 +661,7 @@ aseprite -b --export-tileset tilemaps.aseprite --sheet tilesets-sprite-sheet.png
 
 如果你在命令行中使用 `--debug` 参数执行 Aseprite，一个名为 `Aseprite-v1.1-dev-DebugOutput.txt` 的特殊文件将在你的桌面上创建，其中可能包含用于了解发生了什么问题的有用信息（例如，这在程序无法正常启动时有助于了解发生了什么情况）。
 
-在 Steam 上，你可以[从 Aseprite 属性](http://imgur.com/txXcgzO)中添加此 `--debug` 选项。
+在 Steam 上，[从 Aseprite 属性](http://imgur.com/txXcgzO)中添加此 `--debug` 选项。
 
 ### --noinapp
 
@@ -743,7 +743,7 @@ output (Layer 1) 2.png
 output (Layer 1) 3.png
 ```
 
-在 **v1.2-beta1** 中：你可以通过类似以下的方式隐式指定 --split-layers 和 --filename-format：
+在 **v1.2-beta1** 中：通过类似以下的方式隐式指定 --split-layers 和 --filename-format：
 
 ```bash
 aseprite.exe -b animation.ase --save-as output-{layer}.png
@@ -798,7 +798,7 @@ aseprite.exe -b *.ase --sheet-pack --sheet-width=1024 --sheet-height=1024 --shee
 
 ### 如果 Aseprite 是直接安装的
 
-你可以在你的资源目录（即你的 `.ase` 文件所在的位置）中创建一个 `convert.bat` 文本文件，其中包含类似以下内容的行：
+在你的资源目录（即你的 `.ase` 文件所在的位置）中创建一个 `convert.bat` 文本文件，其中包含类似以下内容的行：
 
 ```bat
 @set ASEPRITE="C:\Program Files\Aseprite\aseprite.exe"
@@ -808,7 +808,7 @@ aseprite.exe -b *.ase --sheet-pack --sheet-width=1024 --sheet-height=1024 --shee
 
 这样，每次你修改 `animation.ase` 中的原始动画时，双击 `.bat` 文件就可以从新内容自动生成 `animation-x2.gif` 和 `animation-x4.gif`。
 
-对于 Mac 用户，你可以创建一个 `convert.sh`：
+对于 Mac 用户，创建一个 `convert.sh`：
 
 ```bash
 ASEPRITE="/Applications/Aseprite.app/Contents/MacOS/aseprite"

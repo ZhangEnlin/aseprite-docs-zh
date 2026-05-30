@@ -2,7 +2,7 @@
 
 如果你在运行 Aseprite 时遇到问题，可以在命令行中使用 `-debug` 选项执行它。
 
-运行 Aseprite 后，你会看到桌面上会创建一个 `Aseprite-v1.2-DebugOutput.txt` 文件（或类似名称的文件）。你可以将该文件发送到 [support@aseprite.org](mailto:support@aseprite.org)，以便我们帮助你解决具体问题。
+运行 Aseprite 后，你会看到桌面上会创建一个 `Aseprite-v1.2-DebugOutput.txt` 文件（或类似名称的文件）。可以将该文件发送到 [support@aseprite.org](mailto:support@aseprite.org)，以便我们帮助你解决具体问题。
 
 如何在以下平台上添加 `-debug` 参数：
 
@@ -14,7 +14,7 @@
 
 ## Windows
 
-1. 你可以按 Windows 键打开开始菜单，输入 `Aseprite`，然后展开 Aseprite 的操作项：
+1. 可以按 Windows 键打开开始菜单，输入 `Aseprite`，然后展开 Aseprite 的操作项：
 
    ![开始菜单中的 Aseprite](./debug/win-1-start-menu.png)
 
@@ -50,7 +50,7 @@
 
 ## Steam
 
-在 Steam 上，你可以在 Aseprite 的启动选项中添加 `-debug` 选项：
+在 Steam 上，可以在 Aseprite 的启动选项中添加 `-debug` 选项：
 
 1. 在 Steam 库中右键单击 Aseprite（或在 macOS 上按 Ctrl+单击），然后打开其“属性”：
 

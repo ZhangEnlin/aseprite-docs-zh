@@ -1,6 +1,6 @@
 # 扩展：按键
 
-自 **Aseprite v1.2.35** 起，你可以创建带有键盘快捷键的扩展。一个带有键盘快捷键的扩展的 `.aseprite-extension` 文件内容应类似于：
+自 **Aseprite v1.2.35** 起，可以创建带有键盘快捷键的扩展。一个带有键盘快捷键的扩展的 `.aseprite-extension` 文件内容应类似于：
 
 ```
 keys-example.aseprite-extension
@@ -42,9 +42,9 @@ keys-example.aseprite-extension
 </keyboard>
 ```
 
-在 aseprite 扩展中为自定义功能创建键盘快捷键时，你必须首先为其创建一个新命令。然后你可以使用该命令的标题，通过 `.aseprite-keys` 文件将功能绑定到快捷键上。
+在 aseprite 扩展中为自定义功能创建键盘快捷键时，你必须首先为其创建一个新命令。然后可以使用该命令的标题，通过 `.aseprite-keys` 文件将功能绑定到快捷键上。
 
-你可以在 [API 文档](https://www.aseprite.org/api/plugin#pluginnewcommand)中阅读更多关于如何创建命令的内容。
+可以在 [API 文档](https://www.aseprite.org/api/plugin#pluginnewcommand)中阅读更多关于如何创建命令的内容。
 
 ---
 

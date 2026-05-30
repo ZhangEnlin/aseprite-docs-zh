@@ -1,6 +1,6 @@
 # 重置首选项
 
-Aseprite 的首选项存储在[配置文件夹](./preferences-folder.md)中的一个 `aseprite.ini` 文件里。你可以通过*编辑 > 首选项 > 定位配置文件*来访问此文件夹。要重置所有配置，你可以关闭 Aseprite 并删除 `aseprite.ini` 所在位置的所有文件：
+Aseprite 的首选项存储在[配置文件夹](./preferences-folder.md)中的一个 `aseprite.ini` 文件里。可以通过*编辑 > 首选项 > 定位配置文件*来访问此文件夹。要重置所有配置，可以关闭 Aseprite 并删除 `aseprite.ini` 所在位置的所有文件：
 
 ![首选项文件夹中的文件](./preferences/preffiles.png)
 

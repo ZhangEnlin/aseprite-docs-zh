@@ -7,7 +7,7 @@
 * [已知问题和报告 Bug](https://github.com/aseprite/aseprite/issues)
 
 脚本位于[用户脚本文件夹](https://community.aseprite.org/t/locate-user-scripts-folder/2170)中，
-你可以通过 *文件 > 脚本 > 打开脚本文件夹* 轻松找到它。
+可以通过 *文件 > 脚本 > 打开脚本文件夹* 轻松找到它。
 
 脚本示例：
 

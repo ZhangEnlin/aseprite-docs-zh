@@ -21,11 +21,11 @@
 
 ## 使用鼠标右键拾取颜色
 
-你可以通过 [*编辑 > 首选项 > 编辑器*](./right-click.md) 来配置 `鼠标右键` 以拾取颜色。
+可以通过 [*编辑 > 首选项 > 编辑器*](./right-click.md) 来配置 `鼠标右键` 以拾取颜色。
 
 ## 在 Aseprite 外部拾取颜色
 
-你可以通过单击[前景色](./color-bar.md#foreground-color)或[背景色](./color-bar.md#background-color)按钮并将光标拖到 Aseprite 外部，来从其他窗口拾取颜色。松开鼠标将拾取光标悬停处的颜色。
+可以通过单击[前景色](./color-bar.md#foreground-color)或[背景色](./color-bar.md#background-color)按钮并将光标拖到 Aseprite 外部，来从其他窗口拾取颜色。松开鼠标将拾取光标悬停处的颜色。
 
 ---
 

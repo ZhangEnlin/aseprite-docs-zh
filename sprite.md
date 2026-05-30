@@ -7,7 +7,7 @@
    处理多少种颜色。Sprite 中的所有图像都处于一种
    特定模式下，你不能在同一个 Sprite 中混合 RGB 图像和索引图像。
 1. 一个[颜色配置文件](./color-profile.md)，指示 RGB 值所在的色彩空间。
-1. 它包含一组图层。你可以在
+1. 它包含一组图层。可以在
    [时间轴](./timeline.md)中看到它们。这里最重要的概念是
    存在两种图层：
    [背景图层](./layers.md#background-layer)用于不透明的 Sprite，以及
@@ -25,7 +25,7 @@
 
 <img src="./sprite/sprite-components.png" alt="Cels 矩阵" class="xN" />
 
-你可以看到一些额外的元素，如[标签](./tags.md)和[链接
+可以看到一些额外的元素，如[标签](./tags.md)和[链接
 cel](./linked-cels.md)。这些元素对于组织同一个 Sprite 的多个
 动画，以及在不同动画（或同一动画的不同部分）中复用帧非常有用。
 

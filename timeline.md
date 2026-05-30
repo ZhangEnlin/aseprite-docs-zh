@@ -4,13 +4,9 @@
 
 <img src="./timeline/timeline.png" alt="时间轴" class="xN" />
 
-它显示了活动 Sprite 的[图层](./layers.md)和帧。你可以使用
-*视图 > 时间轴* 菜单选项或按 <kbd>Tab</kbd> 键来显示或隐藏
-它。当你创建[新帧](./new-frame.md)或
-[新图层](./new-layer.md)时，它也会自动出现。（此行为可以从 *编辑 > 选项 > 时间轴 > 自动显示时间轴* 中禁用。）
+它显示了活动 Sprite 的[图层](./layers.md)和帧。使用 *视图 > 时间轴* 菜单选项或按 <kbd>Tab</kbd> 键来显示或隐藏它。当创建[新帧](./new-frame.md)或[新图层](./new-layer.md)时，它也会自动出现。（此行为可以从 *编辑 > 选项 > 时间轴 > 自动显示时间轴* 中禁用。）
 
-你可以使用 *图层 > 新建图层* 菜单 (<kbd>Shift + N</kbd>) 来创建新图层，
-或使用 *帧 > 新建帧* 菜单 (<kbd>Alt + N</kbd>) 来添加帧。
+使用 *图层 > 新建图层* 菜单 (<kbd>Shift + N</kbd>) 来创建新图层，或使用 *帧 > 新建帧* 菜单 (<kbd>Alt + N</kbd>) 来添加帧。
 
 ### 常用操作
 
@@ -29,17 +25,14 @@
 
 ## 首选项
 
-你可以通过按下
-![配置时间轴图标](./animation/configure-timeline.png) 按钮来配置时间轴。
+按下 ![配置时间轴图标](./animation/configure-timeline.png) 按钮来配置时间轴，部分选项：
 
-部分选项：
-
+1. 第一帧位置；[第一帧为 0](https://community.aseprite.org/t/3895/2)（或任何其他数字）
 1. [洋葱皮](./onion-skinning.md)
-1. [第一帧为 0](https://community.aseprite.org/t/3895/2)（或任何其他数字）
 
 ## 在文档之间复制
 
-你可以使用 *编辑 > 复制* 和 *编辑 > 粘贴* 在不同文档之间复制和粘贴图层、帧或 Cel。
+使用 *编辑 > 复制* 和 *编辑 > 粘贴* 在不同文档之间复制和粘贴图层、帧或 Cel。
 
 ![时间轴上的复制和粘贴](./timeline/timeline-copy-and-paste.gif)
 

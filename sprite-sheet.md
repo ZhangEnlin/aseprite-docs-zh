@@ -1,7 +1,7 @@
 # Sprite Sheet
 
 Sprite Sheet 是一张包含同一 Sprite 的多个帧的大图像。
-例如，你可以保存这个动画：
+例如，可以保存这个动画：
 
 ![奔跑的人](./sprite-sheet/running-guy.gif)
 
@@ -23,7 +23,7 @@ Aseprite 以及如何导出它们。
 ## 导入
 
 要导入 Sprite Sheet，请使用 *文件 > 导入 Sprite Sheet* 选项。
-然后你可以选择要导入的文件，并指定偏移 `x`、
+然后可以选择要导入的文件，并指定偏移 `x`、
 `y` 以及 Sprite 的 `width`、`height`。
 
 ![导入 Sprite Sheet 01](./sprite-sheet/running-guy-import-01.png)
@@ -36,7 +36,7 @@ Aseprite 以及如何导出它们。
 ## 导出
 
 要导出 Sprite Sheet，请使用 *文件 > 导出 Sprite Sheet* 选项。
-你可以选择所有可见图层或特定图层，
+可以选择所有可见图层或特定图层，
 并根据标签选择帧。
 
 ![导出 Sprite Sheet](./sprite-sheet/running-guy-export.png)

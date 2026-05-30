@@ -13,7 +13,7 @@ Aseprite 有自己的文件格式来[保存](./save.md)你的作品：`.aseprite
 
 ## .aseprite-extension
 
-你可以创建 `.aseprite-extension` 格式的扩展，该格式是一个 `.zip` 文件，其中包含一组特定的文件，更多信息请参阅[扩展](./extensions.md)页面中的[文件内容](./extensions.md#file-content)部分。
+可以创建 `.aseprite-extension` 格式的扩展，该格式是一个 `.zip` 文件，其中包含一组特定的文件，更多信息请参阅[扩展](./extensions.md)页面中的[文件内容](./extensions.md#file-content)部分。
 
 ## .lua
 

@@ -1,6 +1,6 @@
 # 故障排除
 
-如果你在启动 Aseprite 时遇到问题（例如，启动后立即关闭），你可以尝试：
+如果你在启动 Aseprite 时遇到问题（例如，启动后立即关闭），可以尝试：
 
 1. [重置你的首选项](./reset-preferences.md)
 1. 使用 [debug 选项](./debug.md)，这将生成一个 `Aseprite-v1.2-DebugOutput.txt` 文件
@@ -24,7 +24,7 @@
 
 ## macOS 渲染问题
 
-Aseprite 在 macOS 上使用异步渲染 ([CALayer's drawsAsynchronously](https://developer.apple.com/documentation/quartzcore/calayer/1410974-drawsasynchronously?language=objc))。自 Aseprite v1.2.20 起，如果你遇到一些问题，例如屏幕上出现黑色矩形，你可以禁用此功能（但无论如何，如果你正在使用像 Display P3 这样的[颜色配置文件](./color-profile.md)，性能将显著下降）。
+Aseprite 在 macOS 上使用异步渲染 ([CALayer's drawsAsynchronously](https://developer.apple.com/documentation/quartzcore/calayer/1410974-drawsasynchronously?language=objc))。自 Aseprite v1.2.20 起，如果你遇到一些问题，例如屏幕上出现黑色矩形，可以禁用此功能（但无论如何，如果你正在使用像 Display P3 这样的[颜色配置文件](./color-profile.md)，性能将显著下降）。
 
 要禁用此功能：
 1. 关闭 Aseprite

@@ -15,7 +15,7 @@ Aseprite 中的[数字字段](./numeric-field.md)可以计算简单的数学表�
 
 ## 拖放工作区选项卡
 
-你可以[在工作区](./workspace.md)中拖放选项卡，结合使用 <kbd>Ctrl</kbd> 或 <kbd>Alt</kbd> 键与 <kbd>鼠标左键</kbd> 可以复制它们：
+可以[在工作区](./workspace.md)中拖放选项卡，结合使用 <kbd>Ctrl</kbd> 或 <kbd>Alt</kbd> 键与 <kbd>鼠标左键</kbd> 可以复制它们：
 
 ![拖放选项卡演示](./workspace/drag-and-drop-tabs.gif)
 

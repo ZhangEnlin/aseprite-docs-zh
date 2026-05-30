@@ -9,7 +9,7 @@
 ![数位板部分](./tablet/tablet.png)
 
 * *Windows 8/10 Pointer API*：此选项对大多数
-  现代设备可能就足够了，你可以试试你的数位板在此选项下效果如何
+  现代设备可能就足够了，可以试试你的数位板在此选项下效果如何
   （使用此选项可能比使用 Wintab 效果更好）
 * *[Wintab](./wintab.md)*：这是目前支持在旧系统（Windows Vista/7）和
   旧设备上实现压感的默认选项。
@@ -30,7 +30,7 @@
 [#3176](https://github.com/aseprite/aseprite/issues/3176) 所述）
 
 如果 Aseprite 检测不到你的笔的压感，自 **Aseprite
-v1.2.35** 起，你可以尝试执行以下步骤：
+v1.2.35** 起，可以尝试执行以下步骤：
 
 1. 关闭 Aseprite
 2. 在终端/控制台中运行 `xinput --list`

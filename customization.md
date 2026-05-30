@@ -1,6 +1,6 @@
 # 自定义
 
-你可以通过以下菜单更改 Aseprite 最常见的配置：
+可以通过以下菜单更改 Aseprite 最常见的配置：
 
 * *编辑 > [首选项](./preferences.md)* （<kbd>Ctrl + K</kbd> 键，在 macOS 上为：<kbd>⌘ K</kbd> 或 <kbd>⌘,</kbd>）
 * *编辑 > [键盘快捷键](./keyboard-shortcuts.md)* （<kbd>Ctrl + Alt + Shift + K</kbd>，在 macOS 上为 <kbd>⌥ ⇧ ⌘ K</kbd>）

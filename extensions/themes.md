@@ -60,7 +60,7 @@ theme-example.aseprite-extension
 </theme>
 ```
 
-作为示例，你可以查看官方默认的 [theme.xml](https://github.com/aseprite/aseprite/blob/master/data/extensions/aseprite-theme/theme.xml)。
+作为示例，可以查看官方默认的 [theme.xml](https://github.com/aseprite/aseprite/blob/master/data/extensions/aseprite-theme/theme.xml)。
 
 在理想情况下，Aseprite 应该只使用 `<style>` 元素，但由于我们以渐进的方式从旧版本迁移主题，Aseprite 在代码中混合使用了 `<dimensions>`、`<colors>` 和 `<parts>`（而不是仅使用 `<styles>`）。也许将来我们可以只引用 `<styles>`，但目前所有这些类型的元素都是必需的。
 
@@ -104,7 +104,7 @@ theme-example.aseprite-extension
 </theme>
 ```
 
-这里的 `Aseprite` 和 `Aseprite Mini` 字体在 Aseprite 发行版自带的默认 [`fonts.xml` 文件](https://github.com/aseprite/aseprite/blob/master/data/fonts/fonts.xml)中定义。作为替代方案，你可以不通过 `font="..."` 属性指定预定义字体，而是定义自己的 `<font />` 元素，就像分发的 `fonts.xml` 文件中那样。
+这里的 `Aseprite` 和 `Aseprite Mini` 字体在 Aseprite 发行版自带的默认 [`fonts.xml` 文件](https://github.com/aseprite/aseprite/blob/master/data/fonts/fonts.xml)中定义。作为替代方案，可以不通过 `font="..."` 属性指定预定义字体，而是定义自己的 `<font />` 元素，就像分发的 `fonts.xml` 文件中那样。
 
 ### &lt;dimensions&gt;
 
