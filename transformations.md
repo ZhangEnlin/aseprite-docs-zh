@@ -10,14 +10,14 @@ Aseprite 支持翻转、调整大小、裁剪、修剪和旋转图像。你可�
 * [调整画布大小、裁剪或修剪画布](./canvas.md)
 * [旋转画布](./rotate-canvas.md)
 
-## 变换 Sprite 或选择区域
+## 变换 Sprite 或选区
 
-Sprite 或选择区域可以通过主要在 *编辑* 菜单下找到的选项，或通过使用选择控制柄来进行变换：
+Sprite 或选区可以通过主要在 *编辑* 菜单下找到的选项，或通过使用选择控制柄来进行变换：
 
 * [翻转 Sprite 或选择区域](./flip.md)
-* [移动整个图层/Cel](./move-tool.md) 或 [移动选择区域](./move-selection.md)
-* [调整 Sprite 或选择区域大小](./resize.md)
-* [旋转 Sprite 或选择区域](./rotate.md)
+* [移动整个图层/Cel](./move-tool.md) 或 [移动选区](./move-selection.md)
+* [调整 Sprite 或选区的大小](./resize.md)
+* [旋转 Sprite 或选区](./rotate.md)
 
 ## 变换多个图层、帧或 Cel
 
@@ -29,4 +29,4 @@ Sprite 或选择区域可以通过主要在 *编辑* 菜单下找到的选项，
 
 **另请参阅**
 
-[选择](./selecting.md)
+[选区](./selecting.md)

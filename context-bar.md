@@ -49,11 +49,11 @@
 
 ![圆角半径演示](./context-bar/corner-radius.gif)
 
-## 选择工具
+## 选区工具
 
-![选择工具的上下文栏](./context-bar/selection.png)
+![选区工具的上下文栏](./context-bar/selection.png)
 
-请参阅[选择](./selecting.md)部分了解如何选择，以及[旋转](./rotate.md)部分了解旋转和轴心点。矩形选框工具也有[圆角半径](#corner-radius)选项。
+请参阅[选区](./selecting.md)部分了解如何选区，以及[旋转](./rotate.md)部分了解旋转和轴心点。矩形选框工具也有[圆角半径](#corner-radius)选项。
 
 ### 透明色和透明色选项
 
