@@ -160,7 +160,7 @@ theme-example.aseprite-extension
 
 ## sheet.png
 
-一个包含每个主题部件内容的[精灵表](./sprite-sheet.md)。这意味着对于 `theme.xml` 中的每个 `<part>` 元素：
+一个包含每个主题部件内容的[精灵表](../sprite-sheet.md)。这意味着对于 `theme.xml` 中的每个 `<part>` 元素：
 
 ```xml
 <theme>
@@ -188,4 +188,4 @@ theme-example.aseprite-extension
 
 **另请参阅**
 
-[扩展](./extensions.md)
+[扩展](../extensions.md)

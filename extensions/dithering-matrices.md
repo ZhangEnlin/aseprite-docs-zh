@@ -43,4 +43,4 @@ dithering-matrix-example.aseprite-extension
 
 **另请参阅**
 
-[扩展](./extensions.md)
+[扩展](../extensions.md)

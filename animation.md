@@ -1,6 +1,6 @@
 # 动画
 
-Aseprite 的主要目标是成为一个创作动画的工具。[时间轴](./timeline.md)让你能够完全控制[帧](./frame.md)、[图层](./layers.md)和[Cel](./cel.md)。
+Aseprite 的主要目标是成为一个创作动画的工具。[时间轴](./timeline.md)让你能够完全控制帧、[图层](./layers.md)和[Cel](./cel.md)。
 
 大致工作流程如下：
 
