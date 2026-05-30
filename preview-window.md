@@ -2,7 +2,7 @@
 
 预览窗口是一个小窗口，可以在你编辑动画时实时显示动画预览：
 
-<img src="/docs/preview-window/preview-window.png" alt="预览窗口" class="x2" />
+<img src="./preview-window/preview-window.png" alt="预览窗口" class="x2" />
 
 你可以按 <kbd>F7</kbd> 键或使用*视图 > 预览*菜单选项来显示/隐藏这个小窗口。
 
