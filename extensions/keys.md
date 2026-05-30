@@ -30,7 +30,7 @@ keys-example.aseprite-extension
 }
 ```
 
-**`my-keys.aseprite-keys` 的示例**内容（该文件类似于[首选项文件夹](https://www.aseprite.org/docs/preferences/)中的 [user.aseprite-keys](https://www.aseprite.org/docs/files/#useraseprite-keys)，可以通过[编辑 > 键盘快捷键](./keyboard-shortcuts.md)创建/导出）：
+**`my-keys.aseprite-keys` 的示例**内容（该文件类似于[首选项文件夹](https://www.aseprite.org/docs/preferences/)中的 [user.aseprite-keys](https://www.aseprite.org/docs/files/#useraseprite-keys)，可以通过[编辑 > 键盘快捷键](../keyboard-shortcuts.md)创建/导出）：
 
 ```
 <?xml version="1.0" encoding="utf-8" ?>
