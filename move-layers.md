@@ -1,17 +1,17 @@
-# Move Layers
+# 移动图层
 
-Use the [timeline](timeline.md) to move layers:
+使用[时间轴](./timeline.md)来移动图层：
 
-![Move Layers](move-layers/move-layers.gif)
+![移动图层](./move-layers/move-layers.gif)
 
-1. Select a range of layers you want to move.
-2. Put the mouse above the selection border.
-3. Start dragging the from selection border.
-4. Drop the layers where you want.
+1. 选择你要移动的图层范围。
+2. 将鼠标放在选区边框上方。
+3. 从选区边框开始拖拽。
+4. 将图层放到你想要的位置。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Copy Layers](copy-layers.md) |
-[Timeline](timeline.md)
+[复制图层](./copy-layers.md) |
+[时间轴](./timeline.md)

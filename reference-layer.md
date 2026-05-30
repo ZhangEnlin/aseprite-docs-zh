@@ -1,14 +1,14 @@
-# Reference Layer
+# 参考图层
 
-![reference layer example](reference-layer/reference-layer.gif)
-> Image used taken from [publicdomainpictures.net](https://www.publicdomainpictures.net/en/view-image.php?image=142181).
+![参考图层示例](./reference-layer/reference-layer.gif)
+> 使用的图像取自 [publicdomainpictures.net](https://www.publicdomainpictures.net/en/view-image.php?image=142181)。
 
-Reference layers are a way to show reference images at higher resolutions than the canvas. Reference layers cannot be drawn on or edited.
+参考图层是一种以高于画布的分辨率显示参考图像的方式。参考图层无法在其上绘制或编辑。
 
-There are a few ways to create a reference layer. To create one from a file, use *Layer > New > New Reference Layer from File*. To paste one in from the clipboard, use *Edit > Paste Special > Paste as New Reference Layer*.
+有几种方法可以创建参考图层。要从文件创建，请使用*图层 > 新建 > 从文件新建参考图层*。要从剪贴板粘贴，请使用*编辑 > 特殊粘贴 > 粘贴为新参考图层*。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Layers](layers.md#layers])
+[图层](./layers.md#layers)

@@ -1,14 +1,13 @@
-# New Layer
+# 新建图层
 
-Add new layers using *Layer > New > New Layer* menu (`Shift+N` key). Also
-you can right-click a layer in the [timeline](timeline.md) and
-select *New* option:
+使用*图层 > 新建 > 新建图层*菜单（`Shift+N` 键）添加新图层。此外，
+你可以在[时间轴](./timeline.md)中右键点击某个图层，然后
+选择*新建*选项：
 
-![Layer right-click](new-layer/layer-right-click.png)
+![图层右键菜单](./new-layer/layer-right-click.png)
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Layers](layers.md) |
-[Timeline](timeline.md)
+[图层](./layers.md) |

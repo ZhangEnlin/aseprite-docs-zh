@@ -1,17 +1,17 @@
-# Loop
+# 循环
 
-## Set loop section
+## 设置循环片段
 
-After selecting a range of frames in the [timeline](timeline.md),
-you can use the *View > Set Loop Section* menu (<kbd>F2</kbd> key) to set the
-animation loop section:
+在[时间轴](./timeline.md)中选择一个帧范围后，
+你可以使用*视图 > 设置循环片段*菜单（<kbd>F2</kbd> 键）来设置
+动画循环片段：
 
-![Loop Section](loop/loop-section.gif)
+![循环片段](./loop/loop-section.gif)
 
-The loop section is just like a regular [tag](tags.md) named "Loop."
+该循环片段就像一个名为“Loop”的常规[标签](./tags.md)。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Tags](tags.md)
+[标签](./tags.md)

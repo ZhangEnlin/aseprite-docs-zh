@@ -1,45 +1,45 @@
 # FX
 
-The FX (effects) dropdown can be accessed with *Edit > FX*, and it contains various effects to use on the sprite.
+可以通过 *编辑 > FX* 访问 FX（特效）下拉菜单，其中包含各种用于精灵的特效。
 
-## Outline
+## 轮廓
 
-![diagram of outline menu](fx/outline.png)
+![轮廓菜单图示](./fx/outline.png)
 
-The outline menu adds an outline around the sprite or the selected content. The algorithm outlines any shape that is not the *Background Color*. *Shortcut:* <kbd>Shift+O</kbd>.
+轮廓菜单在精灵或选定内容的周围添加轮廓。该算法会勾勒出任何非 *背景色* 的形状。*快捷键：* <kbd>Shift+O</kbd>。
 
-* **Outline Color**: Sets the color of the outline.
-* **Background Color**: Sets the background color for the outline algorithm to detect. The algorithm outlines any shape that is not the *Background Color*.
+* **轮廓颜色**：设置轮廓的颜色。
+* **背景色**：设置轮廓算法用来检测的背景色。该算法会勾勒出任何非 *背景色* 的形状。
 
-   ![example of background color](fx/background-color.gif) 
+   ![背景色示例](./fx/background-color.gif) 
 
-* **Outline Location**: Can either be *Inside* or *Outside*. *Inside* draws the outline inside the shape and *Outside* draws the outline outside the shape.
+* **轮廓位置**：可以是 *内部* 或 *外部*。*内部* 会在形状内部绘制轮廓，而 *外部* 会在形状外部绘制轮廓。
 
-   ![example of outline location](fx/location.gif) 
+   ![轮廓位置示例](./fx/location.gif) 
 
-* **Shape Controls**: Controls the outline shape. The lower button panel can be used to create custom shapes, while the upper button panel are presets.
-* **Component Controls**: 
-    * The *RGBA* buttons control which components of the outline color are used, e.g: if the *R* component is not selected the outline color will have an Red rgb value of `0`. By default, all components are selected.
-    * The bottom button controls if the outline should apply to the active timeline selection (*Selected*) or all of the cels in the sprite (*All*). If [a portion of a sprite is selected](selecting.md#selecting): in *Selected* mode it would only apply to the selected content of the selected timeline elements; in *All* mode it would apply to the selected content of all of the sprite's cels. 
-* **Tiled**: When enabled, if a shape is cut off by the edge of the canvas, the cut off outline wraps around to the opposite side.
+* **形状控件**：控制轮廓的形状。下方的按钮面板可用于创建自定义形状，而上方的按钮面板则是预设形状。
+* **分量控件**：
+    * *RGBA* 按钮控制使用轮廓颜色的哪些分量，例如：如果未选择 *R* 分量，轮廓颜色的红色 RGB 值将为 `0`。默认情况下，所有分量都被选中。
+    * 底部按钮控制轮廓应应用于活动的时间轴选区（*Selected*）还是精灵中的所有 Cel （*All*）。如果[选中了精灵的一部分](./selecting.md#selecting)：在 *Selected* 模式下，它只会应用于所选时间轴元素的选定内容；在 *All* 模式下，它将应用于精灵所有 Cel 的选定内容。
+* **平铺**：启用后，如果形状被画布边缘切断，被切断的轮廓会环绕到对边。
 
-    ![example of tiled mode](fx/tiled.gif) 
+    ![平铺模式示例](./fx/tiled.gif) 
 
-## Convolution Matrix
+## 卷积矩阵
 
-![image of convolution matrix menu](fx/conv-matrix.png)
+![卷积矩阵菜单图像](./fx/conv-matrix.png)
 
-A list of [convolution matrix](https://en.wikipedia.org/wiki/Kernel_(image_processing)) filters/effects to apply to the sprite or the selected content. *Shortcut:* <kbd>F9</kbd>.
+一个[卷积矩阵](https://en.wikipedia.org/wiki/Kernel_(image_processing))滤镜/效果列表，应用于精灵或选定内容。*快捷键：* <kbd>F9</kbd>。
 
-## Despeckle
+## 去斑
 
-![image of despeckle menu](fx/despeckle.png)
+![去斑菜单图像](./fx/despeckle.png)
 
-Applies a [median filter](https://en.wikipedia.org/wiki/Median_filter) to the sprite or the selected content.
+对精灵或选定内容应用[中值滤波](https://en.wikipedia.org/wiki/Median_filter)。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Adjustments](adjustments.md#adjustments) |
-[Edit Menu](edit-menu.md#edit-menu)
+[调整](./adjustments.md#adjustments) |
+[编辑菜单](./edit-menu.md#edit-menu)

@@ -1,13 +1,13 @@
-# Numeric Field
+# 数值字段
 
-Numeric fields on Aseprite can evaluate simple math expressions:
+Aseprite 中的数值字段可以计算简单的数学表达式：
 
-![Math demo in numeric field](numeric-field/math.gif)
+![数值字段中的数学演示](./numeric-field/math.gif)
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[UI Controls](ui-controls.md) |
-[New Sprite](new-sprite.md) |
+[UI 控件](./ui-controls.md) |
+[新建精灵图](./new-sprite.md) |
 [Issue #1762](https://github.com/aseprite/aseprite/issues/1762)

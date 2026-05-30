@@ -1,47 +1,39 @@
-# Color
+# 颜色
 
-This section talks about how Aseprite manages color.
+本节讲述 Aseprite 如何管理颜色。
 
-First of all you need to understand that a specific sprite
-([newly created](new-sprite.md) or [an existing sprite](open.md))
-has three properties that modify how the sprite is edited and viewed:
+首先，你需要了解，一个特定的精灵
+（[新创建的](./new-sprite.md)或[一个已有的精灵](./open.md)）
+拥有三个属性，它们会修改精灵的编辑和显示方式：
 
-* The sprite [color mode](color-mode.md)
-* The [color profile](color-profile.md)
-* And the [transparent color](transparent-color.md)
-  (only in [indexed images](color-mode.md#indexed))
+* 精灵的[颜色模式](./color-mode.md)
+* [颜色配置文件](./color-profile.md)
+* 以及[透明色](./transparent-color.md)
+  （仅限于[索引图像](./color-mode.md#indexed)）
 
-Along with this, there are two active colors that can be used to paint
-or erase parts of the sprite:
+与此同时，还有两种活动颜色可用于绘制或擦除精灵的部分：
 
-* The active [Foreground Color](color-bar.md#foreground-color)
-* The active [Background Color](color-bar.md#background-color)
+* 当前的[前景色](./color-bar.md#foreground-color)
+* 当前的[背景色](./color-bar.md#background-color)
 
-## Color Mode
+## 颜色模式
 
-Several adjustments and commands work differently depending on the
-active color
-mode. [RGB](https://en.wikipedia.org/wiki/RGB_color_model) and
-[Indexed](https://en.wikipedia.org/wiki/Indexed_color) are the most
-common modes used for Internet images.
+多种调整和命令根据当前活动颜色模式的不同，其工作方式也会有所差异。[RGB](https://en.wikipedia.org/wiki/RGB_color_model) 和
+[索引](https://en.wikipedia.org/wiki/Indexed_color)是网络图像最常用的两种模式。
 
-You should learn more about them in the **[Color Mode](color-mode.md)**
-section.
+你应该在 **[颜色模式](./color-mode.md)** 一节中了解更多相关信息。
 
-## Color Profile
+## 颜色配置文件
 
-The color profile indicates in which [color space](https://en.wikipedia.org/wiki/Color_space) RGB values of the image
-are meant to live. It is used to match RGB values
-in one device (e.g. your monitor, where you create your image) with another
-device (e.g. the user that will watch your image on her/his monitor).
-Images on Internet generally use the [sRGB color space](https://en.wikipedia.org/wiki/SRGB).
+颜色配置文件指明了图像 RGB 值预期所在的[色彩空间](https://en.wikipedia.org/wiki/Color_space)。它用于将一个设备（例如，你用来创建图像的显示器）上的 RGB 值与另一个设备（例如，将要在其显示器上观看你图像的用户）上的 RGB 值进行匹配。
+互联网上的图像通常使用 [sRGB 色彩空间](https://en.wikipedia.org/wiki/SRGB)。
 
-Learn more about this in the **[Color Profile](color-profile.md)** section.
+请在 **[颜色配置文件](./color-profile.md)** 一节中了解更多相关信息。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Color Mode](color-mode.md) |
-[Color Profile](color-profile.md) |
-[Color Bar](color-bar.md)
+[颜色模式](./color-mode.md) |
+[颜色配置文件](./color-profile.md) |
+[颜色栏](./color-bar.md)

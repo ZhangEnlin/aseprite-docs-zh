@@ -1,29 +1,26 @@
-# UI Controls
+# UI 控件
 
-Here we show some general information about controls/fields you will
-find on the Aseprite User Interface (UI).
+这里我们展示一些关于你在 Aseprite 用户界面 (UI) 上能找到的控件/字段的一般信息。
 
-* [Sprite Editor](sprite-editor.md)
-* [Timeline](timeline.md)
-* [Workspace](workspace.md)
-* [Color Bar](color-bar.md)
+* [Sprite 编辑器](./sprite-editor.md)
+* [时间轴](./timeline.md)
+* [工作区](./workspace.md)
+* [颜色栏](./color-bar.md)
 
-## Math in Number Fields
+## 数字字段中的数学运算
 
-[Numeric fields](numeric-field.md) on Aseprite can evaluate simple math expressions:
+Aseprite 中的[数字字段](./numeric-field.md)可以计算简单的数学表达式：
 
-![Math demo in number fields](numeric-field/math.gif)
+![数字字段中的数学运算演示](./numeric-field/math.gif)
 
-## Drag and Drop Workspace Tabs
+## 拖放工作区选项卡
 
-You can drag-and-drop tabs [in the workspace](workspace.md), duplicate
-them using the <kbd>Ctrl</kbd> or <kbd>Alt</kbd> keys along with the
-<kbd>Left Mouse Button</kbd>:
+你可以[在工作区](./workspace.md)中拖放选项卡，结合使用 <kbd>Ctrl</kbd> 或 <kbd>Alt</kbd> 键与 <kbd>鼠标左键</kbd> 可以复制它们：
 
-![Drag and drop tabs demo](workspace/drag-and-drop-tabs.gif)
+![拖放选项卡演示](./workspace/drag-and-drop-tabs.gif)
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Workspace](workspace.md)
+[工作区](./workspace.md)

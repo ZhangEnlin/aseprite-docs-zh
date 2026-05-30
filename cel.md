@@ -1,32 +1,26 @@
 # Cel
 
-A cel (from [celluloid](http://en.wikipedia.org/wiki/Cel)) is one
-image in a specific frame and layer, at a specific *xy*-coordinate in
-the canvas.
+Cel（源自[赛璐珞](http://en.wikipedia.org/wiki/Cel)）是位于特定帧和图层中，处于画布上特定 *xy* 坐标处的一个图像。
 
-![Cel on Timeline](cel/cel-on-timeline.png)
+![时间轴上的 Cel](./cel/cel-on-timeline.png)
 
-The difference between a frame and a cel, is that a frame is the set of
-cels for all layers in a specific time:
+帧和 Cel 之间的区别在于，帧是特定时间上所有图层的 Cel 的集合：
 
-![Frame on Timeline](cel/frame-on-timeline.png)
+![时间轴上的帧](./cel/frame-on-timeline.png)
 
-## Move a Cel
+## 移动 Cel
 
-You can use the [Move tool](move-tool.md) to drag-and-drop the current
-cel in the canvas. Or you can use the [Timeline ](move-cels.md) to move the cel to
-another layer/frame position.
+你可以使用[移动工具](./move-tool.md)在画布中拖放当前的 Cel。或者，你也可以使用[时间轴](./move-cels.md)将 Cel 移动到另一个图层/帧位置。
 
-## Change Opacity
+## 更改不透明度
 
-On [RGB](color-mode.md#rgb) images, each cel has its own opacity
-level. You can change a cel's opacity by right-clicking it and selecting *Properties* (or *Frame > Cel Properties*), and then adjusting the *Opacity* slider.
+在 [RGB](./color-mode.md#rgb) 图像中，每个 Cel 有其自身的不透明度级别。你可以通过右键单击 Cel 并选择 *属性*（或 *帧 > Cel 属性*），然后调整 *不透明度* 滑块来更改 Cel 的不透明度。
 
-![change cel opacity example](cel/cel-opacity.gif)
+![更改 Cel 不透明度示例](./cel/cel-opacity.gif)
 
 ----
 
-**SEE ALSO**
+**另请参阅**
 
-[Linked Cels](linked-cels.md) |
-[Timeline](timeline.md)
+[链接 Cel](./linked-cels.md) |
+[时间轴](./timeline.md)

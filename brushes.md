@@ -1,67 +1,67 @@
-# Brushes
-To view available brushes, select any painting tool and click on the brush type option in the [context bar](context-bar.md). 
+# 画笔
+要查看可用的画笔，请选择任意绘画工具，然后点击[上下文栏](./context-bar.md)中的画笔类型选项。
 
-![Context bar example](brushes/contextbar.png)
+![上下文栏示例](./brushes/contextbar.png)
 
-## Brush types
+## 画笔类型
 
-![Brush type menu](brushes/brushtype.png)
+![画笔类型菜单](./brushes/brushtype.png)
 
-The top three buttons are the three brush types. By default, it is set to the round type. The square and line types have a context bar option that changes the angle, in degrees.
+顶部的三个按钮是三种画笔类型。默认设置为圆形类型。方形和线条类型有一个上下文栏选项，可以更改角度（以度为单位）。
 
-![Brush angle option](brushes/brushangle.png)
+![画笔角度选项](./brushes/brushangle.png)
 
-## Custom type brushes
+## 自定义类型画笔
 
-The bottom button saves the current brush you are using as a custom brush. After you have saved a brush, the menu will display it in the brush menu.
+底部按钮会将你当前使用的画笔保存为自定义画笔。保存画笔后，菜单会将其显示在画笔菜单中。
 
-![Custom brush shown in brush type menu](brushes/custombrush.png)
+![画笔类型菜单中显示的自定义画笔](./brushes/custombrush.png)
 
-If your brush is saving blank, you likely saved the brush with incomplete parameters.
+如果你的画笔保存后为空白，很可能是因为你保存画笔时参数不完整。
 
-## Custom pattern brushes
+## 自定义图案画笔
 
-![Custom brush being created and used](brushes/patternbrush.gif)
-
-
-You can create a custom brush from a pattern by going to *Edit > New Brush* or by pressing <kbd>Ctrl+B</kbd>. You can then choose to copy or cut a portion of the sprite. Upon first selecting the brush, the pattern will be a direct copy of the copied portion. If you select a color, the entire brush shape will become that color. 
+![正在创建和使用的自定义画笔](./brushes/patternbrush.gif)
 
 
+你可以通过 *编辑 > 新建画笔* 或按 <kbd>Ctrl+B</kbd> 从图案创建自定义画笔。然后，你可以选择复制或剪切精灵的一部分。首次选择该画笔时，图案将是所复制部分的直接副本。如果你选择一种颜色，整个画笔形状将变为该颜色。
 
-When using a pattern brush, a dropdown on the context bar can control how the pattern is drawn.
+
+
+使用图案画笔时，上下文栏上的一个下拉菜单可以控制图案的绘制方式。
 
 | | | |
 |-|-|-
-| *Pattern aligned to source* | Aligns the pattern to the location it was copied/cut from. | ![aligned to source example](brushes/alignment1.gif)
-| *Pattern aligned to destination* | Aligns the pattern to where it was placed. | ![aligned to destination example](brushes/alignment2.gif)
-| *Paint brush* | Acts like a regular brush. | ![no alignment (paint) example](brushes/alignment3.gif)
+| *图案对齐到源* | 将图案对齐到它被复制/剪切的位置。 | ![对齐到源示例](./brushes/alignment1.gif)
+| *图案对齐到目标* | 将图案对齐到它被放置的位置。 | ![对齐到目标示例](./brushes/alignment2.gif)
+| *绘画画笔* | 像普通画笔一样运作。 | ![无对齐（绘画）示例](./brushes/alignment3.gif)
 
 
-## Brush Parameters
+## 画笔参数
 
-![Parameters menu](brushes/parameters.png)
+![参数菜单](./brushes/parameters.png)
 
-You can set the parameters a new brush is saved with by clicking on the dropdown next to the "Save Brush Here" button. To  edit/overwrite a brush's individual parameters, click the dropdown next to it, unlock it, and then click "Save Brush Here" (in the dropdown) to save it and overwrite the old parameters. 
+你可以通过点击“在此保存画笔”按钮旁边的下拉菜单，来设置保存新画笔时所用的参数。要编辑/覆盖某个画笔的单个参数，请点击它旁边的下拉菜单，将其解锁，然后点击“在此保存画笔”（在下拉菜单中）进行保存并覆盖旧参数。
 
-If a parameter is enabled, the corresponding option is saved. 
+如果某个参数被启用，对应的选项就会被保存。
 
-| Parameter | Description
+| 参数 | 描述
 | -------- | -------------
-| ***Brush:** Type* | Saves the brush type.
-| ***Brush:** Size* | Saves the brush size.
-| ***Brush:** Angle* | Saves the brush angle.
-| ***Color:** Foreground* | Saves the foreground color with the brush. The foreground color will be switched to this when the brush is selected. Only works for type brushes.
-| ***Color:** Background* | Saves the background color. The background color will be switched to this when the brush is selected. Only works for type brushes.
-| ***Color:** Image Color* | Saves the color(s) of the brush. Only works for pattern brushes.
-| ***Ink:** Type* | Saves the [ink](ink.md) type.
-| ***Ink:** Opacity* | Saves the ink opacity.
-| ***Extras:** Shade* | Saves the [shade](shading.md) gradient.
-| ***Extras:** Pixel-Perfect* | If enabled, it will save the state of pixel-perfect mode, not enable pixel-perfect mode outright.
+| ***画笔：** 类型* | 保存画笔类型。
+| ***画笔：** 大小* | 保存画笔大小。
+| ***画笔：** 角度* | 保存画笔角度。
+| ***颜色：** 前景色* | 将前景色与画笔一同保存。选择该画笔时，前景色将切换为此颜色。仅对类型画笔有效。
+| ***颜色：** 背景色* | 保存背景色。选择该画笔时，背景色将切换为此颜色。仅对类型画笔有效。
+| ***颜色：** 图像颜色* | 保存画笔的颜色。仅对图案画笔有效。
+| ***墨水：** 类型* | 保存[墨水](./ink.md)类型。
+| ***墨水：** 不透明度* | 保存墨水不透明度。
+| ***附加功能：** 明暗* | 保存[明暗](./shading.md)渐变。
+| ***附加功能：** 像素完美* | 如果启用，将保存像素完美模式的状态，而不是直接启用像素完美模式。
 
 ----
 
-**SEE ALSO**
+**另请参阅**
 
-[Context Bar](context-bar.md) |
-[Dynamics](dynamics.md) |
-[Ink](ink.md)
+[上下文栏](./context-bar.md) |
+[动态](./dynamics.md) |
+[墨水](./ink.md)

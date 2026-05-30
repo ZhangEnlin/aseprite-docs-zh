@@ -1,19 +1,17 @@
-# Eraser
+# 橡皮擦
 
-Erase pixels with the
-[background color](color-bar.md#background-color) when used on the
-[background layer](layers.md#background-layer), and with the
-transparent color on
-[transparent layers](layers.md#transparent-layers).
+在[背景图层](./layers.md#background-layer)上使用时，橡皮擦会以
+[背景色](./color-bar.md#background-color)擦除像素；
+在[透明图层](./layers.md#transparent-layers)上使用时，则会以透明色擦除。
 
-If you use the Eraser tool with the right-click, it will replace the
-[foreground color](color-bar.md#foreground-color) with the
-[background color](color-bar.md#background-color).
+如果你使用鼠标右键使用橡皮擦工具，它会用
+[背景色](./color-bar.md#background-color)替换
+[前景色](./color-bar.md#foreground-color)。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Drawing](drawing.md) |
-[Color bar](color-bar.md) |
-[Layers](layers.md)
+[绘制](./drawing.md) |
+[颜色栏](./color-bar.md) |
+[图层](./layers.md)

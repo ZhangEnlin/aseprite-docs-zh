@@ -1,9 +1,9 @@
-# Sprite Size
+# Sprite 尺寸
 
-The sprite size is specified when you create a new sprite from *File > New* menu.
-But you can change it in several ways. You can change:
+Sprite 尺寸在你从 *文件 > 新建* 菜单创建新 Sprite 时指定。
+但你可以通过多种方式更改它。你可以更改：
 
-* [Canvas size](canvas.md)
-* [Resize sprite content](resize.md)
+* [画布大小](./canvas.md)
+* [调整 Sprite 内容大小](./resize.md)
 
-Also you can use the [Command Line Interface](cli.md#resize-one-sprite-to-several-dimensions) for the same purpose.
+你也可以使用[命令行界面](./cli.md#resize-one-sprite-to-several-dimensions)来实现相同目的。

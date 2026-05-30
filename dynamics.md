@@ -1,44 +1,42 @@
-# Dynamics
+# 动态
 
-The brush dynamics menu can dynamically change the size, shape, or gradient of a brush stroke. It is most useful when using Aseprite with a pen, but you can also use it with a mouse. 
+画笔动态菜单可以动态改变画笔描边的大小、形状或渐变。它在配合数位笔使用 Aseprite 时最为有用，但也可以与鼠标一起使用。
 
-When using any painting tool, you can access the dynamics menu in the [context bar](context-bar.md). 
+使用任何绘画工具时，你都可以在[上下文栏](./context-bar.md)中访问动态菜单。
 
-![Context bar example](dynamics/contextbar.png)
+![上下文栏示例](./dynamics/contextbar.png)
 
-Once opened, the menu looks like this:
+打开后，菜单如下所示：
 
-![Dynamics menu](dynamics/dynamics.png)
+![动态菜单](./dynamics/dynamics.png)
 
-The left column (Pressure) can only be used with a pen, and the right (Velocity) column can be used with a pen and mouse. 
+左列（压力）只能与数位笔一起使用，右列（速度）则可以与数位笔和鼠标一起使用。
 
-Only one of these can be selected per row. You can have multiple rows selected at once.
+每行只能选择其中一列。你可以同时选择多行。
 
-## Sensor Thresholds
+## 传感器阈值
 
-![Sensor thresholds example](dynamics/thresholds.png)
+![传感器阈值示例](./dynamics/thresholds.png)
 
-The sensor threshold controls what an amount of pressure/velocity does to the stroke. 
+传感器阈值控制着一定的压力/速度量对描边产生的影响。
 
-Moving the handles to the right makes the smallest amount of pressure/velocity required greater, making the stroke less sensitive. Moving the handles to the left makes the smallest amount of pressure/velocity required smaller, making the stroke more sensitive. 
+将滑块向右移动会使所需的最小压力/速度量变大，从而降低描边的灵敏度。将滑块向左移动会使所需的最小压力/速度量变小，从而提高描边的灵敏度。
 
-The spacing between the handles also affects sensitivity, with the handles being closer making the stroke more sensitive, and the handles being farther making the stroke less sensitive.
+滑块之间的间距也会影响灵敏度，滑块越近，描边越灵敏；滑块越远，描边越不灵敏。
 
-## Min/Max values
+## 最小/最大值
 
-![Min/max example](dynamics/minmax.png)
+![最小/最大值示例](./dynamics/minmax.png)
 
-The minimum and maximum setting values set the bounds of the sensor threshold. For example, if the size setting was selected, and the min was `1` and the max was `16`, then the lowest amount of pressure/velocity would change the size to `1`, the highest to `16`, and any amount of pressure/velocity in between the highest and lowest would change the size to somewhere between `1` and `16`.
+最小和最大设置值设定了传感器阈值的界限。例如，如果选择了大小设置，并且最小值为 `1`，最大值为 `16`，那么最小的压力/速度量会将大小变为 `1`，最大的压力/速度量会将大小变为 `16`，介于最高和最低之间的任何压力/速度量都会将大小变为 `1` 到 `16` 之间的某个值。
 
-## Stabilizer
+## 稳定器
 
-The stabilizer toggle helps stabilize the stroke by drawing it a certain number of pixels away from the cursor.
+稳定器开关通过在距离光标一定像素数的地方绘制描边来帮助稳定描边。
 
 ----
 
-**SEE ALSO**
+**另请参阅**
 
-[Context Bar](context-bar.md) |
-[Brushes](brushes.md) 
-
-
+[上下文栏](./context-bar.md) |
+[画笔](./brushes.md)

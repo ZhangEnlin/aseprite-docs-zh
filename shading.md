@@ -1,35 +1,35 @@
-# Shading
+# 明暗处理
 
-The shading [ink](ink.md) can be used to create shadows in our sprites. We can
-use left and right click to move colors between a gradient (given by
-the selected colors in the [color bar](color-bar.md)):
+明暗处理 [ink](./ink.md) 可用于在我们的 Sprite 中创建阴影。我们可以
+使用左键和右键单击在渐变之间移动颜色（该渐变由
+[颜色栏](./color-bar.md)中选定的颜色给出）：
 
-![Shading reference](shading/shading_ref.png)
+![明暗处理参考](./shading/shading_ref.png)
 
-The steps to use this ink are:
+使用此 ink 的步骤如下：
 
-First of all we draw something to add light or shadows with a base
-color:
+首先，我们绘制一些东西，以便使用基础
+颜色添加高光或阴影：
 
-![Draw base](shading/shading_step1.gif)
+![绘制基础](./shading/shading_step1.gif)
 
-Then we select the "Shading" ink mode, and select a set of colors from
-the palette, including the previously selected base color. This
-gradient will act as shadows and light:
+然后我们选择“明暗处理” ink 模式，并从调色板中选择一组颜色，
+包括之前选定的基础颜色。此
+渐变将作为阴影和灯光：
 
-![Select a gradient](shading/shading_step2.gif)
+![选择渐变](./shading/shading_step2.gif)
 
-You can use left click to move colors to the left of the gradient:
+你可以使用左键单击将颜色向渐变的左侧移动：
 
-![Shading left click](shading/shading_step3.gif)
+![明暗处理左键单击](./shading/shading_step3.gif)
 
-Or you can use right click to move colors to the right:
+或者你可以使用右键单击将颜色向右侧移动：
 
-![Shading right click](shading/shading_step4.gif)
+![明暗处理右键单击](./shading/shading_step4.gif)
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Drawing](drawing.md) |
-[Ink](ink.md)
+[绘制](./drawing.md) |
+[Ink](./ink.md)

@@ -1,6 +1,6 @@
-# Extensions: Dithering Matrices
+# 扩展：抖动矩阵
 
-Content a `.aseprite-extension` file for a dithering matrix extension:
+用于抖动矩阵扩展的 `.aseprite-extension` 文件内容结构：
 
 ```
 dithering-matrix-example.aseprite-extension
@@ -12,7 +12,7 @@ dithering-matrix-example.aseprite-extension
 +-- ...
 ```
 
-Content of `package.json` file:
+`package.json` 文件内容：
 
 ```json
 {
@@ -41,6 +41,6 @@ Content of `package.json` file:
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Extensions](extensions.md)
+[扩展](./extensions.md)

@@ -1,34 +1,33 @@
-# Workspace Layout
+# 工作区布局
 
-Certain UI window elements can be moved (docked) to different positions in the window. To enter the Workspace Layout mode, you can press <kbd>Shift+W</kbd>, *View > Workspace Layout*, or click the *boxes icon* in the top right corner of the window. There are two native layouts: Default (Default Aseprite layout) and Mirrored Default (The Default layout but mirrored).
+某些 UI 窗口元素可以移动（停靠）到窗口中的不同位置。要进入工作区布局模式，你可以按下 <kbd>Shift+W</kbd>，或通过 *视图 > 工作区布局* 菜单，或点击窗口右上角的 *盒子图标*。有两种原生布局：默认（默认 Aseprite 布局）和镜像默认（默认布局的镜像版本）。
 
-![where to find the layout button demo](workspace-layout/layout-button.gif)
+![布局按钮位置演示](./workspace-layout/layout-button.gif)
 
-## Saving Layouts
+## 保存布局
 
-Aseprite allows custom layouts to be saved. The dropdown menu in the top right corner of the window (next to the layout button) controls the selected layout. The first two layouts in the dropdown (the "Workspace Layout" section) are native Aseprite layouts: Default (Default Aseprite layout) and Mirrored Default (The Default layout but mirrored). Below this (the "User Layouts" section), clicking "New Layout" creates a new layout. When moving around UI elements, the changes are saved to the currently selected layout.
+Aseprite 允许保存自定义布局。窗口右上角的下拉菜单（位于布局按钮旁边）控制着所选布局。下拉菜单中的前两个布局（“工作区布局”部分）是 Aseprite 的原生布局：默认（默认 Aseprite 布局）和镜像默认（默认布局的镜像版本）。在此之下（“用户布局”部分），点击“新建布局”会创建一个新布局。移动 UI 元素时，更改会保存到当前选定的布局中。
 
-![new layout demo](workspace-layout/new-layout.gif)
+![新建布局演示](./workspace-layout/new-layout.gif)
 
+## 移动 UI 元素
 
-## Moving UI Elements
+在工作区布局模式下，可以移动这些 UI 元素：
+- [时间轴](./timeline.md)
+- [颜色栏](./color-bar.md)
+- [上下文栏](./context-bar.md)
+- [工具栏](./tool-bar.md)
+- [状态栏](./status-bar.md)
 
-In the Workspace Layout mode, these UI elements can be moved:
-- [Timeline](timeline.md)
-- [Color Bar](color-bar.md)
-- [Context Bar](context-bar.md)
-- [Tool Bar](tool-bar.md)
-- [Status Bar](status-bar.md)
+每个元素的顶部或侧面都有三条线。点击并拖动这三条线可以移动该元素。当拖动的元素悬停在有效的放置位置时，会出现一个空白区域，表明该元素可以放置在那里。
 
-Each element has three lines at the top or side of them. Clicking and dragging the three lines allows an element to be moved. When a dragged element is hovering over a valid place to move the element, an open space will appear, indicating that the element can be placed there. 
+![移动元素演示](./workspace-layout/dragging-elements.gif)
 
-![moving elements demo](workspace-layout/dragging-elements.gif)
-
-With the exception of the timeline, which can be moved to the top, bottom, left, and right in the window, vertical UI elements cannot be moved horizontally and horizontal UI elements cannot be moved vertically (e.g the toolbar cannot be moved to the top of the screen).  
+除了时间轴可以移动到窗口的顶部、底部、左侧和右侧之外，垂直 UI 元素不能水平移动，水平 UI 元素不能垂直移动（例如，工具栏不能移动到屏幕顶部）。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Workspace](workspace.md) |
-[Customization](customization.md) 
+[工作区](./workspace.md) |
+[自定义](./customization.md)

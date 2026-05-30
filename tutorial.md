@@ -1,102 +1,101 @@
-# Aseprite Tutorials
+# Aseprite 教程
 
-## Articles
+## 文章
 
-* [Color Bar Article](tutorial/color-bar-tutorial.md)
+* [颜色栏文章](./tutorial/color-bar-tutorial.md)
 
-## Tutorials by Users
+## 用户教程
 
-Sometimes pixel-artists want to share their magical knowledge to the
-world. And we are grateful that they use Aseprite for this:
+有时像素艺术家们想要与世界分享他们神奇的知识。我们很感激他们使用 Aseprite 进行这些分享：
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Thanks to <a href="https://twitter.com/AdamCYounis">Adam</a></h3>
+    <h3>感谢 <a href="https://twitter.com/AdamCYounis">Adam</a></h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/59Y6OTzNrhk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <div class="col-md-6">
-   <h3>Thanks to <a href="https://twitter.com/mnrART">Mort</a></h3>
+   <h3>感谢 <a href="https://twitter.com/mnrART">Mort</a></h3>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/Md6W79jtLJM" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 <div class="row">
   <div class="col-md-6">
-   <h3>Thanks to <a href="https://www.youtube.com/c/SadfaceRL">Sadface</a></h3>
+   <h3>感谢 <a href="https://www.youtube.com/c/SadfaceRL">Sadface</a></h3>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLiWR21Q_oRcwK12QJGxWpUTy_QoPE1lTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <div class="col-md-6">
-    <h3>Thanks to <a href="https://www.youtube.com/channel/UC771Woln_1D3w1suhzXu-pw">Pixel Principles</a></h3>
+    <h3>感谢 <a href="https://www.youtube.com/channel/UC771Woln_1D3w1suhzXu-pw">Pixel Principles</a></h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/?listType=playlist&list=PLUZsvE8KFU8eQUiN8WbuVuwW_i2J6tQ8r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
-## Common tasks and questions
+## 常见任务和问题
 
-### Animation
+### 动画
 
-  * [Move several cels using Move tool](http://imgur.com/sG8dGbN) [(2)](http://imgur.com/jNSwKmL)
-  * [Change Preview animation speed with right-click on Play button](http://imgur.com/wD1aoDM)
-  * [Set loop section](http://imgur.com/Zffmgm8)
-  * [Backward/reverse animation loop](https://www.youtube.com/watch?v=E-mI679DVBk)
-  * [Create animation tags/tag frames](http://imgur.com/t3ZGRzw)
-  * [Animated preview](http://imgur.com/eRmPum3)
-  * [Copy cels with drag-and-drop](http://imgur.com/c0lpNdz)
-  * [Copy cels with drag-and-drop outside the animation range](http://imgur.com/OcIjFXQ)
-  * [Remove several layers and frames](http://imgur.com/VYy7oi3)
-  * [Enable red/blue onionskin tint](http://imgur.com/qJZiq82)
-  * [Change onionskin extension/number of frames](http://imgur.com/hZyytnc) [(2)](http://imgur.com/cKZGGrb)
-  * [Change cel opacity in several frames](http://imgur.com/7Ntp1eY)
+  * [使用移动工具移动多个 Cel](http://imgur.com/sG8dGbN) [(2)](http://imgur.com/jNSwKmL)
+  * [通过右键点击播放按钮更改预览动画速度](http://imgur.com/wD1aoDM)
+  * [设置循环片段](http://imgur.com/Zffmgm8)
+  * [向后/反向动画循环](https://www.youtube.com/watch?v=E-mI679DVBk)
+  * [创建动画标签/标记帧](http://imgur.com/t3ZGRzw)
+  * [动画预览](http://imgur.com/eRmPum3)
+  * [通过拖放复制 Cel](http://imgur.com/c0lpNdz)
+  * [通过拖放复制动画范围外的 Cel](http://imgur.com/OcIjFXQ)
+  * [删除多个图层和帧](http://imgur.com/VYy7oi3)
+  * [启用红/蓝洋葱皮色调](http://imgur.com/qJZiq82)
+  * [更改洋葱皮扩展/帧数](http://imgur.com/hZyytnc) [(2)](http://imgur.com/cKZGGrb)
+  * [在多个帧中更改 Cel 不透明度](http://imgur.com/7Ntp1eY)
 
-### Color/Palette
+### 颜色/调色板
 
-  * [Copy/cut/paste/clear colors](http://imgur.com/YUq04tF) [(2)](http://imgur.com/O35BgGs)
-  * [Edit palette colors with relative mode/sliders](http://imgur.com/IBIgdtv)
-  * [Create a color gradient](http://imgur.com/SEDgZ94)
-  * [Reverse colors](http://imgur.com/GwZHckb)
-  * [Sort colors by Luminance](http://imgur.com/MngwkmP)
-  * [Drag-and-drop colors](http://imgur.com/wmpuVaA)
-  * [Pin and move foreground color selection popup](http://imgur.com/zZC0SGo)
-  * [Remap indexes after modifying the color palette](http://imgur.com/1sXGP3o) [(2)](http://imgur.com/UlBnMTE)
-  * [Create a palette from RGB sprite](http://imgur.com/5TPFdoe)
-  * [Load a palette preset in Aseprite v1.0](http://imgur.com/nlLvOHv)
-  * [Painting with index 0/transparent color in a transparent layer](http://imgur.com/9enwCxe)
-  * [Reduce a color palette](http://imgur.com/IfrVyfd)
-  * [Dark and light a pixel color on a RGB sprite](http://imgur.com/t8Z8d2N)
+  * [复制/剪切/粘贴/清除颜色](http://imgur.com/YUq04tF) [(2)](http://imgur.com/O35BgGs)
+  * [使用相对模式/滑块编辑调色板颜色](http://imgur.com/IBIgdtv)
+  * [创建颜色渐变](http://imgur.com/SEDgZ94)
+  * [反转颜色](http://imgur.com/GwZHckb)
+  * [按亮度排序颜色](http://imgur.com/MngwkmP)
+  * [拖放颜色](http://imgur.com/wmpuVaA)
+  * [固定和移动前景色选择弹出窗口](http://imgur.com/zZC0SGo)
+  * [修改颜色调色板后重映射索引](http://imgur.com/1sXGP3o) [(2)](http://imgur.com/UlBnMTE)
+  * [从 RGB Sprite 创建调色板](http://imgur.com/5TPFdoe)
+  * [在 Aseprite v1.0 中加载调色板预设](http://imgur.com/nlLvOHv)
+  * [在透明图层中使用索引 0/透明色绘制](http://imgur.com/9enwCxe)
+  * [减少颜色调色板](http://imgur.com/IfrVyfd)
+  * [在 RGB Sprite 上使像素颜色变深和变浅](http://imgur.com/t8Z8d2N)
 
-### Save/Export
+### 保存/导出
 
-  * [Add padding/border/margin in exported Sprite Sheet](http://imgur.com/19Dl9wJ)
-  * [Save as gif file](http://imgur.com/Rmr3P1j)
+  * [在导出的 Sprite Sheet 中添加内边距/边框/边距](http://imgur.com/19Dl9wJ)
+  * [另存为 gif 文件](http://imgur.com/Rmr3P1j)
 
-### Misc
+### 杂项
 
-  * [Create new brush from selection or using Ctrl+B](http://imgur.com/2ke4Xgw)
-  * [Flip the whole sprite](http://imgur.com/okxOor9)
-  * [Rotate a selection](http://imgur.com/SDcDoYW)
+  * [从选区创建新画笔或使用 Ctrl+B](http://imgur.com/2ke4Xgw)
+  * [翻转整个 Sprite](http://imgur.com/okxOor9)
+  * [旋转选区](http://imgur.com/SDcDoYW)
 
-### User Interface
+### 用户界面
 
-  * [Set colors in timeline elements](https://www.youtube.com/watch?v=YLzI0CoGrNg)
-  * [Set grid size from selection or by numbers](http://imgur.com/7zYjw1R) [(2)](http://imgur.com/cbdZp2x)
-  * [Set default checked background colors](http://imgur.com/CmTVmCN)
-  * [Copy tabs using drag-and-drop with Ctrl or Alt keys](http://imgur.com/RCOjyY8)
-  * [Drag-and-drop tabs](http://imgur.com/WiXPPgg)
-  * [Enable 'Use native mouse cursor' experimental feature](http://imgur.com/lO0OgBl)
-  * [Report a crash/memory dump on Windows](http://imgur.com/9MTYI9k)
-  * [Locate configuration file](http://imgur.com/PRZ4AaZ)
+  * [设置时间轴元素的颜色](https://www.youtube.com/watch?v=YLzI0CoGrNg)
+  * [从选区或按数字设置网格大小](http://imgur.com/7zYjw1R) [(2)](http://imgur.com/cbdZp2x)
+  * [设置默认的棋盘格背景颜色](http://imgur.com/CmTVmCN)
+  * [结合 Ctrl 或 Alt 键拖放来复制选项卡](http://imgur.com/RCOjyY8)
+  * [拖放选项卡](http://imgur.com/WiXPPgg)
+  * [启用"使用原生鼠标光标"实验性功能](http://imgur.com/lO0OgBl)
+  * [在 Windows 上报告崩溃/内存转储](http://imgur.com/9MTYI9k)
+  * [定位配置文件](http://imgur.com/PRZ4AaZ)
 
-## Demos
+## 演示
 
-* [Canvas size options/buttons](http://imgur.com/Jnkje0r)
-* [Brush shortcuts and modes](http://imgur.com/jyP6H7g)
-* [Difference between Continuous/Discontinuous layer modes](http://imgur.com/iAapATy)
-* [(Bezier) Curve tool with zoom in/out while drawing](http://imgur.com/uGYfPxE)
-* [Auto select option in Move tool](http://imgur.com/wnXpdwU)
-* [Zoom in/out in an huge sprite + transparent pixel grid](http://imgur.com/UdXJMPr) [(2)](http://imgur.com/osjvyJ0)
-* [Contour and polygon tools](http://imgur.com/5V0qOmj)
-* [Ink modes](http://imgur.com/Kfi2WxF)
-* [Selection modes](http://imgur.com/o7F4s6o) (replace, addition, subtraction)
-* [Pixel-perfect algorithm](http://imgur.com/uiyzvcY)
-* [Replace Color in indexed mode, drag-and-drop from a color selector](http://imgur.com/VAVpHUl) [(2)](http://imgur.com/yUBtO2u)
-* [Filter modes (in current cel, every cel in current layer, every cel in current frame, all cels)](http://imgur.com/J6L5M5Q) [(2)](http://imgur.com/Zp1gANL)
-* [Fill with a pattern using a custom brush an paint-bucket tool](http://imgur.com/zWaqLKJ)
+* [画布大小选项/按钮](http://imgur.com/Jnkje0r)
+* [画笔快捷键和模式](http://imgur.com/jyP6H7g)
+* [连续/非连续图层模式的区别](http://imgur.com/iAapATy)
+* [绘制时使用（贝塞尔）曲线工具进行缩放](http://imgur.com/uGYfPxE)
+* [移动工具中的自动选择选项](http://imgur.com/wnXpdwU)
+* [在大型 Sprite 中缩放 + 透明像素网格](http://imgur.com/UdXJMPr) [(2)](http://imgur.com/osjvyJ0)
+* [轮廓和多边形工具](http://imgur.com/5V0qOmj)
+* [墨迹模式](http://imgur.com/Kfi2WxF)
+* [选区模式](http://imgur.com/o7F4s6o)（替换、添加、减去）
+* [像素完美算法](http://imgur.com/uiyzvcY)
+* [在索引模式下替换颜色，从颜色选择器拖放](http://imgur.com/VAVpHUl) [(2)](http://imgur.com/yUBtO2u)
+* [滤镜模式（在当前 Cel 中，在当前图层的每个 Cel 中，在当前帧的每个 Cel 中，在所有 Cel 中）](http://imgur.com/J6L5M5Q) [(2)](http://imgur.com/Zp1gANL)
+* [使用自定义画笔和油漆桶工具以图案填充](http://imgur.com/zWaqLKJ)

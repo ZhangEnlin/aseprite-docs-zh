@@ -1,53 +1,48 @@
-# Reset Preferences
+# 重置首选项
 
-Aseprite preferences are stored in a `aseprite.ini` file in the
-[configuration folder](preferences-folder.md). You can access this folder from *Edit >
-Preferences > Locate Configuration File*. To reset all configuration
-you can close Aseprite and delete all the files where `aseprite.ini` is located:
+Aseprite 的首选项存储在[配置文件夹](./preferences-folder.md)中的一个 `aseprite.ini` 文件里。你可以通过*编辑 > 首选项 > 定位配置文件*来访问此文件夹。要重置所有配置，你可以关闭 Aseprite 并删除 `aseprite.ini` 所在位置的所有文件：
 
-![Files in Preferences Folder](preferences/preffiles.png)
+![首选项文件夹中的文件](./preferences/preffiles.png)
 
-In case that you cannot start the program, here the steps on each
-platform to reset the preferences manually.
+如果你无法启动程序，以下是各平台上手动重置首选项的步骤。
 
-## On Windows
+## 在 Windows 上
 
-1. Close Aseprite
-1. Press the `Windows key + R` (or `Start menu > Run...` option).
-   This will show the dialog to run a program. Then you write:
+1. 关闭 Aseprite
+1. 按下 `Windows 键 + R`（或 `开始菜单 > 运行...` 选项）。这将显示运行程序的对话框。然后输入：
 
        %AppData%\Aseprite
 
-   And press `Enter` key.
-1. Delete the files in that folder (mainly `aseprite.ini`)
-1. Restart Aseprite
+   并按 `Enter` 键。
+1. 删除该文件夹中的文件（主要是 `aseprite.ini`）
+1. 重启 Aseprite
 
-## On macOS
+## 在 macOS 上
 
-1. Close Aseprite
-1. Open the Spotlight Search (⌘Space)
-1. Paste this text `~/Library/Application Support/Aseprite` with ⌘V and press Enter:
+1. 关闭 Aseprite
+1. 打开 Spotlight 搜索（⌘空格键）
+1. 使用 ⌘V 粘贴此文本 `~/Library/Application Support/Aseprite` 并按 Enter 键：
 
-   ![Spotlight Search](preferences/spotlight.png)
+   ![Spotlight 搜索](./preferences/spotlight.png)
 
-1. Delete the files in that folder (mainly `aseprite.ini`)
-1. Restart Aseprite
+1. 删除该文件夹中的文件（主要是 `aseprite.ini`）
+1. 重启 Aseprite
 
-## On Linux
+## 在 Linux 上
 
-1. Close Aseprite
-1. Open a Terminal
-1. Write:
+1. 关闭 Aseprite
+1. 打开终端
+1. 输入：
 
        xdg-open ~/.config/aseprite
 
-1. Delete the files in that folder (mainly `aseprite.ini`)
-1. Restart Aseprite
+1. 删除该文件夹中的文件（主要是 `aseprite.ini`）
+1. 重启 Aseprite
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Troubleshooting](troubleshooting.md) |
-[Preferences](preferences.md) |
-[Preferences Folder](preferences-folder.md)
+[故障排除](./troubleshooting.md) |
+[首选项](./preferences.md) |
+[首选项文件夹](./preferences-folder.md)

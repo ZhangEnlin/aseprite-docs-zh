@@ -1,8 +1,6 @@
-# Extensions: Keys
+# 扩展：按键
 
-Since **Aseprite v1.2.35** you can create extensions with keyboard
-shortcuts.  The content of a `.aseprite-extension` file for an
-extension with keyboard shorcuts should be something like this:
+自 **Aseprite v1.2.35** 起，你可以创建带有键盘快捷键的扩展。一个带有键盘快捷键的扩展的 `.aseprite-extension` 文件内容应类似于：
 
 ```
 keys-example.aseprite-extension
@@ -12,7 +10,7 @@ keys-example.aseprite-extension
 +-- my-keys.aseprite-keys
 ```
 
-Content of `package.json`:
+`package.json` 文件内容：
 
 ```
 {
@@ -32,10 +30,7 @@ Content of `package.json`:
 }
 ```
 
-**Example** content of `my-keys.aseprite-keys` (a file similar to
-[user.aseprite-keys](https://www.aseprite.org/docs/files/#useraseprite-keys)
-in the [Preferences folder](https://www.aseprite.org/docs/preferences/) that
-can be created / exported from [Edit > Keyboard Shortcuts](keyboard-shortcuts.md)):
+**`my-keys.aseprite-keys` 的示例**内容（该文件类似于[首选项文件夹](https://www.aseprite.org/docs/preferences/)中的 [user.aseprite-keys](https://www.aseprite.org/docs/files/#useraseprite-keys)，可以通过[编辑 > 键盘快捷键](./keyboard-shortcuts.md)创建/导出）：
 
 ```
 <?xml version="1.0" encoding="utf-8" ?>
@@ -47,15 +42,12 @@ can be created / exported from [Edit > Keyboard Shortcuts](keyboard-shortcuts.md
 </keyboard>
 ```
 
-When creating a keyboard shortcut for custom functionality in an 
-aseprite extension, you must create a New Command for it first.
-You can then use that Command's title to bind the functionality 
-to the shortcut using the `.aseprite-keys` file.
+在 aseprite 扩展中为自定义功能创建键盘快捷键时，你必须首先为其创建一个新命令。然后你可以使用该命令的标题，通过 `.aseprite-keys` 文件将功能绑定到快捷键上。
 
-You can read more on how to create Commands in the [API documentation](https://www.aseprite.org/api/plugin#pluginnewcommand)
+你可以在 [API 文档](https://www.aseprite.org/api/plugin#pluginnewcommand)中阅读更多关于如何创建命令的内容。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Extensions](extensions.md)
+[扩展](./extensions.md)

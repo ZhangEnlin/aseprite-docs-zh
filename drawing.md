@@ -1,48 +1,48 @@
-# Drawing
+# 绘制
 
-You can draw in the [sprite editor](sprite-editor.md) using tools
-like the Pencil ![Pencil tool icon](tools/pencil-tool.png)
-(<kbd>B</kbd> key), you can use <kbd>Left click</kbd> to paint with the
-[Foreground color](color-bar.md) and the [active brush](brushes.md),
-or <kbd>Right click</kbd> to paint with the Background color.
-This is true for almost all painting tools.
+你可以在[精灵编辑器](./sprite-editor.md)中使用工具进行绘制，
+例如铅笔 ![铅笔工具图标](./tools/pencil-tool.png)
+（<kbd>B</kbd> 键），你可以使用 <kbd>鼠标左键</kbd> 以
+[前景色](./color-bar.md)和[活动画笔](./brushes.md)作画，
+或使用 <kbd>鼠标右键</kbd> 以背景色作画。
+这适用于几乎所有的绘画工具。
 
-The tool behavior is also modified by the [active ink](ink.md)
-and [dynamics options](dynamics.md).
+工具的行为也受[活动墨水](./ink.md)
+和[动态选项](./dynamics.md)的影响。
 
-The following is the list of available painting tools:
+以下是可用的绘画工具列表：
 
-* ![Pencil tool icon](tools/pencil-tool.png) Pencil (<kbd>B</kbd> key)
-* ![Line tool icon](tools/line-tool.png) Line (<kbd>L</kbd> key)
-* ![Curve tool icon](tools/curve-tool.png) Curve (<kbd>Shift+L</kbd> key)
-* ![Rectangle tool icon](tools/rectangle-tool.png) Rectangle (<kbd>U</kbd> key)
-* ![Ellipse tool icon](tools/ellipse-tool.png) Ellipse (<kbd>Shift+U</kbd> key)
-* ![Countour tool icon](tools/countour-tool.png) Countour (<kbd>D</kbd> key)
-* ![Polygon tool icon](tools/polygon-tool.png) Polygon (<kbd>Shift+D</kbd> key)
+* ![铅笔工具图标](./tools/pencil-tool.png) 铅笔 （<kbd>B</kbd> 键）
+* ![直线工具图标](./tools/line-tool.png) 直线 （<kbd>L</kbd> 键）
+* ![曲线工具图标](./tools/curve-tool.png) 曲线 （<kbd>Shift+L</kbd> 键）
+* ![矩形工具图标](./tools/rectangle-tool.png) 矩形 （<kbd>U</kbd> 键）
+* ![椭圆工具图标](./tools/ellipse-tool.png) 椭圆 （<kbd>Shift+U</kbd> 键）
+* ![轮廓工具图标](./tools/countour-tool.png) 轮廓 （<kbd>D</kbd> 键）
+* ![多边形工具图标](./tools/polygon-tool.png) 多边形 （<kbd>Shift+D</kbd> 键）
 
-Other tools that will help you in the drawing process:
+其他将帮助你进行绘制过程的工具：
 
-* ![Eraser tool icon](tools/eraser-tool.png) [Eraser](eraser.md) (<kbd>E</kbd> key)
-* ![Eyedropper tool icon](tools/eyedropper-tool.png) [Eyedropper](eyedropper.md) (<kbd>Alt</kbd> or <kbd>I</kbd> key)
-* ![Selection tool icon](tools/marquee-tool.png) [Rectangular Marquee](selecting.md) (<kbd>M</kbd> key)
-* ![Move tool icon](tools/move-tool.png) [Move Cel](move-tool.md) (<kbd>Ctrl</kbd> or <kbd>⌘</kbd> or <kbd>V</kbd> key)
-* ![Slice tool icon](tools/slice-tool.png) [Slice](slices.md) (<kbd>Shift+C</kbd> key)
-* ![Zoom tool icon](tools/zoom-tool.png) [Zoom](zoom.md) (<kbd>Z</kbd> key)
+* ![橡皮擦工具图标](./tools/eraser-tool.png) [橡皮擦](./eraser.md) （<kbd>E</kbd> 键）
+* ![吸管工具图标](./tools/eyedropper-tool.png) [吸管](./eyedropper.md) （<kbd>Alt</kbd> 或 <kbd>I</kbd> 键）
+* ![选择工具图标](./tools/marquee-tool.png) [矩形选框](./selecting.md) （<kbd>M</kbd> 键）
+* ![移动工具图标](./tools/move-tool.png) [移动 Cel](./move-tool.md) （<kbd>Ctrl</kbd> 或 <kbd>⌘</kbd> 或 <kbd>V</kbd> 键）
+* ![切片工具图标](./tools/slice-tool.png) [切片](./slices.md) （<kbd>Shift+C</kbd> 键）
+* ![缩放工具图标](./tools/zoom-tool.png) [缩放](./zoom.md) （<kbd>Z</kbd> 键）
 
-Some helpers for the drawing process:
+绘制过程中的一些辅助功能：
 
-* [Preview Window](preview-window.md)
-* [Tiled Mode](tiled-mode.md)
-* [Symmetry](symmetry.md)
+* [预览窗口](./preview-window.md)
+* [平铺模式](./tiled-mode.md)
+* [对称](./symmetry.md)
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Sprite Editor](sprite-editor.md) |
-[Brushes](brushes.md) |
-[Ink](ink.md) |
-[Dynamics](dynamics.md) |
-[Tool Bar](tool-bar.md) |
-[Move Tool](move-tool.md) |
-[Zoom Tool](zoom.md)
+[精灵编辑器](./sprite-editor.md) |
+[画笔](./brushes.md) |
+[墨水](./ink.md) |
+[动态](./dynamics.md) |
+[工具栏](./tool-bar.md) |
+[移动工具](./move-tool.md) |
+[缩放工具](./zoom.md)

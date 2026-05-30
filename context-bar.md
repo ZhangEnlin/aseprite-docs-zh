@@ -1,153 +1,151 @@
-# Context Bar
+# 上下文栏
 
-The context bar shows specific options for the active tool. It also
-changes depending on the state of the active document (e.g. when the selection is moved). You can find the context bar directly above the [sprite editor](sprite-editor.md) view:
+上下文栏显示当前活动工具的具体选项。它也会根据活动文档的状态而变化（例如，当移动选区时）。你可以在[精灵编辑器](./sprite-editor.md)视图的正上方找到上下文栏：
 
-![Context bar location](context-bar/contextbar.png)
+![上下文栏位置](./context-bar/contextbar.png)
 
-## Pencil tool & other painting tools
+## 铅笔工具和其他绘画工具
 
-This is the context bar for the Pencil tool:
+这是铅笔工具的上下文栏：
 
-![Context bar for pencil tool](context-bar/pencil.png)
+![铅笔工具的上下文栏](./context-bar/pencil.png)
 
-The context bar for most painting tools looks similar to this, with a few options added or removed.
+大多数绘画工具的上下文栏看起来与此类似，只是添加或移除了少许选项。
 
-### Brush type, custom brushes, & brush angles
+### 画笔类型、自定义画笔和画笔角度
 
-See the [brushes](brushes.md) section.
+请参阅[画笔](./brushes.md)部分。
 
-### Brush size 
+### 画笔大小
 
-The brush size (in pixels). To quickly change the size of the brush, you can use <kbd>Ctrl+Alt</kbd> and drag.
+画笔大小（以像素为单位）。要快速更改画笔大小，你可以使用 <kbd>Ctrl+Alt</kbd> 并拖动。
 
-### Ink
+### 墨水
 
-See the [ink](ink.md) section.
+请参阅[墨水](./ink.md)部分。
 
-### Dynamics
+### 动态
 
-See the [dynamics](dynamics.md) section.
+请参阅[动态](./dynamics.md)部分。
 
-### Pixel-perfect mode
+### 像素完美模式
 
-Enables/disables pixel-perfect strokes.
+启用/禁用像素完美描边。
 
-![pixel-perfect mode example](context-bar/pixelperfect.png)
+![像素完美模式示例](./context-bar/pixelperfect.png)
 
-### Opacity
+### 不透明度
 
-![opacity example](context-bar/opacity.png)
+![不透明度示例](./context-bar/opacity.png)
 
-This changes the transparency of the tool, with `100%` being fully opaque and `0%` being fully transparent. In most drawing tools, this option doesn't show up unless you are using a certain type of [ink mode](ink.md).
+这会改变工具的透明度，`100%` 表示完全不透明，`0%` 表示完全透明。在大多数绘图工具中，除非你使用特定类型的[墨水模式](./ink.md)，否则此选项不会显示。
 
-### Corner Radius
-> (Rectangle tools & Rectangular Marquee tool only) 
+### 圆角半径
+> （仅限矩形工具和矩形选框工具）
 
-![corner radius example](context-bar/corner-radius.png)
+![圆角半径示例](./context-bar/corner-radius.png)
 
-Sets the corner radius, in pixels. Holding <kbd>C</kbd> while dragging will change the radius without having to type in the value.
+设置圆角半径，以像素为单位。在拖动时按住 <kbd>C</kbd> 键可以改变半径，而无需键入数值。
 
-![corner radius demo](context-bar/corner-radius.gif)
+![圆角半径演示](./context-bar/corner-radius.gif)
 
-## Selection tools
+## 选择工具
 
-![Context bar for selection tools](context-bar/selection.png)
+![选择工具的上下文栏](./context-bar/selection.png)
 
-See the [selection](selecting.md) section for selecting and the [rotation](rotate.md) section for rotating and pivot. The Rectangular Marquee Tool also has the [Corner Radius](#corner-radius) option.
+请参阅[选择](./selecting.md)部分了解如何选择，以及[旋转](./rotate.md)部分了解旋转和轴心点。矩形选框工具也有[圆角半径](#corner-radius)选项。
 
-### Transparent Color & Transparent Color Options
+### 透明色和透明色选项
 
-The Transparent Color option allows you to change the transparent color for the selection.
+透明色选项允许你更改选区的透明色。
 
-![Transparent color example](context-bar/transparent.gif)
+![透明色示例](./context-bar/transparent.gif)
 
-In the Transparent Color Options, you can change whether the transparent color in the selection is opaque or transparent. Shown above is transparent mode.
+在透明色选项中，你可以更改选区中的透明色是不透明还是透明。上图显示的是透明模式。
 
-## Moving selection
+## 移动选区
 
-![Context bar when moving the selection](context-bar/movingselection.png)
+![移动选区时的上下文栏](./context-bar/movingselection.png)
 
-See the [move selection](move-selection.md) section.
+请参阅[移动选区](./move-selection.md)部分。
 
-## Eyedropper tool
+## 吸管工具
 
-![Context bar for eyedropper tool](context-bar/eyedropper.png)
+![吸管工具的上下文栏](./context-bar/eyedropper.png)
 
-See the [eyedropper](eyedropper.md) section.
+请参阅[吸管](./eyedropper.md)部分。
 
-## Paint Bucket
+## 油漆桶
 
-![Context bar for paintbucket tool](context-bar/paintbucket.png)
+![油漆桶工具的上下文栏](./context-bar/paintbucket.png)
 
-### Tolerance
+### 容差
 
-![Tolerance example](context-bar/tolerance.gif)
+![容差示例](./context-bar/tolerance.gif)
 
-The paint bucket tolerance adjusts if a similar color will be filled, with `0` being only the exact color will be filled and `255` being all colors will be filled. 
+油漆桶容差用于调整是否填充相似的颜色，`0` 表示只填充完全相同的颜色，`255` 表示填充所有颜色。
 
-### Contiguous mode
+### 连续模式
 
-Contiguous mode toggles between only selecting connected pixels of the same color or all pixels of the same color. 
+连续模式在仅选择相同颜色的相连像素与选择所有相同颜色的像素之间切换。
 
-### Extra options
+### 额外选项
 
 |||
 |-|-|
-|Stop at grid| When in Contiguous mode and when the grid is enabled, stop filling at a grid line. 
+|在网格处停止| 当处于连续模式且启用了网格时，在网格线处停止填充。
 ||
 
 |||
 |-|-|
-|Refer active layer| Fills based on the active layer.
-|Refer visible layers | Fills based on the visible layers. The filled area is still on the active layer, so the visible layers act as masks.
+|参考活动图层| 基于活动图层进行填充。
+|参考可见图层 | 基于可见图层进行填充。填充区域仍位于活动图层上，因此可见图层充当蒙版。
 ||
 
 |||
 |-|-|
-|4-Pixel Connectivity| When in Contiguous mode, don't treat diagonal pixels as connected.
-|8-Pixel Connectivity| When in Contiguous mode, treat diagonal pixels as connected.
+|4-像素连接| 当处于连续模式时，不将对角线像素视为连接。
+|8-像素连接| 当处于连续模式时，将对角线像素视为连接。
 ||
 
-## Gradient tool
+## 渐变工具
 
-![Context bar for gradient tool](context-bar/gradient.png)
+![渐变工具的上下文栏](./context-bar/gradient.png)
 
-The Gradient tool has the same options the Paint Bucket has, along with these extra ones.
+渐变工具拥有与油漆桶相同的选项，外加以下额外选项。
 
-### Gradient type
+### 渐变类型
 
-Toggles between a linear and radial gradient.
+在线性渐变和径向渐变之间切换。
 
-### Dithering options
+### 抖动选项
 
-![Dithering options](context-bar/dithering.png)
+![抖动选项](./context-bar/dithering.png)
 
-- No dithering
+- 无抖动
 - Bayer Matrix 2x2
 - Bayer Matrix 4x4
 - Bayer Matrix 8x8
 
-## Text tool
+## 文本工具
 
-![Context bar for text tool](context-bar/text.png)
+![文本工具的上下文栏](./context-bar/text.png)
 
-See the [Text Tool](text-tool.md) section.
+请参阅[文本工具](./text-tool.md)部分。
 
+## 移动工具
 
-## Move tool
+![移动工具的上下文栏](./context-bar/move.png)
 
-![Context bar for move tool](context-bar/move.png)
+根据点击的内容所在的图层来选择图层。
 
-Selects layers based on which layer the clicked content is on.
+## 切片工具
 
-## Slice tool
-
-See the [slices](slices.md) section.
+请参阅[切片](./slices.md)部分。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Workspace](workspace.md) |
-[Drawing](drawing.md) 
+[工作区](./workspace.md) |
+[绘制](./drawing.md)

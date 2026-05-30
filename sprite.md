@@ -1,40 +1,38 @@
-# Sprite structure
+# Sprite 结构
 
-In Aseprite a document/file/sprite has the following properties:
+在 Aseprite 中，一个文档/文件/Sprite 具有以下属性：
 
-1. It has a [size](sprite-size.md) in pixels (width and height).
-1. It has a [color mode](color-mode.md), which tells you how many
-   colors the image can handle. All images in the sprite are in one
-   specific mode, you cannot mix RGB images with Indexed images in the
-   same sprite.
-1. A [color profile](color-profile.md) which indicates what color space the RGB values are in.
-1. It contains a set of layers. You can see them in
-   the [Timeline](timeline.md). The most important concept here is
-   that there are two kinds of layers:
-   the [background layer](layers.md#background-layer) for opaque sprites, and
-   [transparent layers](layers.md#transparent-layers).
-   A sprite can contain only one background layer, but several
-   transparent layers.
-1. It contains animation frames. Each frame has a duration, i.e. how many milliseconds
-   the frame must be on screen when the animation is being played.
-1. Each layer/frame intersection is called a [cel](cel.md),
-   and contains the image where you finally can [paint](drawing.md).
+1. 它有一个以像素为单位的[尺寸](./sprite-size.md)（宽度和高度）。
+1. 它有一个[颜色模式](./color-mode.md)，这告诉你图像可以
+   处理多少种颜色。Sprite 中的所有图像都处于一种
+   特定模式下，你不能在同一个 Sprite 中混合 RGB 图像和索引图像。
+1. 一个[颜色配置文件](./color-profile.md)，指示 RGB 值所在的色彩空间。
+1. 它包含一组图层。你可以在
+   [时间轴](./timeline.md)中看到它们。这里最重要的概念是
+   存在两种图层：
+   [背景图层](./layers.md#background-layer)用于不透明的 Sprite，以及
+   [透明图层](./layers.md#transparent-layers)。
+   一个 Sprite 只能包含一个背景图层，但可以包含多个
+   透明图层。
+1. 它包含动画帧。每个帧都有一个持续时间，即当动画播放时，
+   该帧必须在屏幕上停留多少毫秒。
+1. 每个图层/帧的交汇处称为 [cel](./cel.md)，
+   其中包含你最终可以进行[绘制](./drawing.md)的图像。
 
-The [timeline](timeline.md) shows you the whole structure of the
-sprite as a grid. Rows are layers and columns are frames, each
-little cell of the matrix is a [cel](cel.md):
+[时间轴](./timeline.md)以网格形式向你展示 Sprite 的整个
+结构。行是图层，列是帧，矩阵中的
+每个小格子是一个 [cel](./cel.md)：
 
-<img src="/docs/sprite/sprite-components.png" alt="Cels Matrix" class="xN" />
+<img src="./sprite/sprite-components.png" alt="Cels 矩阵" class="xN" />
 
-You can see some extra elements like [tags](tags.md) and [linked
-cels](linked-cels.md). These elements are useful to organize several
-animations of the same sprite, and to re-utilize frames along the
-animations (or different animations).
+你可以看到一些额外的元素，如[标签](./tags.md)和[链接
+cel](./linked-cels.md)。这些元素对于组织同一个 Sprite 的多个
+动画，以及在不同动画（或同一动画的不同部分）中复用帧非常有用。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Color Mode](color-mode.md) |
-[Save](save.md) |
-[Sprite size](sprite-size.md)
+[颜色模式](./color-mode.md) |
+[保存](./save.md) |
+[Sprite 尺寸](./sprite-size.md)

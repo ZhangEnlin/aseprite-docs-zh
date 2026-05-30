@@ -1,15 +1,10 @@
-# Debug
+# 调试
 
-In case that you are having some problem running Aseprite, you can
-execute it with the `-debug` option in the command line.
+如果你在运行 Aseprite 时遇到问题，可以在命令行中使用 `-debug` 选项执行它。
 
-After running Aseprite, you will see that a
-`Aseprite-v1.2-DebugOutput.txt` file (or with a similar name) will
-be created in your desktop.  You can send us that file at
-[support@aseprite.org](mailto:support@aseprite.org) so we can help us
-solving your specific problem.
+运行 Aseprite 后，你会看到桌面上会创建一个 `Aseprite-v1.2-DebugOutput.txt` 文件（或类似名称的文件）。你可以将该文件发送到 [support@aseprite.org](mailto:support@aseprite.org)，以便我们帮助你解决具体问题。
 
-How to add the `-debug` parameter on:
+如何在以下平台上添加 `-debug` 参数：
 
 * [Windows](#windows)
 * [macOS](#macos)
@@ -19,38 +14,35 @@ How to add the `-debug` parameter on:
 
 ## Windows
 
-1. You can press the Windows key to open the Start menu and write
-   `Aseprite`, then expand the actions of Aseprite:
+1. 你可以按 Windows 键打开开始菜单，输入 `Aseprite`，然后展开 Aseprite 的操作项：
 
-   ![Aseprite on Start menu](debug/win-1-start-menu.png)
+   ![开始菜单中的 Aseprite](./debug/win-1-start-menu.png)
 
-2. In the actions list click "Open file location":
+2. 在操作列表中点击“打开文件位置”：
 
-   ![Expand options](debug/win-2-actions.png)
+   ![展开选项](./debug/win-2-actions.png)
 
-3. Right-click the Aseprite shortcut and select the "Properties" option:
+3. 右键单击 Aseprite 快捷方式，选择“属性”选项：
 
-   ![Right click properties](debug/win-3-right-click-properties.png)
+   ![右键单击属性](./debug/win-3-right-click-properties.png)
 
-4. Finally write the `-debug` parameter in "Target" box and press "OK":
+4. 最后在“目标”框中写入 `-debug` 参数，然后按“确定”：
 
-   ![Debug on properties](debug/win-4-debug-option.png)
+   ![属性中的调试选项](./debug/win-4-debug-option.png)
 
 <hr>
 
 ## macOS
 
-1. First you have to close Aseprite, then open the Spotlight Search
-   pressing ⌘Space or clicking the magnifying glass in the menu bar:
+1. 首先你必须关闭 Aseprite，然后按 ⌘Space 或点击菜单栏中的放大镜图标打开聚焦搜索：
 
-   ![Open Spotlight](debug/macos-1-open-spotlight.png)
+   ![打开聚焦搜索](./debug/macos-1-open-spotlight.png)
 
-2. In the Spotlight Search write `Terminal` and Enter key to open the
-   Terminal app:
+2. 在聚焦搜索中写入 `Terminal` 并按 Enter 键以打开终端应用程序：
 
-   ![Terminal on Spotlight](debug/macos-2-open-terminal.png)
+   ![聚焦搜索中的终端](./debug/macos-2-open-terminal.png)
 
-3. In the terminal write the following command and press Enter:
+3. 在终端中写入以下命令并按 Enter 键：
 
        open -a Aseprite --args -debug
 
@@ -58,23 +50,22 @@ How to add the `-debug` parameter on:
 
 ## Steam
 
-On Steam you can add the `-debug` option in the Aseprite launch options:
+在 Steam 上，你可以在 Aseprite 的启动选项中添加 `-debug` 选项：
 
-1. Right-click Aseprite (or Ctrl+click on macOS) in your Steam library
-   and open its "Properties":
+1. 在 Steam 库中右键单击 Aseprite（或在 macOS 上按 Ctrl+单击），然后打开其“属性”：
 
-   ![Open Aseprite Properties](steam/steam-1-open-properties.png)
+   ![打开 Aseprite 属性](./steam/steam-1-open-properties.png)
 
-2. Click the "Set Launch Options" button:
+2. 点击“设置启动选项”按钮：
 
-   ![Open launch options](steam/steam-2-launch-options.png)
+   ![打开启动选项](./steam/steam-2-launch-options.png)
 
-3. Add the `-debug` option and press "OK":
+3. 添加 `-debug` 选项并按“确定”：
 
-   ![Add debug option](steam/steam-3-debug-option.png)
+   ![添加调试选项](./steam/steam-3-debug-option.png)
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Troubleshooting](troubleshooting.md)
+[故障排除](./troubleshooting.md)

@@ -1,42 +1,35 @@
-# Eyedropper
+# 吸管
 
-The Eyedropper tool ![Eyedropper Tool Icon](tools/eyedropper-tool.png)
-is useful to pick colors from the image itself. It can be activated
-moving the mouse on the Eraser icon in the toolbar:
+吸管工具 ![吸管工具图标](./tools/eyedropper-tool.png) 对于从图像本身拾取颜色非常有用。可以通过将鼠标移到工具栏中的橡皮擦图标上来激活它：
 
-![Eraser and Eyedropper group](eyedropper/eyedropper-group.png)
+![橡皮擦与吸管组](./eyedropper/eyedropper-group.png)
 
-Alternatively you can activate it pressing the `I` key or `Alt+click`.
-Using `Left click` will pick the color and store it as the
-[Foreground color](color-bar.md#foreground-color), using
-the `Right click` it will be stored as
-the [Background color](color-bar.md#background-color).
+或者，你也可以按 `I` 键或 `Alt+单击` 来激活它。
+使用 `鼠标左键` 将拾取颜色并将其存储为
+[前景色](./color-bar.md#foreground-color)，使用 `鼠标右键` 则会将其存储为
+[背景色](./color-bar.md#background-color)。
 
-You have some extra options in the [context bar](context-bar.md):
+在[上下文栏](./context-bar.md)中你还有一些额外的选项：
 
-* Options to pick HSV or HSL values instead of RGB values:
+* 拾取 HSV 或 HSL 值而非 RGB 值的选项：
 
-  ![Pick options](eyedropper/pick-options.png)
+  ![拾取选项](./eyedropper/pick-options.png)
 
-* Pick colors from the *All Layers* (the composition of layers), the
-  *Current Layer* only without composition (ignoring the layer
-  blending modes), or *First Reference Layer* to pick colors from the
-  first [reference layer](reference-layer.md#reference-layer) that is found.
+* 从 *所有图层*（图层的合成）、仅 *当前图层*（不进行合成，忽略图层混合模式）或 *第一个参考图层* 中拾取颜色，以从找到的第一个[参考图层](./reference-layer.md#reference-layer)中拾取颜色。
 
-  ![Sample options](eyedropper/sample-options.png)
+  ![采样选项](./eyedropper/sample-options.png)
 
-## Pick colors with right click
+## 使用鼠标右键拾取颜色
 
-You can configure the `Right click` to pick colors from
-[Edit > Preferences > Editor](right-click.md).
+你可以通过 [*编辑 > 首选项 > 编辑器*](./right-click.md) 来配置 `鼠标右键` 以拾取颜色。
 
-## Pick colors outside of Aseprite
+## 在 Aseprite 外部拾取颜色
 
-You can pick a color from another window by clicking on the [Foreground](color-bar.md#foreground-color) or [Background](color-bar.md#background-color) color button and dragging the cursor outside of Aseprite. Releasing the mouse will pick the color the cursor was over.
+你可以通过单击[前景色](./color-bar.md#foreground-color)或[背景色](./color-bar.md#background-color)按钮并将光标拖到 Aseprite 外部，来从其他窗口拾取颜色。松开鼠标将拾取光标悬停处的颜色。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Color bar](color-bar.md) |
-[Right-click](right-click.md)
+[颜色栏](./color-bar.md) |
+[鼠标右键](./right-click.md)

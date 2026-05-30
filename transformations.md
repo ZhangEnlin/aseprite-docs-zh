@@ -1,43 +1,32 @@
-# Transformations
+# 变换
 
-Aseprite supports flipping, resizing, cropping, trimming, and rotating
-the image. You can apply any operation to the canvas, sprite, or
-selection. Any transformation applicable to a sprite or selection can
-be applied to multiple layers, frames or cels at the same time.
+Aseprite 支持翻转、调整大小、裁剪、修剪和旋转图像。你可以对画布、Sprite 或选择区域应用任何操作。任何适用于 Sprite 或选择区域的变换都可以同时应用于多个图层、帧或 Cel。
 
-## Transforming Canvas
+## 变换画布
 
-You can apply all fundamental transformation to the canvas using
-options under the *Sprite* menu:
+你可以使用 *Sprite* 菜单下的选项对画布应用所有基本变换：
 
-* [Flip canvas](flip-canvas.md)
-* [Resize, Crop or Trim canvas](canvas.md)
-* [Rotate canvas](rotate-canvas.md)
+* [翻转画布](./flip-canvas.md)
+* [调整画布大小、裁剪或修剪画布](./canvas.md)
+* [旋转画布](./rotate-canvas.md)
 
-## Transforming Sprite or Selection
+## 变换 Sprite 或选择区域
 
-A sprite or a selection can be transformed using options mostly found
-under the *Edit* menu, or by using the selection handles:
+Sprite 或选择区域可以通过主要在 *编辑* 菜单下找到的选项，或通过使用选择控制柄来进行变换：
 
-* [Flip sprite or selection](flip.md)
-* [Move complete layer/cel](move-tool.md) or [move selection](move-selection.md)
-* [Resize sprite or selection](resize.md)
-* [Rotate sprite or selection](rotate.md)
+* [翻转 Sprite 或选择区域](./flip.md)
+* [移动整个图层/Cel](./move-tool.md) 或 [移动选择区域](./move-selection.md)
+* [调整 Sprite 或选择区域大小](./resize.md)
+* [旋转 Sprite 或选择区域](./rotate.md)
 
-## Transforming Multiple Layers, Frames or Cels
+## 变换多个图层、帧或 Cel
 
-Transformations will be applied to every layer, frame, and cel
-selected on the [timeline](timeline.md). If there's no selection on
-the timeline, transformations will be applied only to the active cel.
+变换将应用于[时间轴](./timeline.md)上选定的每个图层、帧和 Cel。如果时间轴上没有选择，变换将只应用于活动的 Cel。
 
-> Note: When transforming multiple layers, frames, or cels using the
-> selections handles, the transformation will be shown in real time
-> only for the active cel. The transformation will be applied to all
-> other cels after committing the change by clicking outside the
-> selection.
+> 注意：当使用选择控制柄变换多个图层、帧或 Cel 时，变换将仅对活动的 Cel 实时显示。在通过单击选择区域外部来提交更改后，变换才会应用于所有其他 Cel。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Selecting](selecting.md)
+[选择](./selecting.md)

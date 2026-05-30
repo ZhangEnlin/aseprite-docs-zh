@@ -1,6 +1,6 @@
-# Extensions: Palettes
+# 扩展：调色板
 
-Content a `.aseprite-extension` file for a palette extension:
+调色板扩展的 `.aseprite-extension` 文件内容：
 
 ```
 palette-example.aseprite-extension
@@ -10,7 +10,7 @@ palette-example.aseprite-extension
 +-- my-palette.gpl
 ```
 
-Content of `package.json`:
+`package.json` 文件内容：
 
 ```
 {
@@ -32,6 +32,6 @@ Content of `package.json`:
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Extensions](extensions.md)
+[扩展](./extensions.md)

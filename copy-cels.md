@@ -1,23 +1,22 @@
-# Copy Cels
+# 复制 Cel
 
-Use the [timeline](timeline.md) to copy cels:
+使用[时间轴](./timeline.md)来复制 Cel：
 
-![Copy cels](copy-cels/copy-cels.gif)
+![复制 Cel](./copy-cels/copy-cels.gif)
 
-1. Select a range of cels you want to copy.
-2. Move the mouse to the selection border.
-3. Hold <kbd>Ctrl</kbd> or <kbd>Alt</kbd> key and start dragging.
-4. Drop the copy where you want, holding <kbd>Ctrl</kbd> or <kbd>Alt</kbd> keys.
+1. 选择你想要复制的一组 Cel。
+2. 将鼠标移动到选区边缘。
+3. 按住 <kbd>Ctrl</kbd> 或 <kbd>Alt</kbd> 键并开始拖动。
+4. 保持按住 <kbd>Ctrl</kbd> 或 <kbd>Alt</kbd> 键，将副本放到你想要的位置。
 
-Note that you can copy cels beyond the end of the animation. In this
-case new empty frames are created automatically.
+请注意，你可以将 Cel 复制到动画的末尾之后。在这种情况下，将会自动创建新的空白帧。
 
-When copying cels on a [continuous layer](continuous-layers.md), copied cels will be [linked](linked-cels.md) to the original ones.
+在[连续图层](./continuous-layers.md)上复制 Cel 时，复制的 Cel 将与原始 Cel [链接](./linked-cels.md)。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Move Cels](move-cels.md) |
-[Copy Frames](copy-frames.md) |
-[Timeline](timeline.md)
+[移动 Cel](./move-cels.md) |
+[复制帧](./copy-frames.md) |
+[时间轴](./timeline.md)

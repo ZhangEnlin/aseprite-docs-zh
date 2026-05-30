@@ -1,244 +1,243 @@
-# Article - The Color Bar and Palettes
+# 文章 - 颜色栏与调色板
 
-This article will explain the color bar and palettes, covering everything from the very basics to more niche/advanced features, like sprite color modes and color wheel picker types.
+本文将解释颜色栏和调色板，涵盖从最基础到更细分/高级的功能，例如 Sprite 颜色模式和色轮选择器类型。
 
-> A note to the reader: because GIFs have a limit of 256 colors, color pickers/gradients shown will look compressed.
+> 读者须知：由于 GIF 有 256 种颜色的限制，所显示的颜色选择器/渐变会看起来有些压缩。
 
-### Table of Contents
+### 目录
 
-* [What is the Color Bar?](#what-is-the-color-bar)
-    * [What are the foreground/background colors?](#what-are-the-foregroundbackground-colors)
-    * [What is the palette?](#what-is-the-palette)
-    * [What is the color picker?](#what-is-the-color-picker)
-* [Using the Color Picker and Foreground/Background Colors](#using-the-color-picker-and-foregroundbackground-colors)
-* [Changing the Color Picker Type](#changing-the-color-picker-type)
-  * [Color Wheel Harmonies and Discrete Mode](#color-wheel-harmonies-and-discrete-mode)
-* [Using the Palette](#using-the-palette)
-  * [Editing colors](#editing-colors)
-* [Loading, Saving, and Creating Palettes](#loading-saving-and-creating-palettes)
-  * [Loading and Saving with Files](#loading-and-saving-with-files)
-  * [Loading and Saving with Presets](#loading-and-saving-with-presets)
-  * [Loading and Saving the Default Palette](#loading-and-saving-the-default-palette)
-  * [New Palette from Sprite](#new-palette-from-sprite)
-* [Color Modes](#color-modes)
-  * [RGB Color Mode](#rgb-color-mode)
-  * [Indexed Color Mode](#indexed-color-mode)
-  * [Grayscale Color Mode](#grayscale-color-mode)
-* [Palette Sorting \& Gradients](#palette-sorting--gradients)
-  * [Sorting](#sorting)
-  * [Gradients](#gradients)
-* [FAQ/Troubleshooting](#faqtroubleshooting)
-  * [Why didn't my palette load in order?](#why-didnt-my-palette-load-in-order)
-  * [Why can't I draw with colors not in the palette?](#why-cant-i-draw-with-colors-not-in-the-palette)
-  * [Why can't I draw with the first color in the palette?](#why-cant-i-draw-with-the-first-color-in-the-palette)
-  * [How can I change the color picker type?](#how-can-i-change-the-color-picker-type)
-  * [How can I access the color sliders menu?](#how-can-i-access-the-color-sliders-menu)
-  * [How can I change the location of the color bar?](#how-can-i-change-the-location-of-the-color-bar)
+* [什么是颜色栏？](#什么是颜色栏)
+    * [什么是前景色/背景色？](#什么是前景色背景色)
+    * [什么是调色板？](#什么是调色板)
+    * [什么是颜色选择器？](#什么是颜色选择器)
+* [使用颜色选择器和前景色/背景色](#使用颜色选择器和前景色背景色)
+* [更改颜色选择器类型](#更改颜色选择器类型)
+  * [色轮色彩协调与离散模式](#色轮色彩协调与离散模式)
+* [使用调色板](#使用调色板)
+  * [编辑颜色](#编辑颜色)
+* [加载、保存和创建调色板](#加载保存和创建调色板)
+  * [通过文件加载和保存](#通过文件加载和保存)
+  * [通过预设加载和保存](#通过预设加载和保存)
+  * [加载和保存默认调色板](#加载和保存默认调色板)
+  * [从 Sprite 新建调色板](#从-sprite-新建调色板)
+* [颜色模式](#颜色模式)
+  * [RGB 颜色模式](#rgb-颜色模式)
+  * [索引颜色模式](#索引颜色模式)
+  * [灰度颜色模式](#灰度颜色模式)
+* [调色板排序与渐变](#调色板排序与渐变)
+  * [排序](#排序)
+  * [渐变](#渐变)
+* [常见问题/故障排除](#常见问题故障排除)
+  * [为什么我的调色板没有按顺序加载？](#为什么我的调色板没有按顺序加载)
+  * [为什么我不能用调色板以外的颜色绘画？](#为什么我不能用调色板以外的颜色绘画)
+  * [为什么我不能用调色板中的第一个颜色绘画？](#为什么我不能用调色板中的第一个颜色绘画)
+  * [如何更改颜色选择器类型？](#如何更改颜色选择器类型)
+  * [如何访问颜色滑块菜单？](#如何访问颜色滑块菜单)
+  * [如何更改颜色栏的位置？](#如何更改颜色栏的位置)
 
-## What is the Color Bar?
+## 什么是颜色栏？
 
-The color bar is where the palette, color picker, and foreground/background colors are located. By default, the  color bar is located on the left side of the Aseprite window.
+颜色栏是调色板、颜色选择器以及前景色/背景色所在的位置。默认情况下，颜色栏位于 Aseprite 窗口的左侧。
 
-![color bar location and elements](color-bar-article/color-bar.png)
+![颜色栏位置和元素](./color-bar-article/color-bar.png)
 
-### What are the foreground/background colors?
+### 什么是前景色/背景色？
 
-The foreground color is the main color you'll be using to draw with. The background color is more of a secondary color that you may or may not use depending on your workflow. 
+前景色是您将用于绘画的主要颜色。背景色更像是一个次要颜色，您可能会根据工作流程选择是否使用它。
 
-When using the color bar, <kbd>Left Click</kbd> is associated with the foreground color and <kbd>Right Click</kbd> is associated with the background color (e.g: left clicking selects the foreground color, rightclicking selects the background color). 
+在使用颜色栏时，<kbd>鼠标左键</kbd> 与前景色相关联，<kbd>鼠标右键</kbd> 与背景色相关联（例如：左键单击选择前景色，右键单击选择背景色）。
 
-### What is the palette?
+### 什么是调色板？
 
-The palette is a list of colors (sometimes referred to as "palette entries") that you can use in your sprite. Colors can be added, changed, moved around, etc. You can use colors that aren't in the palette (unless your sprite is in Indexed mode, which will be talked about later). 
+调色板是一个颜色列表（有时称为“调色板条目”），您可以在 Sprite 中使用这些颜色。颜色可以被添加、更改、移动等。您可以使用不在调色板中的颜色（除非您的 Sprite 处于索引模式，稍后将会讨论）。
 
-While the palette does not have a limit of how many entries it can have, palettes with more than `256` entries will not load correctly ([#3804](https://github.com/aseprite/aseprite/issues/3804)).
+虽然调色板没有条目数量限制，但拥有超过 `256` 个条目的调色板将无法正确加载 ([#3804](https://github.com/aseprite/aseprite/issues/3804))。
 
-### What is the color picker?
+### 什么是颜色选择器？
 
-The color picker (not to be confused with the eyedropper tool) is how you will create new colors to use in your sprite. By default, the color picker is set to "Color Tint/Shade/Tone" (HSV).
+颜色选择器（不要与吸管工具混淆）是您用来创建在 Sprite 中使用的新颜色的工具。默认情况下，颜色选择器设置为“颜色色调/阴影/色阶”（HSV）。
 
-## Using the Color Picker and Foreground/Background Colors
+## 使用颜色选择器和前景色/背景色
 
-To pick the foreground color from the color picker, <kbd>Left Click</kbd> and drag. To pick the background color, <kbd>Right Click</kbd> and drag. You can also change the foreground/background color by clicking on the foreground/background color buttons below the color pickers to open up the sliders menu; dragging the sliders menu into the sprite editor will make it stay open after unfocusing.
+要从颜色选择器中选取前景色，请<kbd>鼠标左键</kbd>单击并拖动。要选取背景色，请<kbd>鼠标右键</kbd>单击并拖动。您也可以通过单击颜色选择器下方的前景色/背景色按钮来打开滑块菜单以更改前景色/背景色；将滑块菜单拖入 Sprite 编辑器，它将在失去焦点后保持打开状态。
 
-![color picking demo](color-bar-article/color-picking.gif)
+![颜色选取演示](./color-bar-article/color-picking.gif)
 
-## Changing the Color Picker Type 
+## 更改颜色选择器类型
 
-To change the type of color picker, go to the *Options* ![options icon image](color-bar-article/options-icon.png) menu above the palette. The color picker types are located in the fourth section. At the moment, there is only five options available:
+要更改颜色选择器的类型，请转到调色板上方的 *选项* ![选项图标图片](./color-bar-article/options-icon.png) 菜单。颜色选择器类型位于第四部分。目前，只有五个可用选项：
 
-* Color Tint/Shade/Tone (HSV)
-* Color Spectrum (HSL)
-* RGB Color Wheel
-* RYB Color Wheel
-* Normal Map Color Wheel
+* 颜色色调/阴影/色阶 (HSV)
+* 颜色光谱 (HSL)
+* RGB 色轮
+* RYB 色轮
+* 法线贴图色轮
 
-![color picker types demo](color-bar-article/color-picker-types.gif)
+![颜色选择器类型演示](./color-bar-article/color-picker-types.gif)
 
-### Color Wheel Harmonies and Discrete Mode
+### 色轮色彩协调与离散模式
 
-The color wheel types have a few extra options: [color harmony](https://en.wikipedia.org/wiki/Harmony_(color)) modes and the *Discrete* mode toggle, which splits the color wheel into color sections. They can be accessed from the menu icon in the top right-hand corner of the color picker.
+色轮类型有一些额外的选项：[色彩协调](https://en.wikipedia.org/wiki/Harmony_(color))模式和 *离散* 模式切换，后者将色轮分割成颜色区块。它们可以通过颜色选择器右上角的菜单图标访问。
 
-The color harmony options allow for multiple colors to be picked in accordance with a harmonious color scheme. The options are:
+色彩协调选项允许根据协调的配色方案选取多种颜色。选项包括：
 
-* Without Harmonies (Default)
-* Complementary
-* Monochromatic
-* Analogous
-* Split-Complementary
-* Triadic
-* Tetradic
-* Square
+* 无协调 (默认)
+* 互补色
+* 单色
+* 类似色
+* 分裂互补色
+* 三色组
+* 四色组
+* 方形色组
 
-The colors that are picked are shown in the bottom right corner of the color wheel. <kbd>Right or Left Click</kbd>ing on one of the colors in the bottom right will change the foreground or background color to the clicked color. 
+选取的颜色显示在色轮的右下角。在右下角的某个颜色上 <kbd>鼠标右键或左键</kbd> 单击，将把前景色或背景色更改为所点击的颜色。
 
-![color picker wheel harmony options demo](color-bar-article/color-wheel-options.gif)
+![色轮协调选项演示](./color-bar-article/color-wheel-options.gif)
 
-## Using the Palette
+## 使用调色板
 
-To add a color to the palette, click the red icon ![red icon image](color-bar-article/red-icon.png) next to the foreground or background color below the palette. If there isn't a red icon, that means the color has already been added to the palette.
+要向调色板添加颜色，请单击调色板下方前景色或背景色旁边的红色图标 ![红色图标图片](./color-bar-article/red-icon.png)。如果没有红色图标，则表示该颜色已经被添加到调色板中了。
 
-<kbd>Left Click</kbd> a color to select it as the foreground color; <kbd>Right Click</kbd> a color to select it as the background color. To select multiple colors, <kbd>Right or Left Click</kbd> and drag. If a color has a black or white triangle in its top left corner, that means it is selected as the foreground color; if it has a smaller triangle in its bottom left corner, it is selected as the background color. 
+<kbd>鼠标左键</kbd> 单击一个颜色将其选为前景色；<kbd>鼠标右键</kbd> 单击一个颜色将其选为背景色。要选择多个颜色，请<kbd>鼠标右键或左键</kbd>单击并拖动。如果一个颜色的左上角有一个黑色或白色三角形，表示它被选为前景色；如果它的左下角有一个较小的三角形，表示它被选为背景色。
 
-To move a color or multiple colors, <kbd>Right or Left Click</kbd> the yellow selection outline and drag.
+要移动一个或多个颜色，请<kbd>鼠标右键或左键</kbd>单击黄色的选择外框并拖动。
 
-![changing the palette demo](color-bar-article/selecting-palette.gif)
+![更改调色板演示](./color-bar-article/selecting-palette.gif)
 
-To duplicate a color or multiple colors, <kbd>Right or Left Click</kbd> the yellow selection outline while holding <kbd>Ctrl</kbd> and drag.
+要复制一个或多个颜色，请按住 <kbd>Ctrl</kbd> 键，同时<kbd>鼠标右键或左键</kbd>单击黄色的选择外框并拖动。
 
-To quickly move between palette colors, you can press <kbd>[</kbd> to move back a color and <kbd>]</kbd> to move forward a color.
+要在调色板颜色之间快速移动，您可以按 <kbd>[</kbd> 向后移动一个颜色，按 <kbd>]</kbd> 向前移动一个颜色。
 
-You can change the size of the palette entries with <kbd>Ctrl+Mouse Wheel</kbd> or by going into the *Options* ![options icon image](color-bar-article/options-icon.png) menu and selecting *Small Size*, *Medium Size*, or *Large Size*.
+您可以通过 <kbd>Ctrl+鼠标滚轮</kbd>，或进入 *选项* ![选项图标图片](./color-bar-article/options-icon.png) 菜单并选择 *小尺寸*、*中等尺寸* 或 *大尺寸* 来更改调色板条目的大小。
 
-Clicking and dragging the two lines at the end of the palette can delete or add entries to the palette (the color of the added entries will be #000000).
+点击并拖动调色板末尾的两条线可以删除或向调色板添加条目（添加的条目颜色将为 #000000）。
 
-### Editing colors
+### 编辑颜色
 
-You can turn on *Edit Color* mode by pressing <kbd>A</kbd>, toggling the *lock button* ![alt text](color-bar-article/edit-color-icon.png) above the palette, or toggling the *Edit Palette* option in the *Options* ![options icon image](color-bar-article/options-icon.png) menu. When disabled (or "locked"), creating/picking a color will not affect the selected palette entry. When enabled (or "unlocked"), creating/picking a color will change the selected palette entry to the picked color.
+您可以按 <kbd>A</kbd> 键，或切换调色板上方的 *锁定按钮* ![alt text](./color-bar-article/edit-color-icon.png)，或在 *选项* ![选项图标图片](./color-bar-article/options-icon.png) 菜单中切换 *编辑调色板* 选项，来开启 *编辑颜色* 模式。当禁用（或“锁定”）时，创建/选取颜色不会影响选定的调色板条目。当启用（或“解锁”）时，创建/选取颜色会将选定的调色板条目更改为所选取的颜色。
 
-![edit color demo](color-bar-article/edit-color.gif)
+![编辑颜色演示](./color-bar-article/edit-color.gif)
 
-## Loading, Saving, and Creating Palettes
+## 加载、保存和创建调色板
 
-### Loading and Saving with Files
+### 通过文件加载和保存
 
-To load a palette from a file, open the *Options* ![options icon image](color-bar-article/options-icon.png) menu and then click on *Load Palette*. To save a palette to a file, open the *Options* menu and then click on *Load Palette*. 
+要从文件加载调色板，请打开 *选项* ![选项图标图片](./color-bar-article/options-icon.png) 菜单，然后点击 *加载调色板*。要将调色板保存到文件，请打开 *选项* 菜单，然后点击 *保存调色板*。
 
-![load palette demo](color-bar-article/load-palette.gif)
+![加载调色板演示](./color-bar-article/load-palette.gif)
 
-### Loading and Saving with Presets
+### 通过预设加载和保存
 
-A preset is a palette that is saved in the Aseprite [palettes folder](https://www.aseprite.org/docs/preferences-folder/) or that is added to Aseprite with an [extension](https://www.aseprite.org/docs/extensions/palettes/). Presets can be searched for and loaded within Aseprite, without the need to load a palette from a file.
+预设是保存在 Aseprite [调色板文件夹](https://www.aseprite.org/docs/preferences-folder/)中的调色板，或者是通过[扩展](https://www.aseprite.org/docs/extensions/palettes/)添加到 Aseprite 中的调色板。预设可以在 Aseprite 内搜索和加载，无需从文件加载调色板。
 
-To load a preset, open the *Presets* ![presets icon image](color-bar-article/presets-icon.png) menu above the palette and search for the name of the palette you want to load, then click on the palette or press the *Load* button in the bottom left corner.
+要加载预设，请打开调色板上方的 *预设* ![预设图标图片](./color-bar-article/presets-icon.png) 菜单，搜索您想要加载的调色板名称，然后点击该调色板或按下左下角的 *加载* 按钮。
 
-To save a preset, open the *Options* ![options icon image](color-bar-article/options-icon.png) menu and click on *Save Palette as Preset*. The saved filename will be the name of the palette in the *Presets* menu. 
+要保存预设，请打开 *选项* ![选项图标图片](./color-bar-article/options-icon.png) 菜单，然后点击 *将调色板另存为预设*。保存的文件名将成为 *预设* 菜单中该调色板的名称。
 
-![load preset demo](color-bar-article/load-preset.gif)
+![加载预设演示](./color-bar-article/load-preset.gif)
 
-### Loading and Saving the Default Palette
+### 加载和保存默认调色板
 
-The default palette is the palette that will be loaded when you create a new sprite. 
+默认调色板是创建新 Sprite 时将加载的调色板。
 
-You can load the default palette by going to *Options* ![options icon image](color-bar-article/options-icon.png) and clicking *Load Default Palette*; you can set the default palette by going to *Options* and clicking *Save Palette As Default*.
+您可以通过进入 *选项* ![选项图标图片](./color-bar-article/options-icon.png) 并点击 *加载默认调色板* 来加载默认调色板；您可以通过进入 *选项* 并点击 *将调色板保存为默认* 来设置默认调色板。
 
-### New Palette from Sprite
+### 从 Sprite 新建调色板
 
-You can create a palette from the current sprite's colors by going to the *Options* ![options icon image](color-bar-article/options-icon.png) menu and opening the *New Palette from Sprite* menu.
+您可以通过进入 *选项* ![选项图标图片](./color-bar-article/options-icon.png) 菜单并打开 *从 Sprite 新建调色板* 菜单，从当前 Sprite 的颜色创建调色板。
 
-![new palette from sprite demo](color-bar-article/new-palette-from-sprite.gif)
+![从 Sprite 新建调色板演示](./color-bar-article/new-palette-from-sprite.gif)
 
-## Color Modes 
+## 颜色模式
 
-A sprite's color mode is how it represents and uses colors. There are three color modes in Aseprite: *RGB*, *Indexed*, and *Grayscale*.
+Sprite 的颜色模式指的是它表示和使用颜色的方式。Aseprite 中有三种颜色模式：*RGB*、*索引* 和 *灰度*。
 
-### RGB Color Mode
+### RGB 颜色模式
 
-The RGB color mode means that each pixel on the sprite maps directly to an RGB value. 
+RGB 颜色模式意味着 Sprite 上的每个像素直接映射到一个 RGB 值。
 
-![rgb color mode diagram](color-bar-article/colormode-rgb.png)
+![RGB 颜色模式图示](./color-bar-article/colormode-rgb.png)
 
-The RGB color mode is great for general use. When using the RGB color mode, you aren't constrained to the palette, so you can quickly create and draw with colors without needing to add them to the palette. You also don't need to use an index of your palette as a transparent color. 
+RGB 颜色模式非常适合一般用途。使用 RGB 颜色模式时，您不受调色板的限制，因此可以快速创建并使用颜色进行绘画，而无需将它们添加到调色板中。您也无需使用调色板中的某个索引作为透明色。
 
-![rgb color mode demo](color-bar-article/create-color-rgb.gif)
+![RGB 颜色模式演示](./color-bar-article/create-color-rgb.gif)
 
-### Indexed Color Mode
+### 索引颜色模式
 
-The Indexed color mode means that each pixel is mapped to a palette index, and then that palette index maps to an RGB value. This means that if you change an index's color in the palette, the colors on the sprite with the index change too.
+索引颜色模式意味着每个像素映射到一个调色板索引，然后该调色板索引映射到一个 RGB 值。这意味着如果您更改调色板中某个索引的颜色，Sprite 上使用该索引的颜色也会随之改变。
 
-![indexed color mode diagram](color-bar-article/colormode-indexed.gif)
+![索引颜色模式图示](./color-bar-article/colormode-indexed.gif)
 
-The Indexed color mode is best for sprites with a pre-defined palette. In Indexed mode, you are constrained to the colors in the palette, so you can't draw with a color that isn't in the palette without adding it to the palette first. 
+索引颜色模式最适合具有预定义调色板的 Sprite。在索引模式下，您受到调色板中颜色的限制，因此如果不先将颜色添加到调色板中，就无法使用调色板之外的颜色进行绘画。
 
-![indexed color mode demo](color-bar-article/create-color-indexed.gif)
+![索引颜色模式演示](./color-bar-article/create-color-indexed.gif)
 
-Indexed mode also needs an index to be used as the transparent color, which is indicated by a dot in the color's center. By default, the first (0th) index is the transparent color, but it can be changed in the *Sprite > Properties* menu.
+索引模式还需要一个索引用作透明色，这由颜色中心的一个圆点表示。默认情况下，第一个（第 0 个）索引是透明色，但可以在 *Sprite > 属性* 菜单中更改。
 
-### Grayscale Color Mode
+### 灰度颜色模式
 
-The Grayscale color mode means that each pixel is a grayscale value from `0` to `255`. Useful for grayscale sprites.
+灰度颜色模式意味着每个像素是一个从 `0` 到 `255` 的灰度值。适用于灰度 Sprite。
 
-![grayscale color mode diagram](color-bar-article/colormode-grayscale.png)
+![灰度颜色模式图示](./color-bar-article/colormode-grayscale.png)
 
-## Palette Sorting & Gradients
+## 调色板排序与渐变
 
-The *Sort & Gradients* ![sort & gradients icon image](color-bar-article/sort-icon.png) button contains options for palette sorting and for creating gradients.
+*排序与渐变* ![排序与渐变图标图片](./color-bar-article/sort-icon.png) 按钮包含用于调色板排序和创建渐变的选项。
 
-### Sorting
+### 排序
 
-There are eight different sorting options in the *Sort & Gradients* ![sort & gradients icon image](color-bar-article/sort-icon.png) menu:
+在 *排序与渐变* ![排序与渐变图标图片](./color-bar-article/sort-icon.png) 菜单中有八种不同的排序选项：
 
-* Sort by Hue
-* Sort by Saturation
-* Sort by Brightness (value)
-* Sort by Luminance 
-* Sort by Red (sort by RGBA red component)
-* Sort by Green (sort by RGBA green component)
-* Sort by Blue (sort by RGBA blue component)
-* Sort by Alpha (sort by RGBA alpha component)
+* 按色相排序
+* 按饱和度排序
+* 按亮度（明度）排序
+* 按辉度排序
+* 按红色排序（按 RGBA 红色分量排序）
+* 按绿色排序（按 RGBA 绿色分量排序）
+* 按蓝色排序（按 RGBA 蓝色分量排序）
+* 按 Alpha 排序（按 RGBA Alpha 分量排序）
 
-Below these are the *Ascending* and *Descending* toggle options, which sort them in ascending or descending order. 
+在这些选项下方是 *升序* 和 *降序* 切换选项，可让它们按升序或降序排序。
 
-![sort palette demo](color-bar-article/sort-palette.gif)
+![排序调色板演示](./color-bar-article/sort-palette.gif)
 
-### Gradients
+### 渐变
 
-Aseprite allows you to create a gradient between two colors in the palette. You can do this by first making a selection from your start color to your end color. The colors between the two colors in the selection will be replaced by the gradient colors (so that means if you have three in between colors, your gradient will have five colors). After your colors are selected, open the *Sort & Gradients* ![sort & gradients icon image](color-bar-article/sort-icon.png) menu and select either *Gradient*, which makes a normal gradient between the two colors, or *Gradient by Hue* which makes a gradient that changes the hue more substantially. 
+Aseprite 允许您在调色板中的两种颜色之间创建渐变。您可以通过首先从起始颜色到结束颜色创建一个选择来实现。选择中位于两种颜色之间的颜色将被渐变色替换（这意味着如果您中间有三个颜色，您的渐变将有五个颜色）。颜色选定后，打开 *排序与渐变* ![排序与渐变图标图片](./color-bar-article/sort-icon.png) 菜单，然后选择 *渐变*，这会在两种颜色之间创建一个普通的渐变，或者选择 *按色相渐变*，这会创建一个更显著改变色相的渐变。
 
-![gradient palette demo](color-bar-article/gradient-palette.gif)
+![渐变调色板演示](./color-bar-article/gradient-palette.gif)
 
-## FAQ/Troubleshooting
+## 常见问题/故障排除
 
-### Why didn't my palette load in order?
+### 为什么我的调色板没有按顺序加载？
 
-If you loaded your palette as a `.png` file and the palette is out of order, the "RGB to palette index mapping" setting is likely the problem. In the [Preferences](https://www.aseprite.org/docs/preferences#preferences) menu, under "Experimental", setting the RGB to palette index mapping to `Table RGB 5 bits + Alpha 3 bits` will make the palette load correctly.
+如果您将调色板加载为 `.png` 文件并且调色板顺序混乱，问题可能出在“RGB 到调色板索引映射”设置上。在[首选项](https://www.aseprite.org/docs/preferences#preferences)菜单中，在“实验性”下，将 RGB 到调色板索引映射设置为 `Table RGB 5 bits + Alpha 3 bits` 将使调色板正确加载。
 
-![change palette mapping demo](color-bar-article/change-mapping.gif)
+![更改调色板映射演示](./color-bar-article/change-mapping.gif)
 
-Alternatively, loading palettes as a `.gpl` or `.pal` file will load them correctly without the need to change any settings.
+或者，将调色板加载为 `.gpl` 或 `.pal` 文件将正确加载，无需更改任何设置。
 
-### Why can't I draw with colors not in the palette?
+### 为什么我不能用调色板以外的颜色绘画？
 
-This is likely because your sprite [color mode](#color-modes) is set to *Indexed*, which doesn't allow you to draw with colors outside of the palette. You can fix it by setting your color mode to RGB with *Sprite > Color Mode > RGB Color*.
+这很可能是因为您的 Sprite [颜色模式](#颜色模式)设置为 *索引*，该模式不允许您使用调色板之外的颜色进行绘画。您可以通过 *Sprite > 颜色模式 > RGB 颜色* 将颜色模式设置为 RGB 来解决此问题。
 
-### Why can't I draw with the first color in the palette?
+### 为什么我不能用调色板中的第一个颜色绘画？
 
-Your sprite [color mode](#color-modes) is likely set to *Indexed*, which requires a palette index to be used as the transparent color; by default, this is the first color (0th index) in the palette. 
+您的 Sprite [颜色模式](#颜色模式)很可能设置为 *索引*，该模式需要一个调色板索引用作透明色；默认情况下，这是调色板中的第一个颜色（第 0 个索引）。
 
-You can fix it by doing one of the following: 
-  * Setting your color mode to RGB with *Sprite > Color Mode > RGB Color*
-  * Changing the transparent color index in the *Sprite > Properties* menu 
-  * Making your first index a different color
+您可以通过执行以下操作之一来解决此问题：
+  * 通过 *Sprite > 颜色模式 > RGB 颜色* 将颜色模式设置为 RGB
+  * 在 *Sprite > 属性* 菜单中更改透明色索引
+  * 将您的第一个索引设为不同的颜色
 
-### How can I change the color picker type?
+### 如何更改颜色选择器类型？
 
-See the [Changing the Color Picker Type](#changing-the-color-picker-type) section.
+请参阅[更改颜色选择器类型](#更改颜色选择器类型)部分。
 
-### How can I access the color sliders menu?
+### 如何访问颜色滑块菜单？
 
-You can access the sliders menu by clicking on the foreground/background color icons below the color picker; dragging the sliders menu into the sprite editor will make it stay open after unfocusing. See [Using the Color Picker and Foreground/Background Colors
-](#using-the-color-picker-and-foregroundbackground-colors) for a demo.
+您可以通过单击颜色选择器下方的前景色/背景色图标来访问滑块菜单；将滑块菜单拖入 Sprite 编辑器，它将在失去焦点后保持打开状态。请参阅[使用颜色选择器和前景色/背景色](#使用颜色选择器和前景色背景色)部分以获取演示。
 
-### How can I change the location of the color bar?
+### 如何更改颜色栏的位置？
 
-See the [Workspace Layout](https://www.aseprite.org/docs/workspace-layout/#moving-ui-elements) page.
+请参阅[工作区布局](../workspace-layout.md/#moving-ui-elements)页面。

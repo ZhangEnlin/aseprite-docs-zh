@@ -1,27 +1,26 @@
-# Move Cels
+# 移动 Cel
 
-Use the [timeline](timeline.md) to move cels:
+使用[时间轴](./timeline.md)来移动 cel：
 
-![Move Cels](move-cels/move-cels.gif)
+![移动 Cel](./move-cels/move-cels.gif)
 
-1. Select a range of cels you want to move.
-2. Put the mouse above the selection border.
-3. Start dragging the from selection border.
-4. Drop the cels where you want.
+1. 选择你要移动的 cel 范围。
+2. 将鼠标放在选区边框上方。
+3. 从选区边框开始拖拽。
+4. 将 cel 放到你想要的位置。
 
-Note that you can move cels beyond the end of the animation. In this
-case new empty frames are created automatically.
+注意，你可以将 cel 移动到动画末尾之后。在这种
+情况下，会自动创建新的空白帧。
 
-## Canvas Position
+## 画布位置
 
-You can move the cel canvas position (*x* and *y* coordinates) using
-the [Move tool](move-tool.md) ![Move tool icon](tools/move-tool.png).
+你可以使用[移动工具](./move-tool.md) ![移动工具图标](./tools/move-tool.png) 来移动 cel 画布位置（*x* 和 *y* 坐标）。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Copy Cels](copy-cels.md) |
-[Move Frames](move-frames.md) |
-[Move Tool](move-tool.md) |
-[Timeline](timeline.md)
+[复制 Cel](./copy-cels.md) |
+[移动帧](./move-frames.md) |
+[移动工具](./move-tool.md) |
+[时间轴](./timeline.md)

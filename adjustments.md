@@ -1,42 +1,42 @@
-# Adjustments
+# 调整
 
-The Adjustments dropdown can be accessed with *Edit > Adjustments*, and it contains various options to adjust the colors of the sprite.
+可以通过 *编辑 > 调整* 访问调整下拉菜单，其中包含用于调整精灵色彩的各种选项。
 
-## Brightness/Contrast
+## 亮度/对比度
 
-![image of brightness/contrast menu](adjustments/brightness-contrast.png)
+![亮度/对比度菜单图片](./adjustments/brightness-contrast.png)
 
-Adjusts the brightness and contrast of the sprite or selection. A negative value will decrease the brightness/contrast while a positive value will increase the brightness/contrast.
+调整精灵或选区的亮度和对比度。负值会降低亮度/对比度，正值会增加亮度/对比度。
 
-* The *R*, *G*, *B*, and *A* buttons control if a component should be affected, e.g: the *R* button is checked, so the *R* (red) component will be adjusted.
-* The bottom button controls if the adjustment should apply to the active timeline selection (*Selected*) or all of the cels in the sprite (*All*). If [a portion of a sprite is selected](selecting.md#selecting): in *Selected* mode it would only apply to the selected content of the selected timeline elements; in *All* mode it would apply to the selected content of all of the sprite's cels.
+* *R*、*G*、*B* 和 *A* 按钮控制某个分量是否受影响，例如：勾选 *R* 按钮，则 *R*（红）分量将被调整。
+* 底部按钮控制调整是应用于活动的时间轴选区（*Selected*）还是精灵中的所有 Cel（*All*）。如果[精灵的一部分被选中](./selecting.md#selecting)：在 *Selected* 模式下，仅应用于所选时间轴元素中的选中内容；在 *All* 模式下，则应用于精灵所有 Cel 中的选中内容。
 
-    ![image of component buttons and selection button](adjustments/component-buttons.png)
-
-
-## Hue/Saturation
-
-![image of hue/saturation menu](adjustments/hue-saturation.png)
+    ![分量按钮和选择按钮图片](./adjustments/component-buttons.png)
 
 
-Adjusts the hue, saturation, and value/lightness of the sprite or selection. *Shortcut:* <kbd>Ctrl+U</kbd>.
+## 色相/饱和度
 
-* HSV / HSL: Increases a HSV/L component by a percentage of the components value
-    > e.g: a color has a Value of `20` increasing by `10%` of `20`; the resulting Value would be `20` + `2`, or `22`.
-* HSV+ / HSL+: Increases a HSV/L component by the specified amount
-    > e.g: a color has a Value of `5` increasing by `14`; the resulting Value would be `5` + `14`, or `19`.
+![色相/饱和度菜单图片](./adjustments/hue-saturation.png)
 
-## Color Curve
 
-![image of color curve menu](adjustments/color-curve.png)
+调整精灵或选区的色相、饱和度和明度/亮度。*快捷键：* <kbd>Ctrl+U</kbd>。
 
-Applies a color curve to the sprite or selection. *Shortcut:* <kbd>Ctrl+M</kbd>.
+* HSV / HSL：按分量值的百分比增加 HSV/L 分量
+    > 例如：某个颜色的明度（Value）为 `20`，增加 `20` 的 `10%`；结果明度将为 `20` + `2`，即 `22`。
+* HSV+ / HSL+：按指定数值增加 HSV/L 分量
+    > 例如：某个颜色的明度（Value）为 `5`，增加 `14`；结果明度将为 `5` + `14`，即 `19`。
 
-Clicking anywhere in the box will create a new point. <kbd>Left click</kbd> and drag a point to move it; <kbd>Right click</kbd> a point to edit its properties. To delete a point, hover over a point and press <kbd>Delete</kbd>.
+## 色彩曲线
+
+![色彩曲线菜单图片](./adjustments/color-curve.png)
+
+对精灵或选区应用色彩曲线。*快捷键：* <kbd>Ctrl+M</kbd>。
+
+在框内任意位置点击将创建一个新控制点。<kbd>左键点击</kbd>并拖动控制点可移动它；<kbd>右键点击</kbd>控制点可编辑其属性。要删除控制点，将鼠标悬停在控制点上并按 <kbd>Delete</kbd> 键。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[FX](fx.md#fx) |
-[Edit Menu](edit-menu.md#edit-menu)
+[FX](./fx.md#fx) |
+[编辑菜单](./edit-menu.md#edit-menu)

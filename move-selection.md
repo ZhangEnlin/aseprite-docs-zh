@@ -1,31 +1,23 @@
-# Move Selection
+# 移动选区
 
-After [selecting](selecting.md) a part of the [active cel](cel.md),
-you can move the selected area of pixels dragging-and-dropping with
-the mouse or using the arrow keys:
+在[选择](./selecting.md)了[活动 cel](./cel.md) 的一部分后，
+你可以使用鼠标拖放或使用方向键来移动选中的像素区域：
 
-![Move selection example](move-selection/move-selection.gif)
+![移动选区示例](./move-selection/move-selection.gif)
 
-If you are moving a region of pixels from the
-[background layer](layers.md#background-layer) the selection will be
-cleared with the active
-[background color](color-bar.md#background-color). If you move a
-transparent layer, the region will be cleared with the transparent
-color.
+如果你正在从[背景图层](./layers.md#background-layer)移动一个像素区域，选区将
+被当前的[背景色](./color-bar.md#background-color)清除。如果你移动
+透明图层，该区域将被透明色清除。
 
-When moving a selection, you can find transform options in the [context bar](context-bar.md).
+移动选区时，你可以在[上下文栏](./context-bar.md)中找到变换选项。
 
-![context bar example](move-selection/contextbar.png)
+![上下文栏示例](./move-selection/contextbar.png)
 
-- X-position
-- Y-position
-- Width
-- Height
-- Rotation
-- Skew
+- X 位置
+- Y 位置
+- 宽度
+- 高度
+- 旋转
+- 倾斜
 
-These values can be edited through the context bar or by [transforming](transformations.md).
-
-
-
-
+这些值可以通过上下文栏或[变换](./transformations.md)来编辑。

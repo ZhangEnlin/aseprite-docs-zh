@@ -1,22 +1,22 @@
-# Onion Skinning
+# 洋葱皮
 
-With [onion skinning](https://en.wikipedia.org/wiki/Onion_skinning)
-you can see several frames at once in the [sprite editor](sprite-editor.md).
-In this way you can use other frames as reference to draw the current one.
-You can activate the onion skinning using <kbd>F3</kbd> key or with the little
-![onion skinning](animation/onion-skinning.png) icon in the timeline:
+使用[洋葱皮](https://en.wikipedia.org/wiki/Onion_skinning)
+功能，你可以在[精灵图编辑器](./sprite-editor.md)中同时查看多个帧。
+通过这种方式，你可以将其他帧作为参考来绘制当前帧。
+你可以使用 <kbd>F3</kbd> 键或时间轴中的小
+![洋葱皮](./animation/onion-skinning.png) 图标来激活洋葱皮功能：
 
-![Enable onion skinning](animation/enable-onion-skinning.gif)
+![启用洋葱皮](./animation/enable-onion-skinning.gif)
 
-You can specify how many previous and next frames do you want to see
-and configure other settings from the
-![Configure Timeline](animation/configure-timeline.png) icon (like red/blue tint):
+你可以指定想要查看的前后帧数量，
+并通过
+![配置时间轴](./animation/configure-timeline.png) 图标配置其他设置（如红/蓝色调）：
 
-![Change onion skinning settings](animation/onion-skinning-settings.gif)
+![更改洋葱皮设置](./animation/onion-skinning-settings.gif)
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Animation](animation.md) |
-[Timeline](timeline.md)
+[动画](./animation.md) |
+[时间轴](./timeline.md)

@@ -1,59 +1,59 @@
-# Rotate Sprite or Selection
+# 旋转精灵图或选区
 
-Any selection can be rotated using either [handles](rotate.md#handles) or [menu options](rotate.md#menu-options), both methods will rotate the selection around the [pivot point](rotate.md#rotation-pivot) using the chosen [algorithm](rotate.md#rotation-algorithms).
+任何选区都可以使用[手柄](./rotate.md#handles)或[菜单选项](./rotate.md#menu-options)进行旋转，这两种方法都将使用选定的[算法](./rotate.md#rotation-algorithms)围绕[枢轴点](./rotate.md#rotation-pivot)旋转选区。
 
-## Rotation Pivot
+## 旋转枢轴
 
-![Rotation Pivot](rotate/pivot-point-context-bar.png)
+![旋转枢轴](./rotate/pivot-point-context-bar.png)
 
-The selection is rotated around a single, defined point (![Rotation Pivot](rotate/pivot-point.png)). By default the pivot point is set in the center of the selection and is not visible until you start rotating the image.
+选区围绕一个单一的定义点（![旋转枢轴](./rotate/pivot-point.png)）旋转。默认情况下，枢轴点设置在选区的中心，在你开始旋转图像之前不可见。
 
-Its placement and visibility settings can be changed from the context bar of any selection tool. The rotation pivot can also be moved with the mouse by holding <kbd>Left click</kbd> and dragging the point:
+它的位置和可见性设置可以通过任何选区工具的上下文栏进行更改。旋转枢轴也可以通过按住<kbd>左键单击</kbd>并拖动该点来用鼠标移动：
 
-![Rotation Pivot Settings](rotate/pivot-point-settings.gif)
-![Moving the Rotation Pivot with the mouse](rotate/pivot-point-mouse-move.gif)
+![旋转枢轴设置](./rotate/pivot-point-settings.gif)
+![使用鼠标移动旋转枢轴](./rotate/pivot-point-mouse-move.gif)
 
-<div style="font-style:italic;text-align:right;">Sprite by <a href="https://twitter.com/ThKasparrr">@ThKasparrr</a></div>
+<div style="font-style:italic;text-align:right;">精灵图作者：<a href="https://twitter.com/ThKasparrr">@ThKasparrr</a></div>
 
-## Handles
+## 手柄
 
-The selection can be rotated by moving your mouse to the outer part of a handle (![Handle](rotate/handle.png)), holding <kbd>Left click</kbd> and dragging your mouse around the canvas:
+通过将鼠标移动到手柄的外部（![手柄](./rotate/handle.png)），按住<kbd>左键单击</kbd>并在画布上拖动鼠标，可以旋转选区：
 
-![Rotate Handles](rotate/rotate-handles.gif)
+![旋转手柄](./rotate/rotate-handles.gif)
 
-The mouse cursor will adapt to indicate whether dragging a handle will resize or rotate the selection:
+鼠标光标会随之改变，以指示拖动手柄将调整选区大小还是旋转选区：
 
-|        |                   Resize                   |                   Rotate                   |
+|        |                   调整大小                   |                   旋转                   |
 | ------ | :----------------------------------------: | :----------------------------------------: |
-| Cursor | ![Resize Handle](cursor/resize-handle.png) | ![Rotate Handle](cursor/rotate-handle.png) |
+| 光标   | ![调整大小手柄](./cursor/resize-handle.png) | ![旋转手柄](./cursor/rotate-handle.png) |
 
-With <kbd>Shift</kbd> key you can snap angles (0º, 45º, 90º, etc.)
+使用 <kbd>Shift</kbd> 键可以吸附角度（0º、45º、90º 等）。
 
-## Menu Options
+## 菜单选项
 
-![Edit > Rotate](rotate/edit-rotate.png)
+![编辑 > 旋转](./rotate/edit-rotate.png)
 
-The selection can be rotated by 90º or 180º using menu options under _Edit > Rotate_.
+可以使用*编辑 > 旋转*下的菜单选项将选区旋转 90º 或 180º。
 
-![Rotate Menu Options](rotate/rotate-menu-options.gif)
+![旋转菜单选项](./rotate/rotate-menu-options.gif)
 
-## Rotation Algorithms
+## 旋转算法
 
-![Rotation Algorithms](rotate/rotation-algorithms.png)
+![旋转算法](./rotate/rotation-algorithms.png)
 
-There are two rotation algorithms available:
+有两种可用的旋转算法：
 
-- Fast Rotation
+- 快速旋转
 - [RotSprite](https://en.wikipedia.org/wiki/Pixel-art_scaling_algorithms#RotSprite)
 
-While RotSprite is widely accepted as an algorithm producing better results, the choice is up to your preferences.
+虽然 RotSprite 被广泛认为是一种能产生更好结果的算法，但选择取决于你的偏好。
 
-![Fast Rotation vs RotSprite](rotate/rotation-algorithm.gif)
+![快速旋转与 RotSprite](./rotate/rotation-algorithm.gif)
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Flip](flip.md) |
-[Resize](resize.md) |
-[Move](move-selection.md)
+[翻转](./flip.md) |
+[调整大小](./resize.md) |
+[移动](./move-selection.md)

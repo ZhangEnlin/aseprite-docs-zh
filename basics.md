@@ -1,90 +1,50 @@
-# Basics
+# 基础
 
-Here you can learn the basic principles behind Aseprite.
+在这里你可以学习 Aseprite 背后的基本原理。
 
-In Aseprite, a [sprite](sprite.md) consists of a sequence of frames
-and a stack of layers. The intersection of frames and layers creates
-an array of editable graphic [cels](cel.md) with images/pixels that
-can be [edited](drawing.md) with the [sprite editor](sprite-editor.md). Layers, frames,
-and cels are visible in the [timeline](timeline.md):
+在 Aseprite 中，一个[精灵](./sprite.md)由一系列帧和一个图层堆栈组成。帧和图层的交汇创建了一个可编辑的图形[Cel](./cel.md)数组，其中的图像/像素可以用[精灵编辑器](./sprite-editor.md)进行[编辑](./drawing.md)。图层、帧和 Cel 都显示在[时间轴](./timeline.md)中：
 
-![Timeline Overview](sprite/sprite-components.png)
+![时间轴概览](./sprite/sprite-components.png)
 
-## Basic Elements of a Sprite
+## 精灵的基本元素
 
-A frame is a single still image in a sprite. Adding and altering
-frames creates a sequence of images called an
-[animation](animation.md). The details of how Aseprite cycles through
-frames is described in greater detail in the [animation
-section](animation.md). Frames are represented horizontally in the
-timeline, from left to right.
+帧是精灵中的一个单独静态图像。添加和修改帧会创建一系列图像，称为[动画](./animation.md)。关于 Aseprite 如何循环播放帧的细节，在[动画部分](./animation.md)有更详细的描述。帧在时间轴中从左到右水平排列。
 
-Each frame's image is produced from a stack of one or more
-[layers](layers.md), represented in order from bottom to top on the
-timeline. Layers at the bottom of the timeline are drawn first, and every
-subsequent layer is added over top of it. Layers assist you by dividing
-a single complex image into separate graphic component parts.
+每一帧的图像是由一个或多个[图层](./layers.md)堆叠产生的，这些图层在时间轴中按从下到上的顺序表示。时间轴底部的图层最先绘制，之后的每一个图层都叠加在它之上。图层通过将复杂的单一图像分解为独立的图形组成部分来为你提供帮助。
 
-Each frame-layer intersection is called a [cel](cel.md). The contents
-of any specific cel may be moved, edited, and deleted without
-affecting the contents of other cels, which make them ideal for
-isolating and editing specific elements of a graphic while preserving
-parts that do not change.
+每个帧与图层的交集称为一个[Cel](./cel.md)。任何特定 Cel 的内容都可以被移动、编辑和删除，而不会影响其他 Cel 的内容，这使得它们非常适合用于隔离和编辑图形的特定元素，同时保留不需要更改的部分。
 
-## Workflow
+## 工作流程
 
-The basic [workflow](workflow.md) is:
+基本的[工作流程](./workflow.md)是：
 
-* [Create a new sprite](new-sprite.md) from *File > New* menu.
-* [Draw](drawing.md) with pencil tool ![Pencil Tool Icon](tools/pencil-tool.png) using
-  <kbd>Left click</kbd> or <kbd>Right click</kbd>, and pick colors from the
-  [color bar](color-bar.md) using those same buttons.
-* [Save your work](save.md) from *File > Save* menu as an
-  `.aseprite` file to preserve all your image information (layers, frames,
-  etc.. Also stores certain [workspace](workspace.md) preferences.).
-* [Export your sprite](exporting.md) as a `.gif` file to publish your
-  image on a website, as a numbered sequence of individual `.png`
-  files (one file per frame), or as a single `.png` file with all
-  frames arranged in a single row or column, or as a 2-D [sprite sheet](sprite-sheet.md).
+* 从 *文件 > 新建* 菜单[创建一个新的精灵](./new-sprite.md)。
+* 使用铅笔工具 ![铅笔工具图标](./tools/pencil-tool.png)，通过<kbd>左键单击</kbd>或<kbd>右键单击</kbd>进行[绘制](./drawing.md)，并使用相同的按键从[颜色栏](./color-bar.md)中选取颜色。
+* 从 *文件 > 保存* 菜单[保存你的作品](./save.md)为 `.aseprite` 文件，以保留你所有的图像信息（图层、帧等。也会存储某些[工作区](./workspace.md)偏好设置。）。
+* [导出你的精灵](./exporting.md)为 `.gif` 文件以在网站上发布你的图像，或者导出为带有编号序列的独立 `.png` 文件（每帧一个文件），或者导出为单张将所有帧排列在一行或一列中的 `.png` 文件，又或者是二维的[精灵表](./sprite-sheet.md)。
 
-See the [workspace](workspace.md) to learn more about the elements of the
-window. See the [workflow](workflow.md) section for more details.
+请参阅[工作区](./workspace.md)以了解更多关于窗口元素的信息。更多细节请参阅[工作流程](./workflow.md)部分。
 
-## A hand on the keyboard
+## 键盘操作
 
-You should put your left hand on the keyboard *(or your right hand if
-you are left-handed)*. As there are some handy keyboard shortcuts, you
-can use them from the very beginning to make better use of Aseprite:
+你应该将左手放在键盘上（*如果你是左撇子，则放右手*）。因为有一些便捷的键盘快捷键，你可以从一开始就使用它们，以便更好地运用 Aseprite：
 
-* Keys <kbd>1</kbd>, <kbd>2</kbd>, <kbd>3</kbd>, <kbd>4</kbd>,
-  <kbd>5</kbd>, and <kbd>6</kbd> can be used to change the
-  [zoom](zoom.md) (you can use the Mouse Wheel to change zoom too).
-* <kbd>B</kbd> key is the Pencil tool, and <kbd>M</kbd> the rectangular marquee, maybe the
-  most common tools that you will use.
-* <kbd>Alt+click</kbd> allows you to pick colors from the active image
-  using the Eyedropper tool ![Eyedropper Tool Icon](tools/eyedropper-tool.png):
-  <kbd>Alt+Left click</kbd> samples the Foreground Color,
-  <kbd>Alt+Right click</kbd> samples the Background Color.
-* The <kbd>Ctrl</kbd> key (or <kbd>⌘</kbd> on macOS) can be used to
-  select the [Move tool](move-tool.md) ![Move Tool Icon](tools/move-tool.png).
-  With it you can easily select or move layers.
-* The <kbd>Tab</kbd> key hides and reveals the
-  [timeline](timeline.md). If your timeline is ever missing, this is
-  the fastest way to reveal it!
+* 数字键 <kbd>1</kbd>, <kbd>2</kbd>, <kbd>3</kbd>, <kbd>4</kbd>, <kbd>5</kbd>, 和 <kbd>6</kbd> 可用于更改[缩放](./zoom.md)级别（你也可以使用鼠标滚轮来更改缩放）。
+* <kbd>B</kbd> 键是铅笔工具，<kbd>M</kbd> 是矩形选框，这些可能是你最常用的工具。
+* <kbd>Alt+单击</kbd> 允许你使用吸管工具 ![吸管工具图标](./tools/eyedropper-tool.png) 从活动图像中拾取颜色：<kbd>Alt+左键单击</kbd> 采样前景色，<kbd>Alt+右键单击</kbd> 采样背景色。
+* <kbd>Ctrl</kbd> 键（或 macOS 上的 <kbd>⌘</kbd>）可用于选择[移动工具](./move-tool.md) ![移动工具图标](./tools/move-tool.png)。使用它可以轻松选择或移动图层。
+* <kbd>Tab</kbd> 键可隐藏和显示[时间轴](./timeline.md)。如果你的时间轴不见了，这是让其重新显示的最快方法！
 
-* Holding <kbd>Spacebar</kbd> as you <kbd>Left click+Drag</kbd> will
-  pan your view of the sprite you are currently editing. This is useful when
-  you're working on large graphics or are zoomed-in.
+* 按住<kbd>空格键</kbd>的同时<kbd>左键单击并拖动</kbd>，将平移你当前正在编辑的精灵视图。当你在处理大型图形或放大视图时，这非常有用。
 
-## Alternative functions for right-click
+## 右键单击的替代功能
 
-By default, <kbd>Right click</kbd> paints with the [Background Color](color-bar.md#background-color),
-but you can change this configuration from [*Edit > Preferences > Editor*](right-click.md).
+默认情况下，<kbd>右键单击</kbd>使用[背景色](./color-bar.md#background-color)进行绘制，但你可以通过 [*编辑 > 首选项 > 编辑器*](./right-click.md) 更改此配置。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Workspace](workspace.md) |
-[Workflow](workflow.md) |
-[Sprite](sprite.md)
+[工作区](./workspace.md) |
+[工作流程](./workflow.md) |
+[精灵](./sprite.md)

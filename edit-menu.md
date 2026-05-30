@@ -1,82 +1,82 @@
-# Edit Menu
+# 编辑菜单
 
-The **Edit Menu** contains options/commands to modify the current sprite, as well as Aseprite settings.
+**编辑菜单**包含用于修改当前精灵以及 Aseprite 设置的选项/命令。
 
-## Undo, Redo, & Undo History
+## 撤销、重做和撤销历史
 
-* **Undo**: Undoes the previous action. *Shortcut:* <kbd>Ctrl+Z</kbd>.
-* **Redo**: Redoes the previous action. *Shortcut:* <kbd>Ctrl+Y</kbd>.
-* **Undo History**: See the [Undo History](undo-history.md#undohistory) section.
+* **撤销**：撤销上一步操作。*快捷键：* <kbd>Ctrl+Z</kbd>。
+* **重做**：重做上一步操作。*快捷键：* <kbd>Ctrl+Y</kbd>。
+* **撤销历史**：请参阅[撤销历史](./undo-history.md#undohistory)部分。
 
-## Cut, Copy, & Paste
+## 剪切、复制和粘贴
 
-* **Cut**: Cuts the active [selection](selecting.md#selecting) content. *Shortcut:* <kbd>Ctrl+X</kbd>.
-* **Copy**: Copies the selected content, [layer](layers.md#layers), [cel](cel.md#cel), or frame; e.g if a layer was selected, the layer would be copied. *Shortcut:* <kbd>Ctrl+C</kbd>.
-* **Copy Merged**: Copies the selected content for each visible layer, merged into one image. *Shortcut:* <kbd>Ctrl+Shift+C</kbd>.
-* **Paste**: Pastes the clipboard (can be a layer, cel, portion of the sprite, etc). *Shortcut:* <kbd>Ctrl+V</kbd>.
-* **Paste Special**: 
-    * *Paste as New Sprite*: Pastes as a new [sprite](sprite.md#spritestructure).
-    * *Paste as New Layer*: Pastes as a new layer.
-    * *Paste as New Reference Layer*: Pastes as a new [reference layer](reference-layer.md#referencelayer).
-* **Delete**: Deletes the selected content, layer, cel, or frame. *Shortcut:* <kbd>Del</kbd>.
+* **剪切**：剪切活动[选区](./selecting.md#selecting)的内容。*快捷键：* <kbd>Ctrl+X</kbd>。
+* **复制**：复制选中的内容、[图层](./layers.md#layers)、[Cel](./cel.md#cel) 或帧；例如，如果选中了一个图层，该图层将被复制。*快捷键：* <kbd>Ctrl+C</kbd>。
+* **合并复制**：为每个可见图层复制选中的内容，合并为一个图像。*快捷键：* <kbd>Ctrl+Shift+C</kbd>。
+* **粘贴**：粘贴剪贴板内容（可以是图层、Cel、精灵的一部分等）。*快捷键：* <kbd>Ctrl+V</kbd>。
+* **特殊粘贴**：
+    * *粘贴为新精灵*：粘贴为一个新的[精灵](./sprite.md#spritestructure)。
+    * *粘贴为新图层*：粘贴为一个新的图层。
+    * *粘贴为新参考图层*：粘贴为一个新的[参考图层](./reference-layer.md#referencelayer)。
+* **删除**：删除选中的内容、图层、Cel 或帧。*快捷键：* <kbd>Del</kbd>。
 
-## Fill & Stroke
+## 填充与描边
 
-* **Fill**: Fills the active selection with the [foreground color](color-bar.md#foreground-color). *Shortcut:* <kbd>F</kbd>.
-* **Stroke**: Outlines the inside of the active selection with the foreground color. *Shortcut:* <kbd>S</kbd>.
+* **填充**：使用[前景色](./color-bar.md#foreground-color)填充活动选区。*快捷键：* <kbd>F</kbd>。
+* **描边**：使用前景色勾勒活动选区内部的轮廓。*快捷键：* <kbd>S</kbd>。
 
-## Rotation & Flipping
+## 旋转与翻转
 
-* **Rotate**: See the [Rotate Canvas](rotate-canvas.md#rotate-canvas) section. 
-* **Flip Horizontal**: Flips the sprite or selection horizontally. *Shortcut:* <kbd>Shift+H</kbd>.   
-* **Flip Vertical**: Flips the sprite or selection vertically. *Shortcut:* <kbd>Shift+V</kbd>.  
-* **Transform**: Selects the cel content. *Shortcut:* <kbd>Ctrl+T</kbd>.
-* **Shift**: Shifts the pixels of a selection once in the selected direction. Pixels on the ends of the selection will wrap around when shifted.
+* **旋转**：请参阅[旋转画布](./rotate-canvas.md#rotate-canvas)部分。
+* **水平翻转**：水平翻转精灵或选区。*快捷键：* <kbd>Shift+H</kbd>。
+* **垂直翻转**：垂直翻转精灵或选区。*快捷键：* <kbd>Shift+V</kbd>。
+* **变换**：选择 Cel 内容。*快捷键：* <kbd>Ctrl+T</kbd>。
+* **移位**：将选区的像素向选定方向移动一次。移位时，选区末端的像素将循环回绕。
 
-![shift example](edit-menu/shift.gif)
+![移位示例](./edit-menu/shift.gif)
 
-## New Brush & New Sprite From Selection
+## 新建画笔和从选区新建精灵
 
-* **New Brush**: Creates a new brush. See the [Brushes](brushes.md#custom-pattern-brushes) section. *Shortcut:* <kbd>Ctrl+B</kbd>.
-* **New Sprite From Selection**: Creates a new sprite from the selection content. See the [New Sprite](new-sprite.md#new-sprite-from-selection) section. *Shortcut:* <kbd>Ctrl+Alt+N</kbd>.
+* **新建画笔**：创建一个新画笔。请参阅[画笔](./brushes.md#custom-pattern-brushes)部分。*快捷键：* <kbd>Ctrl+B</kbd>。
+* **从选区新建精灵**：从选区内容创建一个新精灵。请参阅[新建精灵](./new-sprite.md#new-sprite-from-selection)部分。*快捷键：* <kbd>Ctrl+Alt+N</kbd>。
 
-## Replace Color
+## 替换颜色
 
-See the [Replace Color](replace-color.md#replace-color) section. 
+请参阅[替换颜色](./replace-color.md#replace-color)部分。
 
-## Invert
+## 反相
 
-Inverts all of the colors in a selection or cel.
+反转选区或 Cel 中的所有颜色。
 
-The menu has a few important buttons at the bottom:
+该菜单底部有几个重要的按钮：
 
-* The *R*, *G*, *B*, and *A* buttons control if a component should be inverted, e.g: the *R* button is checked, so the *R* (red) component can be inverted.
-* The bottom button controls if the invert should apply to the active timeline selection (*Selected*) or all of the cels in the sprite (*All*). If [a portion of a sprite is selected](selecting.md#selecting): in *Selected* mode the invert would only apply to the selected content of the selected timeline elements; in *All* mode the invert would apply to the selected content of all of the sprite's cels.
+* *R*、*G*、*B* 和 *A* 按钮控制是否应反转某个分量，例如：*R* 按钮被选中，因此 *R*（红色）分量可以被反转。
+* 底部按钮控制反相应应用于活动的时间轴选区（*Selected*）还是精灵中的所有 Cel （*All*）。如果[选中了精灵的一部分](./selecting.md#selecting)：在 *Selected* 模式下，反相只会应用于所选时间轴元素的选中内容；在 *All* 模式下，反相将应用于精灵所有 Cel 的选中内容。
 
-![image of component buttons and selection button](edit-menu/invert-buttons.png)
+![分量按钮和选择按钮的图像](./edit-menu/invert-buttons.png)
 
-## Adjustments
+## 调整
 
-See the [Adjustments](adjustments.md#adjustments) section. 
+请参阅[调整](./adjustments.md#adjustments)部分。
 
 ## FX
 
-See the [FX](fx.md#fx) section. 
+请参阅 [FX](./fx.md#fx) 部分。
 
-## Insert Text
+## 插入文本
 
-See the [Text Tool](text-tool.md#text-tool-&amp;-insert-text) section. 
+请参阅[文本工具](./text-tool.md#text-tool-&-insert-text)部分。
 
-## Keyboard Shortcuts
+## 键盘快捷键
 
-See the [Keyboard Shortcuts](keyboard-shortcuts.md#keyboard-shortcuts) section. 
+请参阅[键盘快捷键](./keyboard-shortcuts.md#keyboard-shortcuts)部分。
 
-## Preferences
+## 首选项
 
-See the [Preferences](preferences.md#preferences) section. 
+请参阅[首选项](./preferences.md#preferences)部分。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Menu Bar](menu-bar.md#menu-bar)
+[菜单栏](./menu-bar.md#menu-bar)

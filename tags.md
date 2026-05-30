@@ -1,25 +1,25 @@
-# Tags
+# 标签
 
-A tag indicates an animation of your sprite. Using several tags you
-can organize different animations of your sprite:
+标签指示了你的 Sprite 的一个动画。使用多个标签，你
+可以组织 Sprite 的不同动画：
 
-<img src="/docs/tags/tags.png" alt="Tags" class="xN" />
+<img src="./tags/tags.png" alt="标签" class="xN" />
 
-To create a tag you can [select a range](range.md) of frames and use the *Frame >
-Tags > New Tag* menu option, or right-click the range and select *New
-Tag*, or press the *F2* key two times, i.e. the first time will create
-a [*"Loop"* tag](loop.md), the second time you press <kbd>F2</kbd> will show the tag
-properties so you can change its name, etc.:
+要创建标签，你可以[选择一个帧范围](./range.md)并使用 *帧 >
+标签 > 新建标签* 菜单选项，或者右键单击该范围并选择 *新建
+标签*，或者按两次 <kbd>F2</kbd> 键，即，第一次将创建
+一个 [*"循环"* 标签](./loop.md)，第二次按下 <kbd>F2</kbd> 将显示标签
+属性，以便你更改其名称等：
 
-<img src="/docs/tags/tag-properties.png" alt="Tag Properties" class="x2" />
+<img src="./tags/tag-properties.png" alt="标签属性" class="x2" />
 
-The most interesting property of a tag is the *"Animation Direction"*,
-where you can specify three different modes to play the tag:
-*Forward*, *Reverse*, or *Ping-pong*.
+标签最有趣的属性是 *"动画方向"*，
+你可以在其中指定三种不同的模式来播放标签：
+*正向*、*反向* 或 *乒乓*。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Animation](animation.md) |
-[Sprite](sprite.md)
+[动画](./animation.md) |
+[Sprite](./sprite.md)

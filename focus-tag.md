@@ -1,23 +1,20 @@
-# Focus Tag
+# 聚焦标签
 
-The [timeline](timeline.md) has the possibility to focus
-[a tag](tags.md), actually a *"tag band."* We define a
-*"tag band"* as these rows where several tags are grouped:
+[时间轴](./timeline.md)可以聚焦[一个标签](./tags.md)，实际上是一个 *“标签栏”* 。我们将多个标签分组所在的这些行定义为一个 *“标签栏”*：
 
-![Tag Bands](focus-tag/bands.gif)
+![标签栏](./focus-tag/bands.gif)
 
-You can double-click one of these bands or press the little button at
-the right side to "focus" the tags in this band (and hide all others):
+你可以双击其中一个栏，或按下右侧的小按钮来“聚焦”此栏中的标签（并隐藏所有其他标签）：
 
-![Focus Band](focus-tag/focus.gif)
+![聚焦栏](./focus-tag/focus.gif)
 
-When you do this, the Play button ![Play icon](animation/play-button.png)
-will reproduce only tags found in the currently focused band.
+当你这样做时，播放按钮 ![播放图标](./animation/play-button.png)
+将只播放当前聚焦栏中找到的标签。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Tags](tags.md) |
-[Timeline](timeline.md) |
-[Animation](animation.md)
+[标签](./tags.md) |
+[时间轴](./timeline.md) |
+[动画](./animation.md)

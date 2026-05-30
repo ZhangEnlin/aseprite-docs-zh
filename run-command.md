@@ -1,39 +1,39 @@
-# Run Command
+# 运行命令
 
-The Run Command window can run any option from the [menu bar](menu-bar.md#menu-bar), any installed script, or any command from the [keyboard shortcuts](keyboard-shortcuts.md#keyboard-shortcuts) menu. It can be accessed with *View > Run Command* or <kbd>Ctrl+Space</kbd>.
+运行命令窗口可以运行[菜单栏](./menu-bar.md#menu-bar)中的任何选项、任何已安装的脚本，或[键盘快捷键](./keyboard-shortcuts.md#keyboard-shortcuts)菜单中的任何命令。可以通过*视图 > 运行命令*或 <kbd>Ctrl+空格键</kbd> 访问。
 
-![run command example](run-command/run-command.gif)
+![运行命令示例](./run-command/run-command.gif)
 
-## Running a Command
+## 运行命令
 
-To run a command, search the name of the command you want to run in the search box. Below the search box, search results will appear. Press <kbd>Enter</kbd> to execute the first result; use the arrow keys to pick other results.
+要运行命令，请在搜索框中搜索你要运行的命令的名称。在搜索框下方，将显示搜索结果。按 <kbd>Enter</kbd> 执行第一个结果；使用方向键选择其他结果。
 
-![run command search/arrow keys example ](run-command/search.gif)
+![运行命令搜索/方向键示例](./run-command/search.gif)
 
-## Math Expressions
+## 数学表达式
 
-The Run Command window supports math expressions. To enter a math expression, type <kbd>=</kbd> (equals sign) followed by a math expression. The result will be shown below the entry box. If the math expression is invalid (e.g: there is an unclosed parenthesis) then the result will be `NaN`.
+运行命令窗口支持数学表达式。要输入数学表达式，请键入 <kbd>=</kbd>（等号），后跟一个数学表达式。结果将显示在输入框下方。如果数学表达式无效（例如：有一个未闭合的括号），则结果将为 `NaN`。
 
-![math expressions example](run-command/math.gif)
+![数学表达式示例](./run-command/math.gif)
 
 
-### Supported Symbols, Constants, & Functions
+### 支持的符号、常量和函数
 
-| Symbol | Description 
+| 符号 | 描述
 |-|-
-| `+` | Add
-| `-` | Subtract/Negate 
-| `*` | Multiply
-| `/` | Divide
-| `^` | Exponent/Power
-| `%` | [Modulus](https://en.wikipedia.org/wiki/Modulo) (remainder divide)
+| `+` | 加
+| `-` | 减/取负
+| `*` | 乘
+| `/` | 除
+| `^` | 指数/幂
+| `%` | [取模](https://en.wikipedia.org/wiki/Modulo)（求余数）
 
-| Constant | Description 
+| 常量 | 描述
 |-|-
-| `pi` | The value of [Pi](https://en.wikipedia.org/wiki/Pi) (`3.14159...`).
-| `e` | E for use in [scientific notation](https://en.wikipedia.org/wiki/Scientific_notation#E_notation), e.g (`2.4e8`).
+| `pi` | [Pi](https://en.wikipedia.org/wiki/Pi) 的值（`3.14159...`）。
+| `e` | 用于[科学记数法](https://en.wikipedia.org/wiki/Scientific_notation#E_notation)的 E，例如（`2.4e8`）。
 
-**Supported Functions:**
+**支持的函数：**
 * `abs(x)` 
 * `acos(x)`
 * `asin(x)`
@@ -54,16 +54,16 @@ The Run Command window supports math expressions. To enter a math expression, ty
 * `tan(x)`
 * `tanh(x)`
 
-## Inline Lua Expressions
+## 内联 Lua 表达式
 
-The Run Command window supports inline [Lua](https://www.lua.org/) code. To start a codeline, type <kbd>@</kbd>.
+运行命令窗口支持内联 [Lua](https://www.lua.org/) 代码。要开始一行代码，请键入 <kbd>@</kbd>。
 
-![lua expressions example](run-command/lua.gif)
+![lua 表达式示例](./run-command/lua.gif)
 
-Global variables and functions can be created and accessed with another Run Command codeline; the variables and functions are reset after the Aseprite instance is closed.
+可以创建全局变量和函数，并通过另一个运行命令代码行进行访问；这些变量和函数在 Aseprite 实例关闭后重置。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Keyboard Shortcuts](keyboard-shortcuts#keyboard-shortcuts.md)
+[键盘快捷键](keyboard-shortcuts#keyboard-shortcuts.md)

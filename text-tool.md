@@ -1,40 +1,40 @@
-# Text Tool & Insert Text
+# 文本工具 & 插入文本
 
-The Text Tool and Insert Text option are two different ways to create text in Aseprite. They share mostly the same options, with the Text Tool having a few more than Insert Text. The Text Tool can be accessed with <kbd>T</kbd> and the Insert Text menu can be accessed with *Edit > Insert Text*.
+文本工具和插入文本选项是在 Aseprite 中创建文本的两种不同方式。它们共享大部分相同的选项，文本工具比插入文本多一些选项。可以使用 <kbd>T</kbd> 键访问文本工具，使用 *编辑 > 插入文本* 访问插入文本菜单。
 
-![text tool example](text-tool/text-tool.gif)
+![文本工具示例](./text-tool/text-tool.gif)
 
-## Font selector
+## 字体选择器
 
-Picks the font to use for the text. Clicking on the selector opens a dropdown with the installed system fonts. Clicking "Load External Font" loads a font from a file.
+选择用于文本的字体。点击选择器会打开一个包含已安装系统字体的下拉菜单。点击“加载外部字体”从文件加载字体。
 
-## Font size
+## 字体大小
 
-Changes the font size. Depending on the font, some font sizes may have the `*` symbol next to them, indicating that the size is to pixel scale with the font.
+更改字体大小。根据字体的不同，某些字体大小旁边可能会有 `*` 符号，表示该大小与该字体的像素比例匹配。
 
-## Font formatting
+## 字体格式
 
-Changes the font formatting. Options:
+更改字体格式。选项：
 
-* **Font Weight (bold)** - Sets the font weight.
-* **Italic** - Toggles italics.
+* **字体粗细（粗体）** - 设置字体粗细。
+* **斜体** - 切换斜体。
 
-* **Antialias** - Toggles antialising, which smoothes out the text.
-* **Hinting** - Toggles hinting, which aligns the font to the pixel grid.
-* **Ligatures** - Toggles ligatures.
-* **Fill** *(Text Tool only)*: Draws the font as a solid color. 
-* **Stroke** *(Text Tool only)*: Draws the font as an outline.
+* **抗锯齿** - 切换抗锯齿，使文本平滑。
+* **微调** - 切换微调，将字体对齐到像素网格。
+* **连字** - 切换连字。
+* **填充** *（仅限文本工具）*：将字体绘制为实心颜色。
+* **描边** *（仅限文本工具）*：将字体绘制为轮廓。
 
-    ![fill & stroke example](text-tool/fill-stroke.png)
+    ![填充 & 描边示例](./text-tool/fill-stroke.png)
 
-* **Stroke Width** *(Text Tool only)*: Controls the stroke width. 
+* **描边宽度** *（仅限文本工具）*：控制描边的宽度。
 
-## Color (Insert Text only)
+## 颜色（仅限插入文本）
 
-The color of the text. In the Text Tool, the foreground color is used instead.
+文本的颜色。在文本工具中，将使用前景色代替。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Edit Menu](edit-menu.md#edit-menu)
+[编辑菜单](./edit-menu.md#edit-menu)

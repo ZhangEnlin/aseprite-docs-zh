@@ -1,10 +1,8 @@
-# Extensions: Themes
+# 扩展：主题
 
-A theme extension is a way to modify the look & feel of the User
-Interface (UI) of Aseprite. There is a set of known themes in the
-[themes](https://github.com/aseprite/themes) repository.
+主题扩展是一种修改 Aseprite 用户界面（UI）外观和感觉的方式。[主题](https://github.com/aseprite/themes)仓库中有一组已知的主题。
 
-Content a `.aseprite-extension` file for a theme extension:
+主题扩展的 `.aseprite-extension` 文件内容：
 
 ```
 theme-example.aseprite-extension
@@ -18,7 +16,7 @@ theme-example.aseprite-extension
 +-- sheet.aseprite-data
 ```
 
-Content of the `package.json` file:
+`package.json` 文件内容：
 
 ```
 {
@@ -40,9 +38,7 @@ Content of the `package.json` file:
 }
 ```
 
-The given `"path"` property is a directory (generally `.` which means
-the same directory where the `package.json` file is located), and this
-directory must contain a set of files:
+给定的 `"path"` 属性是一个目录（通常是 `.`，表示 `package.json` 文件所在的同一目录），此目录必须包含一组文件：
 
 * [`theme.xml`](#theme-xml)
 * [`sheet.png`](#sheet-png)
@@ -50,7 +46,7 @@ directory must contain a set of files:
 
 ## theme.xml
 
-This is the most complex file of the theme, it's divided in several sections:
+这是主题中最复杂的文件，它分为几个部分：
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -64,18 +60,13 @@ This is the most complex file of the theme, it's divided in several sections:
 </theme>
 ```
 
-For an example you can see the official default [theme.xml](https://github.com/aseprite/aseprite/blob/master/data/extensions/aseprite-theme/theme.xml).
+作为示例，你可以查看官方默认的 [theme.xml](https://github.com/aseprite/aseprite/blob/master/data/extensions/aseprite-theme/theme.xml)。
 
-In a perfect world Aseprite should use only `<style>` elements, but as
-we migrated the themes in a progressive way from older versions,
-Aseprite uses a mix of `<dimensions>`, `<colors>`, and `<parts>` from
-the code directly (instead of using only the `<styles>`). Maybe in a
-future we would be able to reference only `<styles>`, but at the
-moment all these kind of elements are required.
+在理想情况下，Aseprite 应该只使用 `<style>` 元素，但由于我们以渐进的方式从旧版本迁移主题，Aseprite 在代码中混合使用了 `<dimensions>`、`<colors>` 和 `<parts>`（而不是仅使用 `<styles>`）。也许将来我们可以只引用 `<styles>`，但目前所有这些类型的元素都是必需的。
 
 ### &lt;theme&gt;
 
-The main `<theme>` element contains three attributes:
+主 `<theme>` 元素包含三个属性：
 
 ```xml
 <theme name="..."
@@ -84,17 +75,13 @@ The main `<theme>` element contains three attributes:
 </theme>
 ```
 
-The `name` attribute is just a way to identify the theme, anyway it's
-ignored, and the `displayName` from the `package.json` file will be
-used in the UI.
+`name` 属性只是一种识别主题的方式，但它会被忽略，UI 中将使用 `package.json` 文件中的 `displayName`。
 
-The `screenscaling="2"` is a way to specify the prefered default
-*"Edit > Preferences > General > Screen Scaling"* factor (2 means
-200%) and `uiscaling` the default *"UI Scaling"* factor (1 means 100%).
+`screenscaling="2"` 是一种指定首选默认 *"编辑 > 首选项 > 常规 > 屏幕缩放"* 因子的方式（2 表示 200%），`uiscaling` 是指定默认 *"UI 缩放"* 因子的方式（1 表示 100%）。
 
 ### &lt;authors&gt;
 
-A section to indicate the author(s) of the theme:
+一个用于指明主题作者的部分：
 
 ```xml
 <theme>
@@ -106,8 +93,7 @@ A section to indicate the author(s) of the theme:
 
 ### &lt;fonts&gt;
 
-A section to indicate the fonts used in the theme. You need to specify
-two fonts: `default` and `mini`:
+一个用于指明主题中使用字体的部分。你需要指定两种字体：`default` 和 `mini`：
 
 ```xml
 <theme>
@@ -118,18 +104,11 @@ two fonts: `default` and `mini`:
 </theme>
 ```
 
-Here `Aseprite` and `Aseprite Mini` fonts are defined in the default
-[`fonts.xml` file](https://github.com/aseprite/aseprite/blob/master/data/fonts/fonts.xml)
-that came with the Aseprite distribution. As an alternative, instead
-of specifing a pre-defined font in the `font="..."` attribute, you can
-define your own `<font />` element just like in the distributed
-`fonts.xml` file.
+这里的 `Aseprite` 和 `Aseprite Mini` 字体在 Aseprite 发行版自带的默认 [`fonts.xml` 文件](https://github.com/aseprite/aseprite/blob/master/data/fonts/fonts.xml)中定义。作为替代方案，你可以不通过 `font="..."` 属性指定预定义字体，而是定义自己的 `<font />` 元素，就像分发的 `fonts.xml` 文件中那样。
 
 ### &lt;dimensions&gt;
 
-The `<dimensions>` section contains a set of `<dim>` elements that
-specify a set of integer values (pixels) for different dimensions of
-the program:
+`<dimensions>` 部分包含一组 `<dim>` 元素，这些元素为程序的不同尺寸指定了一组整数值（像素）：
 
 ```xml
 <theme>
@@ -143,8 +122,7 @@ the program:
 
 ### &lt;colors&gt;
 
-The `<colors>` section contains a set of `<color>` elements that
-specify some colors used in the UI:
+`<colors>` 部分包含一组 `<color>` 元素，这些元素指定了 UI 中使用的一些颜色：
 
 ```xml
 <theme>
@@ -176,14 +154,13 @@ specify some colors used in the UI:
     <style id="...">...</style>
     <style id="...">...</style>
     ...
-  </colors>
+  </styles>
 </theme>
 ```
 
 ## sheet.png
 
-A [sprite sheet](sprite-sheet.md) with the content of each theme
-part. It means that for each `<part>` element from `theme.xml`:
+一个包含每个主题部件内容的[精灵表](./sprite-sheet.md)。这意味着对于 `theme.xml` 中的每个 `<part>` 元素：
 
 ```xml
 <theme>
@@ -194,15 +171,11 @@ part. It means that for each `<part>` element from `theme.xml`:
 </theme>
 ```
 
-You will have a sprite in the `<part>`'s area.
+你将在 `<part>` 的区域中拥有一个精灵。
 
 ## sheet.aseprite-data
 
-This is an auxiliary file used by Aseprite. When we load the
-`sheet.png` file, if Aseprite finds this `sheet.aseprite-data` file,
-it will create one slice for each theme part from `theme.xml` (the
-same when we save the `sheet.png` from Aseprite, the theme parts will
-be kept in sync with the slices):
+这是一个 Aseprite 使用的辅助文件。当我们加载 `sheet.png` 文件时，如果 Aseprite 找到此 `sheet.aseprite-data` 文件，它将为 `theme.xml` 中的每个主题部件创建一个切片（当我们从 Aseprite 保存 `sheet.png` 时也是如此，主题部件将与切片保持同步）：
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -213,6 +186,6 @@ be kept in sync with the slices):
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Extensions](extensions.md)
+[扩展](./extensions.md)

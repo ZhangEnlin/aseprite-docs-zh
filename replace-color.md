@@ -1,19 +1,19 @@
-# Replace Color
+# 替换颜色
 
-![replace color example](replace-color/replace-color.gif)
+![替换颜色示例](./replace-color/replace-color.gif)
 
-Replaces a color in a sprite or selection with a different color. Can be accessed with *Edit > Replace Color* or <kbd>Shift+R</kbd>.
+将精灵图或选区中的一种颜色替换为另一种颜色。可通过*编辑 > 替换颜色*或 <kbd>Shift+R</kbd> 访问。
 
-* **To**: The color to replace.
-* **From**: The color to replace with.
-* **Tolerance**: Adjusts how similar colors are replaced, with `0` being only the exact color will be replaced and `255` being all colors will be filled. 
-* **RGBA**:
-    * The *RGBA* buttons control if a component should be replaced, e.g: the *R* button is checked, so the *R* (red) component will be replaced.
-    * The bottom button controls if the replace color should apply to the active timeline selection (*Selected*) or all of the cels in the sprite (*All*). If [a portion of a sprite is selected](selecting.md#selecting): in *Selected* mode it would only apply to the selected content of the selected timeline elements; in *All* mode it would apply to the selected content of all of the sprite's cels. 
+* **目标**：要被替换的颜色。
+* **替换为**：替换后的颜色。
+* **容差**：调整替换相似颜色的程度，`0` 表示只有完全相同的颜色会被替换，`255` 表示所有颜色都将被填充。
+* **RGBA**：
+    * *RGBA* 按钮控制是否应替换某个颜色分量，例如：*R* 按钮被选中，因此 *R*（红色）分量将被替换。
+    * 底部按钮控制替换颜色操作是应用于当前时间轴选区（*选中*），还是应用于精灵图中的所有 cel（*全部*）。如果[精灵图的一部分被选中](./selecting.md#selecting)：在*选中*模式下，它只应用于选中时间轴元素的选中内容；在*全部*模式下，它将应用于所有精灵图 cel 的选中内容。
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Edit Menu](edit-menu.md#edit-menu) |
-[Paint Bucket](context-bar.md#paint-bucket)
+[编辑菜单](./edit-menu.md#edit-menu) |
+[油漆桶](./context-bar.md#paint-bucket)

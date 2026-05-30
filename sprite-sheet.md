@@ -1,53 +1,52 @@
-# Sprite sheets
+# Sprite Sheet
 
-A sprite sheet is one big image with several frames of the same sprite
-on it. For example, you can save this animation:
+Sprite Sheet 是一张包含同一 Sprite 的多个帧的大图像。
+例如，你可以保存这个动画：
 
-![Running Guy](sprite-sheet/running-guy.gif)
+![奔跑的人](./sprite-sheet/running-guy.gif)
 
-Like an horizontal sprite sheet:
+作为水平的 Sprite Sheet：
 
-![Horizontal Sprite Sheet](sprite-sheet/running-guy-horz.png)
+![水平 Sprite Sheet](./sprite-sheet/running-guy-horz.png)
 
-A vertical one:
+垂直的：
 
-![Vertical Sprite Sheet](sprite-sheet/running-guy-vert.png)
+![垂直 Sprite Sheet](./sprite-sheet/running-guy-vert.png)
 
-Or a matrix:
+或者矩阵式的：
 
-![Matrix Sprite Sheet](sprite-sheet/running-guy-matrix.png)
+![矩阵 Sprite Sheet](./sprite-sheet/running-guy-matrix.png)
 
-In the following section you will know how to export and import this
-kind of images into Aseprite.
+在下面的部分，你将了解如何将此类图像导入
+Aseprite 以及如何导出它们。
 
-## Import
+## 导入
 
-To import a sprite sheet use *File > Import Sprite Sheet* option.
-Then you can select the file to import with an assigned offset `x`,
-`y` and sprite `width`, `height`.
+要导入 Sprite Sheet，请使用 *文件 > 导入 Sprite Sheet* 选项。
+然后你可以选择要导入的文件，并指定偏移 `x`、
+`y` 以及 Sprite 的 `width`、`height`。
 
-![Import Sprite Sheet 01](sprite-sheet/running-guy-import-01.png)
+![导入 Sprite Sheet 01](./sprite-sheet/running-guy-import-01.png)
 
-Padding is available if there are gaps between sprites,
-and the sheet type will affect the order of the sprites taken in.
+如果 Sprite 之间存在间隙，可以使用填充（Padding），
+并且 Sheet 类型会影响 Sprites 的获取顺序。
 
-![Import Sprite Sheet 02](sprite-sheet/running-guy-import-02.png)
+![导入 Sprite Sheet 02](./sprite-sheet/running-guy-import-02.png)
 
-## Export
+## 导出
 
-To export a sprite sheet use *File > Export Sprite Sheet* option.
-You can select all visible layers or a certain layer,
-and select the frames based on tags.
+要导出 Sprite Sheet，请使用 *文件 > 导出 Sprite Sheet* 选项。
+你可以选择所有可见图层或特定图层，
+并根据标签选择帧。
 
-![Export Sprite Sheet](sprite-sheet/running-guy-export.png)
+![导出 Sprite Sheet](./sprite-sheet/running-guy-export.png)
 
-## Automate from Command Line
+## 从命令行自动化
 
-(*Work-in-progress*)
+（*正在进行中*）
 
-## Texture Atlases
+## 纹理图集
 
-A texture atlas is an huge image with all the graphics, sprites and
-images that a game will use. It's called "texture" because the image
-can be loaded into the video memory, to render graphics on screen with
-hardware acceleration.
+纹理图集是一张巨大的图像，包含了游戏将使用的所有图形、Sprite 和
+图像。它之所以被称为"纹理"，是因为该图像
+可以加载到显存中，以便在屏幕上利用硬件加速渲染图形。

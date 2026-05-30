@@ -1,31 +1,30 @@
-# Undo History
+# 撤销历史
 
-Undo history is a list of a sprite's states. A new state is saved each time an action is done to the sprite. When you use *Edit > Undo* (<kbd>Ctrl+Z</kbd>) or *Edit > Redo* 
-(<kbd>Ctrl+Y</kbd>), you are moving back and forth through this list of states.
+撤销历史是 sprite 状态的列表。每次对 sprite 执行操作时，都会保存一个新状态。当你使用 *编辑 > 撤销*（<kbd>Ctrl+Z</kbd>）或 *编辑 > 重做*（<kbd>Ctrl+Y</kbd>）时，你正在这个状态列表中前后移动。
 
-The undo history memory limit can be changed in the [preferences](preferences.md#undo) menu.
+撤销历史的内存限制可以在[首选项](./preferences.md#undo)菜单中更改。
 
-## Undo History Menu
+## 撤销历史菜单
 
-![undo history menu](undo-history/undo-history.png)
+![撤销历史菜单](./undo-history/undo-history.png)
 
-The undo history menu shows the sprite's undo history. It can be accessed with *Edit > Undo History*. 
+撤销历史菜单显示了 sprite 的撤销历史。可以通过 *编辑 > 撤销历史* 访问。
 
-Clicking on an entry changes the sprite's current state to the one that was clicked. After an action on the sprite (creating a new entry), the state either adds to or replaces the states in front of it depending on the non-linear undo history setting.
+点击某个条目会将 sprite 的当前状态更改为所点击的那一个状态。在对 sprite 进行操作（创建新条目）后，根据是否启用非线性撤销历史设置，新状态要么添加到前面的状态前面，要么替换掉前面的状态。
 
-### Non-Linear Undo History
+### 非线性撤销历史
 
-By default the Undo History acts linearly: when Undo is used (which moves the current sprite state back one entry), the next action will erase all steps that can be redone. If this Non-Linear History is enabled and Undo is used, the next action will add the new sprite state to the list, keeping the old one intact. 
+默认情况下，撤销历史是线性运作的：当使用撤销（将当前 sprite 状态向后移动一个条目）时，下一个操作将擦除所有可以被重做的步骤。如果启用了这个非线性历史并使用了撤销，下一个操作将会将新的 sprite 状态添加到列表中，同时保留旧状态不变。
 
-Non-Linear Undo History can be toggled on/off in the [preferences](preferences.md#undo) menu.
+非线性撤销历史可以在[首选项](./preferences.md#undo)菜单中打开/关闭。
 
-|Enabled|Disabled
-|-|-
-|![example with non-linear undo history enabled](undo-history/non-linear-on.gif)|![example with non-linear undo history disabled](undo-history/non-linear-off.gif)
+| 启用 | 禁用 |
+| - | - |
+| ![启用非线性撤销历史的示例](./undo-history/non-linear-on.gif) | ![禁用非线性撤销历史的示例](./undo-history/non-linear-off.gif) |
 
 ---
 
-**SEE ALSO**
+**另请参阅**
 
-[Preferences](preferences.md#preferences) |
-[Edit Menu](edit-menu.md#edit-menu)
+[首选项](./preferences.md#preferences) |
+[编辑菜单](./edit-menu.md#edit-menu)
