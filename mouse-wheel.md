@@ -13,12 +13,12 @@
 
 | 操作                 | Windows            | macOS              |
 |---------------------|--------------------|--------------------|
-| 向左水平滚动         | <kbd>Shift+⬆</kbd> | <kbd>Shift+⬇</kbd> |
-| 向右水平滚动         | <kbd>Shift+⬇</kbd> | <kbd>Shift+⬆</kbd> |
+| 向左水平滚动         | <kbd>Shift + ⬆</kbd> | <kbd>Shift + ⬇</kbd> |
+| 向右水平滚动         | <kbd>Shift + ⬇</kbd> | <kbd>Shift + ⬆</kbd> |
 | 放大                 | <kbd>⬆</kbd>       | <kbd>⬇</kbd>       |
 | 缩小                 | <kbd>⬇</kbd>       | <kbd>⬆</kbd>       |
-| 增加画笔大小         | <kbd>Ctrl+⬇</kbd>  | <kbd>Ctrl+⬆</kbd>  |
-| 减小画笔大小         | <kbd>Ctrl+⬆</kbd>  | <kbd>Ctrl+⬇</kbd>  |
+| 增加画笔大小         | <kbd>Ctrl + ⬇</kbd>  | <kbd>Ctrl + ⬆</kbd>  |
+| 减小画笔大小         | <kbd>Ctrl + ⬆</kbd>  | <kbd>Ctrl + ⬇</kbd>  |
 
 ## 禁用*使用滚轮缩放*时
 
@@ -26,10 +26,10 @@
 |--------------------|--------------------|--------------------|
 | 向上滚动             | <kbd>⬆</kbd>       | <kbd>⬇</kbd>       |
 | 向下滚动             | <kbd>⬇</kbd>       | <kbd>⬆</kbd>       |
-| 向左水平滚动         | <kbd>Shift+⬆</kbd> | <kbd>Shift+⬇</kbd> |
-| 向右水平滚动         | <kbd>Shift+⬇</kbd> | <kbd>Shift+⬆</kbd> |
-| 放大                | <kbd>Ctrl+⬆</kbd>  | <kbd>Ctrl+⬇</kbd>  |
-| 缩小                | <kbd>Ctrl+⬇</kbd>  | <kbd>Ctrl+⬆</kbd>  |
+| 向左水平滚动         | <kbd>Shift + ⬆</kbd> | <kbd>Shift + ⬇</kbd> |
+| 向右水平滚动         | <kbd>Shift + ⬇</kbd> | <kbd>Shift + ⬆</kbd> |
+| 放大                | <kbd>Ctrl + ⬆</kbd>  | <kbd>Ctrl + ⬇</kbd>  |
+| 缩小                | <kbd>Ctrl + ⬇</kbd>  | <kbd>Ctrl + ⬆</kbd>  |
 
 ## 自定义
 

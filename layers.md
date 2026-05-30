@@ -8,12 +8,12 @@
 
 ![图层图标](./layers/layer-options.png)
 
-*图层名称*：用于标识该图层的文本。你可以通过双击图层，或通过*图层 > 属性*菜单（<kbd>Shift+P</kbd> 键）来更改图层名称。
+*图层名称*：用于标识该图层的文本。你可以通过双击图层，或通过*图层 > 属性*菜单（<kbd>Shift + P</kbd> 键）来更改图层名称。
 
 *Cel*：一组 [cel](./cel.md)，即特定图层在特定帧中包含可见内容的帧。
 
 *可见*：指示该图层是可见的 ![可见图层图标](./layers/visible-layer.png)
-还是隐藏的 ![隐藏图层图标](./layers/hidden-layer.png)。你可以使用*图层 > 可见*菜单或 <kbd>Shift+X</kbd> 键来切换图层可见性。
+还是隐藏的 ![隐藏图层图标](./layers/hidden-layer.png)。你可以使用*图层 > 可见*菜单或 <kbd>Shift + X</kbd> 键来切换图层可见性。
 
 *锁定*：如果图层被锁定 ![锁定图层图标](./layers/locked-layer.png)，你就无法在其上绘制。
 默认情况下，所有图层都是解锁/可编辑的 ![可编辑图层图标](./layers/editable-layer.png)。
@@ -49,7 +49,7 @@
 当你选中透明图层的一部分并将其清除（使用
 *编辑 > 清除*菜单）时，选区将被[透明色](./transparent-color.md)清除。
 
-你可以使用*图层 > 新建 > 新建图层*菜单或 <kbd>Shift+N</kbd> 来
+你可以使用*图层 > 新建 > 新建图层*菜单或 <kbd>Shift + N</kbd> 来
 创建一个新的透明图层。
 
 ## 从图层转为背景
@@ -75,13 +75,13 @@
 
 ## 瓦片贴图图层
 
-从 **Aseprite v1.3** 开始，你可以通过*图层 > 新建 > 新建瓦片贴图图层*菜单或使用 <kbd>Space+N</kbd> 来创建[瓦片贴图图层](./tilemap.md)。
+从 **Aseprite v1.3** 开始，你可以通过*图层 > 新建 > 新建瓦片贴图图层*菜单或使用 <kbd>Space + N</kbd> 来创建[瓦片贴图图层](./tilemap.md)。
 你也可以通过任何常规透明图层使用*图层 > 转换为 > 瓦片贴图*来创建（瓦片将根据当前的网格设置创建）。
 
 ## 从选区新建图层
 
-* <kbd>Ctrl+J</kbd> 或 <kbd>⌘J</kbd>：复制[选区](./selecting.md)并从中创建一个新图层
-* <kbd>Ctrl+Shift+J</kbd> 或 <kbd>⇧⌘J</kbd>：剪切[选区](./selecting.md)并从中创建一个新图层
+* <kbd>Ctrl + J</kbd> 或 <kbd>⌘ J</kbd>：复制[选区](./selecting.md)并从中创建一个新图层
+* <kbd>Ctrl + Shift + J</kbd> 或 <kbd>⇧ ⌘ J</kbd>：剪切[选区](./selecting.md)并从中创建一个新图层
 
 ---
 

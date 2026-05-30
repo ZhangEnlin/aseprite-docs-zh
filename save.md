@@ -1,6 +1,6 @@
 # 保存
 
-你可以使用*文件 > 保存*菜单或按 <kbd>Ctrl+S</kbd>（在 macOS 上为 <kbd>⌘S</kbd>）来保存你的精灵图。
+你可以使用*文件 > 保存*菜单或按 <kbd>Ctrl + S</kbd>（在 macOS 上为 <kbd>⌘ S</kbd>）来保存你的精灵图。
 
 我们强烈建议你将精灵图保存为
 [.aseprite](./files.md#aseprite) 格式，这样可以保持完整的精灵图

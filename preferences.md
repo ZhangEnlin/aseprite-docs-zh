@@ -1,6 +1,6 @@
 # 首选项
 
-你可以通过*编辑 > 首选项*菜单或按 <kbd>Ctrl+K</kbd> 键（在 macOS 上为 <kbd>⌘K</kbd>
+你可以通过*编辑 > 首选项*菜单或按 <kbd>Ctrl + K</kbd> 键（在 macOS 上为 <kbd>⌘ K</kbd>
 或 <kbd>⌘,</kbd>）来更改 Aseprite 的配置。如果你想配置
 键盘快捷键，则需要通过
 *[编辑 > 键盘快捷键](./keyboard-shortcuts.md)* 菜单选项来完成。

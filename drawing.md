@@ -14,11 +14,11 @@
 
 * ![铅笔工具图标](./tools/pencil-tool.png) 铅笔 （<kbd>B</kbd> 键）
 * ![直线工具图标](./tools/line-tool.png) 直线 （<kbd>L</kbd> 键）
-* ![曲线工具图标](./tools/curve-tool.png) 曲线 （<kbd>Shift+L</kbd> 键）
+* ![曲线工具图标](./tools/curve-tool.png) 曲线 （<kbd>Shift + L</kbd> 键）
 * ![矩形工具图标](./tools/rectangle-tool.png) 矩形 （<kbd>U</kbd> 键）
-* ![椭圆工具图标](./tools/ellipse-tool.png) 椭圆 （<kbd>Shift+U</kbd> 键）
+* ![椭圆工具图标](./tools/ellipse-tool.png) 椭圆 （<kbd>Shift + U</kbd> 键）
 * ![轮廓工具图标](./tools/countour-tool.png) 轮廓 （<kbd>D</kbd> 键）
-* ![多边形工具图标](./tools/polygon-tool.png) 多边形 （<kbd>Shift+D</kbd> 键）
+* ![多边形工具图标](./tools/polygon-tool.png) 多边形 （<kbd>Shift + D</kbd> 键）
 
 其他将帮助你进行绘制过程的工具：
 
@@ -26,7 +26,7 @@
 * ![吸管工具图标](./tools/eyedropper-tool.png) [吸管](./eyedropper.md) （<kbd>Alt</kbd> 或 <kbd>I</kbd> 键）
 * ![选择工具图标](./tools/marquee-tool.png) [矩形选框](./selecting.md) （<kbd>M</kbd> 键）
 * ![移动工具图标](./tools/move-tool.png) [移动 Cel](./move-tool.md) （<kbd>Ctrl</kbd> 或 <kbd>⌘</kbd> 或 <kbd>V</kbd> 键）
-* ![切片工具图标](./tools/slice-tool.png) [切片](./slices.md) （<kbd>Shift+C</kbd> 键）
+* ![切片工具图标](./tools/slice-tool.png) [切片](./slices.md) （<kbd>Shift + C</kbd> 键）
 * ![缩放工具图标](./tools/zoom-tool.png) [缩放](./zoom.md) （<kbd>Z</kbd> 键）
 
 绘制过程中的一些辅助功能：

@@ -1,7 +1,7 @@
 # 切片
 
 使用切片工具 ![Slice tool icon](./tools/slice-tool.png)
-（<kbd>Shift+C</kbd> 键），你可以指示 Sprite 的区域，并为该区域
+（<kbd>Shift + C</kbd> 键），你可以指示 Sprite 的区域，并为该区域
 指定一个名称/标签，以及一些用户定义的额外
 信息。支持指定
 [9-slice](https://en.wikipedia.org/wiki/9-slice_scaling)/9-patches

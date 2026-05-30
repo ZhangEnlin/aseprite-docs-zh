@@ -4,16 +4,16 @@
 
 ## 撤销、重做和撤销历史
 
-* **撤销**：撤销上一步操作。*快捷键：* <kbd>Ctrl+Z</kbd>。
-* **重做**：重做上一步操作。*快捷键：* <kbd>Ctrl+Y</kbd>。
+* **撤销**：撤销上一步操作。*快捷键：* <kbd>Ctrl + Z</kbd>。
+* **重做**：重做上一步操作。*快捷键：* <kbd>Ctrl + Y</kbd>。
 * **撤销历史**：请参阅[撤销历史](./undo-history.md#undohistory)部分。
 
 ## 剪切、复制和粘贴
 
-* **剪切**：剪切活动[选区](./selecting.md#selecting)的内容。*快捷键：* <kbd>Ctrl+X</kbd>。
-* **复制**：复制选中的内容、[图层](./layers.md#layers)、[Cel](./cel.md#cel) 或帧；例如，如果选中了一个图层，该图层将被复制。*快捷键：* <kbd>Ctrl+C</kbd>。
-* **合并复制**：为每个可见图层复制选中的内容，合并为一个图像。*快捷键：* <kbd>Ctrl+Shift+C</kbd>。
-* **粘贴**：粘贴剪贴板内容（可以是图层、Cel、精灵的一部分等）。*快捷键：* <kbd>Ctrl+V</kbd>。
+* **剪切**：剪切活动[选区](./selecting.md#selecting)的内容。*快捷键：* <kbd>Ctrl + X</kbd>。
+* **复制**：复制选中的内容、[图层](./layers.md#layers)、[Cel](./cel.md#cel) 或帧；例如，如果选中了一个图层，该图层将被复制。*快捷键：* <kbd>Ctrl + C</kbd>。
+* **合并复制**：为每个可见图层复制选中的内容，合并为一个图像。*快捷键：* <kbd>Ctrl + Shift + C</kbd>。
+* **粘贴**：粘贴剪贴板内容（可以是图层、Cel、精灵的一部分等）。*快捷键：* <kbd>Ctrl + V</kbd>。
 * **特殊粘贴**：
     * *粘贴为新精灵*：粘贴为一个新的[精灵](./sprite.md#spritestructure)。
     * *粘贴为新图层*：粘贴为一个新的图层。
@@ -28,17 +28,17 @@
 ## 旋转与翻转
 
 * **旋转**：请参阅[旋转画布](./rotate-canvas.md#rotate-canvas)部分。
-* **水平翻转**：水平翻转精灵或选区。*快捷键：* <kbd>Shift+H</kbd>。
-* **垂直翻转**：垂直翻转精灵或选区。*快捷键：* <kbd>Shift+V</kbd>。
-* **变换**：选择 Cel 内容。*快捷键：* <kbd>Ctrl+T</kbd>。
+* **水平翻转**：水平翻转精灵或选区。*快捷键：* <kbd>Shift + H</kbd>。
+* **垂直翻转**：垂直翻转精灵或选区。*快捷键：* <kbd>Shift + V</kbd>。
+* **变换**：选择 Cel 内容。*快捷键：* <kbd>Ctrl + T</kbd>。
 * **移位**：将选区的像素向选定方向移动一次。移位时，选区末端的像素将循环回绕。
 
 ![移位示例](./edit-menu/shift.gif)
 
 ## 新建画笔和从选区新建精灵
 
-* **新建画笔**：创建一个新画笔。请参阅[画笔](./brushes.md#custom-pattern-brushes)部分。*快捷键：* <kbd>Ctrl+B</kbd>。
-* **从选区新建精灵**：从选区内容创建一个新精灵。请参阅[新建精灵](./new-sprite.md#new-sprite-from-selection)部分。*快捷键：* <kbd>Ctrl+Alt+N</kbd>。
+* **新建画笔**：创建一个新画笔。请参阅[画笔](./brushes.md#custom-pattern-brushes)部分。*快捷键：* <kbd>Ctrl + B</kbd>。
+* **从选区新建精灵**：从选区内容创建一个新精灵。请参阅[新建精灵](./new-sprite.md#new-sprite-from-selection)部分。*快捷键：* <kbd>Ctrl + Alt + N</kbd>。
 
 ## 替换颜色
 

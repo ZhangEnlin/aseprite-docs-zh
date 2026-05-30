@@ -1,6 +1,6 @@
 # 运行命令
 
-运行命令窗口可以运行[菜单栏](./menu-bar.md#menu-bar)中的任何选项、任何已安装的脚本，或[键盘快捷键](./keyboard-shortcuts.md#keyboard-shortcuts)菜单中的任何命令。可以通过*视图 > 运行命令*或 <kbd>Ctrl+空格键</kbd> 访问。
+运行命令窗口可以运行[菜单栏](./menu-bar.md#menu-bar)中的任何选项、任何已安装的脚本，或[键盘快捷键](./keyboard-shortcuts.md#keyboard-shortcuts)菜单中的任何命令。可以通过*视图 > 运行命令*或 <kbd>Ctrl + 空格键</kbd> 访问。
 
 ![运行命令示例](./run-command/run-command.gif)
 

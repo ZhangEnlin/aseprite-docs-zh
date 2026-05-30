@@ -1,6 +1,6 @@
 # Sprite 属性
 
-你可以通过 *Sprite > 属性* 菜单 (<kbd>Ctrl+P</kbd> 或 <kbd>⌘P</kbd>) 更改一些 Sprite 属性：
+你可以通过 *Sprite > 属性* 菜单 (<kbd>Ctrl + P</kbd> 或 <kbd>⌘ P</kbd>) 更改一些 Sprite 属性：
 
 ![Sprite 属性对话框](./sprite-properties/sprite-properties.png)
 

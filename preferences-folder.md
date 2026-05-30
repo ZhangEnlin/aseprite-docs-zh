@@ -21,7 +21,7 @@ Aseprite 的配置存储在个人用户配置目录中的多个文件中：
 
 ## 在 macOS 上
 
-你可以打开 Spotlight 搜索（<kbd>⌘空格</kbd>），然后使用 <kbd>⌘V</kbd> 粘贴以下文本
+你可以打开 Spotlight 搜索（<kbd>⌘空格</kbd>），然后使用 <kbd>⌘ V</kbd> 粘贴以下文本
 `~/Library/Application Support/Aseprite`，并按 <kbd>Enter</kbd> 键：
 
    ![Spotlight 搜索](./preferences/spotlight.png)

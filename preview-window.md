@@ -7,7 +7,7 @@
 你可以按 <kbd>F7</kbd> 键或使用*视图 > 预览*菜单选项来显示/隐藏这个小窗口。
 
 你也可以按下小播放按钮 ![播放
-按钮](./preview-window/play-button.png) 或按 <kbd>Shift+Enter</kbd> 来
+按钮](./preview-window/play-button.png) 或按 <kbd>Shift + Enter</kbd> 来
 开始在窗口中播放精灵图动画（或当前的[标签](./tags.md)）。
 
 ---

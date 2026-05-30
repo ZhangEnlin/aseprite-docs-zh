@@ -2,7 +2,7 @@
 
 自 **Aseprite v1.3** 起，你可以使用 *tileset* 创建 *tilemap*。
 
-什么是 **tilemap**？Tilemap 是一种特殊的图层，画布上的每个网格单元格都引用其 *tileset* 中的一个 tile（一个小图像）。你可以通过 *图层 > 新建 > 新建 Tilemap 图层* 或按 <kbd>Space+N</kbd> 来创建新的 tilemap。
+什么是 **tilemap**？Tilemap 是一种特殊的图层，画布上的每个网格单元格都引用其 *tileset* 中的一个 tile（一个小图像）。你可以通过 *图层 > 新建 > 新建 Tilemap 图层* 或按 <kbd>Space + N</kbd> 来创建新的 tilemap。
 
 什么是 **tileset**？顾名思义，它是一组 tile 的集合，就像颜色调色板是一组颜色的集合一样。每个 tile 都有一个索引，并且可以在画布上每个 tilemap 网格单元格中的不同位置重复使用。
 
@@ -23,7 +23,7 @@
 
 ## 模式
 
-当你在 Tilemap 图层中时，有 2 种主要模式，你可以按 <kbd>Space+Tab</kbd> 在这些模式之间切换：
+当你在 Tilemap 图层中时，有 2 种主要模式，你可以按 <kbd>Space + Tab</kbd> 在这些模式之间切换：
 
 | 模式 |   | 描述
 | ---- | - | ----
@@ -34,9 +34,9 @@
 
 | 绘制像素  |   | 描述
 | --------- | - | ----
-| ![](./tilemap/manual-mode.png) | *手动* | 它将修改每个 tile 的内容，而不重新排序 tileset。如果你已经有一个固定的 tileset 并且不想改变每个 tile 在 tileset 中的位置，此模式很有用。<kbd>Space+1</kbd>
-| ![](./tilemap/auto-mode.png) | *自动* | 它在你绘制时尝试创建新 tile（或重用现有 tile），并且如果未在任何引用该 tileset 的 tilemap 中找到未使用的 tile，则会删除它们。这是默认模式，因为它尝试模拟常规图层，自动调整整个 tileset。<kbd>Space+2</kbd>
-| ![](./tilemap/stack-mode.png) | *堆叠* | 它将为对现有 tile 进行的每次修改创建一个新 tile，而不修改现有 tile，并堆叠所有新 tile。<kbd>Space+3</kbd>
+| ![](./tilemap/manual-mode.png) | *手动* | 它将修改每个 tile 的内容，而不重新排序 tileset。如果你已经有一个固定的 tileset 并且不想改变每个 tile 在 tileset 中的位置，此模式很有用。<kbd>Space + 1</kbd>
+| ![](./tilemap/auto-mode.png) | *自动* | 它在你绘制时尝试创建新 tile（或重用现有 tile），并且如果未在任何引用该 tileset 的 tilemap 中找到未使用的 tile，则会删除它们。这是默认模式，因为它尝试模拟常规图层，自动调整整个 tileset。<kbd>Space + 2</kbd>
+| ![](./tilemap/stack-mode.png) | *堆叠* | 它将为对现有 tile 进行的每次修改创建一个新 tile，而不修改现有 tile，并堆叠所有新 tile。<kbd>Space + 3</kbd>
 
 ---
 

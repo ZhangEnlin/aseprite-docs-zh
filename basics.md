@@ -31,7 +31,7 @@
 
 * 数字键 <kbd>1</kbd>, <kbd>2</kbd>, <kbd>3</kbd>, <kbd>4</kbd>, <kbd>5</kbd>, 和 <kbd>6</kbd> 可用于更改[缩放](./zoom.md)级别（你也可以使用鼠标滚轮来更改缩放）。
 * <kbd>B</kbd> 键是铅笔工具，<kbd>M</kbd> 是矩形选框，这些可能是你最常用的工具。
-* <kbd>Alt+单击</kbd> 允许你使用吸管工具 ![吸管工具图标](./tools/eyedropper-tool.png) 从活动图像中拾取颜色：<kbd>Alt+左键单击</kbd> 采样前景色，<kbd>Alt+右键单击</kbd> 采样背景色。
+* <kbd>Alt + 单击</kbd> 允许你使用吸管工具 ![吸管工具图标](./tools/eyedropper-tool.png) 从活动图像中拾取颜色：<kbd>Alt + 左键单击</kbd> 采样前景色，<kbd>Alt + 右键单击</kbd> 采样背景色。
 * <kbd>Ctrl</kbd> 键（或 macOS 上的 <kbd>⌘</kbd>）可用于选择[移动工具](./move-tool.md) ![移动工具图标](./tools/move-tool.png)。使用它可以轻松选择或移动图层。
 * <kbd>Tab</kbd> 键可隐藏和显示[时间轴](./timeline.md)。如果你的时间轴不见了，这是让其重新显示的最快方法！
 
