@@ -2,14 +2,11 @@
 
 本节讲述 Aseprite 如何管理颜色。
 
-首先，你需要了解，一个特定的精灵
-（[新创建的](./new-sprite.md)或[一个已有的精灵](./open.md)）
-拥有三个属性，它们会修改精灵的编辑和显示方式：
+首先，你需要了解，一个特定的精灵（[新创建的](./new-sprite.md)或[一个已有的精灵](./open.md)）拥有三个属性，它们会修改精灵的编辑和显示方式：
 
 * 精灵的[颜色模式](./color-mode.md)
 * [颜色配置文件](./color-profile.md)
-* 以及[透明色](./transparent-color.md)
-  （仅限于[索引图像](./color-mode.md#indexed)）
+* 以及[透明色](./transparent-color.md)（仅限于[索引图像](./color-mode.md#indexed)）
 
 与此同时，还有两种活动颜色可用于绘制或擦除精灵的部分：
 

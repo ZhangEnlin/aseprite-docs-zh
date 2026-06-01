@@ -16,7 +16,7 @@
 
 ## 前景色
 
-使用 <kbd>鼠标左键</kbd> 绘制时所用的颜色。如果你点击该按钮，会看到一个弹出窗口，可以通过 [RGB](http://en.wikipedia.org/wiki/RGB_color_model) 或 [HSB](http://en.wikipedia.org/wiki/HSL_and_HSV) 滑块来选择颜色：
+使用 <kbd>鼠标左键</kbd> 绘制时所用的颜色。如果你点击该按钮，会看到一个弹出窗口，通过 [RGB](http://en.wikipedia.org/wiki/RGB_color_model) 或 [HSB](http://en.wikipedia.org/wiki/HSL_and_HSV) 滑块来选择颜色，也可以手动输入数值或将鼠标悬浮在色条上，滚动鼠标滚轮以微调各个通道色值：
 
 ![颜色弹出窗口](./color-bar/color-popup.png)
 
@@ -33,6 +33,16 @@
 * 当清除选区时（*编辑 > 清除* 菜单），或
 * 当添加新的空白帧时（*帧 > 新建空白帧* 菜单）
 * 当透明图层转换为背景时（*图层 > 从图层新建背景* 菜单）
+
+
+
+## 过渡色
+
+色盘中可以自动根据两端选取的颜色生成中间过渡色（要先点击色盘左上角 `小锁` 按钮解锁调色盘）：
+
+![色盘生成过渡色](./color-bar/gradient.avif)
+
+
 
 ---
 
