@@ -44,7 +44,9 @@
 
 3. 在终端中写入以下命令并按 Enter 键：
 
-       open -a Aseprite --args -debug
+   ```bash
+   open -a Aseprite --args -debug
+   ```
 
 <hr>
 

@@ -6,9 +6,9 @@
 
 在 Sprite 编辑器中，可以：
 
-1. 通过鼠标单击或触控笔/笔，或在 Windows Surface 设备上使用一个手指进行[绘制](./drawing.md)。
-1. 通过鼠标滚轮，或在 MacBook 触控板或 Windows Surface 屏幕上使用捏合手势进行[缩放](./zoom.md)。
-1. 你也可以使用鼠标滚轮加 <kbd>Shift</kbd> 键，或在 MacBook 触控板或 Windows Surface 屏幕上使用两个手指进行滚动/平移。
+1. 通过 <kbd>鼠标左键单击</kbd> 或触控笔/笔，或在 Windows Surface 设备上使用一个手指进行[绘制](./drawing.md)。
+1. 通过 <kbd>鼠标滚轮</kbd> ，或在 MacBook 触控板或 Windows Surface 屏幕上使用捏合手势进行[缩放](./zoom.md)。
+1. 也可以使用 <kbd>Shift</kbd> 加 <kbd>鼠标滚轮</kbd>，或在 MacBook 触控板或 Windows Surface 屏幕上使用两个手指进行滚动/平移。
 
 ### 首选项
 

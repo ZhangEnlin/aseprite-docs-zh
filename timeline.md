@@ -10,13 +10,13 @@
 
 ### 常用操作
 
-* [图层](./layers.md):
+* [图层](./layers.md): 时间轴上展示为 *横向所有 cel 组成的集合，每一行代表一个图层*
   * [移动图层](./move-layers.md)
   * [复制图层](./copy-layers.md)
-* [帧](./animation.md):
+* [帧](./animation.md): 时间轴上展示为 *纵向所有 cel 组成的集合，每一列代表一帧*
   * [移动帧](./move-frames.md)
   * [复制帧](./copy-frames.md)
-* [Cel](./cel.md):
+* [Cel](./cel.md): 时间轴上展示为 *某一帧和某一图层交集上的唯一点*
   * [移动 Cel](./move-cels.md)
   * [复制 Cel](./copy-cels.md)
 * [标签](./tags.md):

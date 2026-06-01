@@ -14,20 +14,17 @@
 
 在“工具”部分，你将找到一种方法来查看和更改与[工具栏](./tool-bar.md)中每个工具关联的键。有两个主要注意事项：
 
-1. 两个或更多工具可以共享同一个键。在这种情况下，多次按下该键将在所有分配了相同键的工具之间切换/遍历。例如，<kbd>U</kbd> 键默认分配给了
-   ![矩形图标](./tools/rectangle-tool.png) 矩形 和
-   ![填充矩形图标](./tools/filled-rectangle-tool.png) 填充矩形，
-   因此按一次将选择矩形工具，再按一次将切换到填充矩形。
+1. 两个或更多工具可以共享同一个键。在这种情况下，多次按下该键将在所有分配了相同键的工具之间切换/遍历。例如，<kbd>U</kbd> 键默认分配给了 ![矩形图标](./tools/rectangle-tool.png) 矩形 和 ![填充矩形图标](./tools/filled-rectangle-tool.png) 填充矩形，因此按一次将选择矩形工具，再按一次将切换到填充矩形。
+
 2. 有两种选择工具的方式：
    * 一种常规的更改活动工具的方式是，当你按下一个键时，活动工具会改变，因此所有后续的鼠标按键都将与该工具交互。
-     例如，按 <kbd>P</kbd> 键切换到 ![铅笔图标](./tools/pencil-tool.png) 铅笔
-     工具，或按 <kbd>H</kbd> 键选择 ![手形图标](./tools/hand-tool.png) 手形
-     工具作为活动工具，这样你就可以直接通过按住鼠标左键并移动鼠标来平移[精灵编辑器](./sprite-editor.md)，而无需按下任何其他键。
+   
+     例如，按 <kbd>P</kbd> 键切换到 ![铅笔图标](./tools/pencil-tool.png) 铅笔工具，或按 <kbd>H</kbd> 键选择 ![手形图标](./tools/hand-tool.png) 手形工具作为活动工具，这样就可以直接通过按住鼠标左键并移动鼠标来平移[精灵编辑器](./sprite-editor.md)，而无需按下任何其他键。
+   
    * 另一种快速的替代方式（在 *键盘快捷键* 对话框中标识为“(quick)”），即在你按住键时工具保持活动状态（然后当你松开键时，Aseprite 返回到先前选择的工具）。
-     例如按住 <kbd>Alt</kbd> 键会临时选择 ![吸管图标](./tools/eyedropper-tool.png) 吸管工具，
-     或按 <kbd>空格键</kbd> 会临时选择 ![手形图标](./tools/hand-tool.png) 手形工具。
-     下面是 ![手形图标](./tools/hand-tool.png) 手形工具在配置中的显示效果示例：
-
+     
+     例如按住 <kbd>Alt</kbd> 键会临时选择 ![吸管图标](./tools/eyedropper-tool.png) 吸管工具，或按 <kbd>空格键</kbd> 会临时选择 ![手形图标](./tools/hand-tool.png) 手形工具。下面是 ![手形图标](./tools/hand-tool.png) 手形工具在配置中的显示效果示例：
+     
      ![手形工具示例](./keyboard-shortcuts/hand-shortcuts.png)
 
 ## 操作修饰符
@@ -42,9 +39,7 @@
 
 * **移动工具**：当你正在使用 ![移动工具图标](./tools/move-tool.png) 移动工具时。
   * **自动选择图层**：如果你按下 <kbd>Ctrl</kbd>（或在 macOS 上为 <kbd>⌘</kbd>），单击一下即可选择光标下的图层。
-* **形状工具**：这些键可以在你使用矩形或椭圆类工具（例如 ![矩形图标](./tools/rectangle-tool.png) 矩形、
-  ![椭圆图标](./tools/ellipse-tool.png) 椭圆、
-  ![矩形选框图标](./tools/marquee-tool.png) 矩形选框等）绘制时（在按下鼠标按键后、松开前）使用。
+* **形状工具**：这些键可以在你使用矩形或椭圆类工具（例如 ![矩形图标](./tools/rectangle-tool.png) 矩形、![椭圆图标](./tools/ellipse-tool.png) 椭圆、![矩形选框图标](./tools/marquee-tool.png) 矩形选框等）绘制时（在按下鼠标按键后、松开前)使用。
   * **正方形/圆形比例**：可以使用 <kbd>Shift</kbd> 键来创建正方形或圆形。
   * **从中心绘制**：按下 <kbd>Ctrl</kbd> 键时，可以将按下鼠标的点用作形状的中心，例如，通过指定中心（而不是两个角）来创建椭圆。
   * **旋转形状**：按下 <kbd>Alt</kbd> 键开始旋转形状。

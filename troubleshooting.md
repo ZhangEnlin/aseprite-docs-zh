@@ -7,7 +7,7 @@
 1. 仅限 Windows：检查生成的 `Aseprite-v1.2-DebugOutput.txt` 文件的最后一行是否为：`PEN: Wintab library loaded`。如果是这种情况，请尝试[禁用 Wintab](./wintab.md)。
 1. 在其他情况下，请通过 [support@aseprite.org](mailto:support@aseprite.org) 联系我们，并附上 `Aseprite-v1.2-DebugOutput.txt` 文件。
 
-你也可以尝试在以下位置寻找你的问题：
+也可以尝试在以下位置寻找你的问题：
 
 * [Aseprite 社区](https://community.aseprite.org)
 * [Steam 综合讨论论坛](http://steamcommunity.com/app/431730/discussions/0/)

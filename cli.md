@@ -473,12 +473,14 @@ aseprite -b animation-with-layers.ase --filename-format '{path}/{title}-{layer}-
 
 将生成如下文件：
 
-    output-Face-0.png
-    output-Face-1.png
-    output-Face-2.png
-    output-Background-0.png
-    output-Background-1.png
-    output-Background-2.png
+```bash
+output-Face-0.png
+output-Face-1.png
+output-Face-2.png
+output-Background-0.png
+output-Background-1.png
+output-Background-2.png
+```
 
 在 **v1.2-beta1** 中：在同一个 [--save-as](#save-as) 参数中指定文件名格式。
 

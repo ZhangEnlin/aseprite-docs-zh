@@ -1,6 +1,12 @@
 # Cel
 
-Cel（源自[赛璐珞](http://en.wikipedia.org/wiki/Cel)）是位于特定帧和图层中，处于画布上特定 *xy* 坐标处的一个图像。
+官方文档解释：Cel（源自[赛璐珞](http://en.wikipedia.org/wiki/Cel)）是位于特定帧和图层中，处于画布上特定 *xy* 坐标处的一个图像。
+
+> [!tip]
+>
+> **本开源仓库作者补充**：
+>
+> 为了便于理解，按下 Tab 键打开 Aseprite 的[时间轴](move-cels.md)面板，你会看到一个网格。**每一个网格里的小点，就是一个 Cel** 。
 
 ![时间轴上的 Cel](./cel/cel-on-timeline.png)
 
@@ -10,7 +16,7 @@ Cel（源自[赛璐珞](http://en.wikipedia.org/wiki/Cel)）是位于特定帧�
 
 ## 移动 Cel
 
-使用[移动工具](./move-tool.md)在画布中拖放当前的 Cel。或者，你也可以使用[时间轴](./move-cels.md)将 Cel 移动到另一个图层/帧位置。
+使用[移动工具](./move-tool.md)在画布中拖放当前的 Cel。或者，也可以使用时间轴将 Cel 移动到另一个图层/帧位置。
 
 ## 更改不透明度
 

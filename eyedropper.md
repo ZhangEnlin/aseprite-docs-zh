@@ -4,10 +4,7 @@
 
 ![橡皮擦与吸管组](./eyedropper/eyedropper-group.png)
 
-或者，你也可以按 `I` 键或 `Alt+单击` 来激活它。
-使用 `鼠标左键` 将拾取颜色并将其存储为
-[前景色](./color-bar.md#foreground-color)，使用 `鼠标右键` 则会将其存储为
-[背景色](./color-bar.md#background-color)。
+或者，也可以按 `I` 键或 `Alt+单击` 来激活它。使用 `鼠标左键` 将拾取颜色并将其存储为[前景色](./color-bar.md#foreground-color)，使用 `鼠标右键` 则会将其存储为[背景色](./color-bar.md#background-color)。
 
 在[上下文栏](./context-bar.md)中你还有一些额外的选项：
 

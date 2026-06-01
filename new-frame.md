@@ -36,4 +36,4 @@ cel 将被[链接](./linked-cels.md)。
 
 ## 复制 Cel
 
-一些信息：https://community.aseprite.org/t/913
+一些信息：[What is the difference between ‘duplicated cell’ and ‘duplicated linked cell’](https://community.aseprite.org/t/913)

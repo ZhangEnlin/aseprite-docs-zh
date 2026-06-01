@@ -1,10 +1,10 @@
 # Sprite 属性
 
-可以通过 *Sprite > 属性* 菜单 (<kbd>Ctrl + P</kbd> 或 <kbd>⌘ P</kbd>) 更改一些 Sprite 属性：
+通过 *Sprite > 属性* 菜单 (<kbd>Ctrl + P</kbd> 或 <kbd>⌘ P</kbd>) 更改一些 Sprite 属性：
 
 ![Sprite 属性对话框](./sprite-properties/sprite-properties.png)
 
-可以：
+用于：
 
 * 更改[透明颜色](./transparent-color.md)（适用于[索引颜色模式](./color-mode.md#indexed)）
 * 更改像素宽高比

@@ -5,13 +5,9 @@ Aseprite 允许你为视频游戏创建 2D 动画。从精灵图，
 [8 位](https://en.wikipedia.org/wiki/Third_generation_of_video_game_consoles)
 和 [16 位](https://en.wikipedia.org/wiki/Fourth_generation_of_video_game_consoles) 时代的东西。
 
-在这里，你将找到一些帮助、教程和小技巧，以使用
-Aseprite 并从一开始就充分利用它。
-如果你有问题，可以先查看
-[常见问题解答](/faq/)。
+在这里，你将找到一些帮助、教程和小技巧，以使用 Aseprite 并从一开始就充分利用它。如果你有问题，可以先查看[常见问题解答](/faq/)。
 
-要开始使用，可以打印[快速参考](/quickref/)。它
-包含多个键盘快捷键，放在手边可能会很方便。
+要开始使用，可以打印[快速参考](https://aseprite.org/quickref/)。它包含多个键盘快捷键，放在手边可能会很方便。
 
 **[基础](./basics.md)**：通用概念、窗口元素、预期的工作流程等。
 
@@ -66,5 +62,5 @@ Aseprite 并从一开始就充分利用它。
 
 **另请参阅**
 
-[常见问题解答](/faq/) |
-[教程](/tutorial/)
+[常见问题解答](https://aseprite.org/faq/) |
+[教程](./tutorial/color-bar-tutorial.md)

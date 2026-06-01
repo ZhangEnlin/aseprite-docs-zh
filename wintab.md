@@ -13,7 +13,9 @@ Wintab (`WinTab32.dll`) 是一个由 Wacom 创建的古老 API，用于让类似
 
 如果你甚至无法启动程序，可以使用 `-disable-wintab` 参数（从 Aseprite v1.2 起可用）执行 Aseprite：
 
-    "C:\Program Files\Aseprite\Aseprite.exe" -disable-wintab
+```bash
+"C:\Program Files\Aseprite\Aseprite.exe" -disable-wintab
+```
 
 这将避免加载 `WinTab32.dll` 文件。你的数位板可能无法正常工作，但至少 Aseprite 可以执行并使用你的鼠标/触控板（或者可以尝试 [Windows Pointer API](./tablet.md)）。
 

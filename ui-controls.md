@@ -1,6 +1,6 @@
 # UI 控件
 
-这里我们展示一些关于你在 Aseprite 用户界面 (UI) 上能找到的控件/字段的一般信息。
+这里我们展示一些关于 Aseprite 用户界面 (UI) 上能找到的控件/字段的一般信息。
 
 * [Sprite 编辑器](./sprite-editor.md)
 * [时间轴](./timeline.md)

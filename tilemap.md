@@ -1,10 +1,12 @@
 # Tilemap
 
-自 **Aseprite v1.3** 起，可以使用 *tileset* 创建 *tilemap*。
+> [!tip]
+>
+> 自 **Aseprite v1.3** 起，可以使用 *tileset* 创建 *tilemap*。
 
-什么是 **tilemap**？Tilemap 是一种特殊的图层，画布上的每个网格单元格都引用其 *tileset* 中的一个 tile（一个小图像）。可以通过 *图层 > 新建 > 新建 Tilemap 图层* 或按 <kbd>Space + N</kbd> 来创建新的 tilemap。
+**Tilemap** 是一种特殊的图层，画布上的每个网格单元格都引用其 *tileset* 中的一个 tile（一个小图像）。通过 *图层 > 新建 > 新建Tilemap 图层* 或按 <kbd>Space + N</kbd> 来创建新的 tilemap。
 
-什么是 **tileset**？顾名思义，它是一组 tile 的集合，就像颜色调色板是一组颜色的集合一样。每个 tile 都有一个索引，并且可以在画布上每个 tilemap 网格单元格中的不同位置重复使用。
+**tileset** 是一组 tile 的集合，就像颜色调色板是一组颜色的集合一样。每个 tile 都有一个索引，并且可以在画布上每个 tilemap 网格单元格中的不同位置重复使用。
 
 示例：
 
@@ -12,7 +14,7 @@
 
 ## 与索引颜色的相似之处
 
-我们可以将 tilemap 与[索引图像](./color-mode.md#indexed)进行比较：
+我们可以将 tilemap 与 [索引图像](./color-mode.md#indexed) 进行比较：
 
 | Tilemap | 索引颜色
 | ------- | --------

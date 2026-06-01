@@ -14,9 +14,9 @@
 
 选中范围后，可以对其执行多种操作，例如：
 
-* [移动帧](./move-frames.md) 或 [为帧添加标签](./tags.md)，或
-* [更改图层的顺序](./move-layers.md)，或
-* [移动 cel](./move-cels.md)。
+* [移动帧](./move-frames.md) 或 [为帧添加标签](./tags.md)
+* [更改图层的顺序](./move-layers.md)
+* [移动 cel](./move-cels.md)
 
 ---
 
